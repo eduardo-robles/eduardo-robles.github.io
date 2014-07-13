@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Blog">
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Ghost and Github Pages</title>
+  <meta name="description" content="" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ghost and Github Pages">
+  <meta name="twitter:description" content="I had been searching for a fun way to learn new skills and centralize my online presence. Awhile ago I stumbled upon Ghost which is a blogging platform built around the idea that blogging platforms should be for blogging. That's not a direct qoute but that's how I see the">
+  <meta name="twitter:creator" content="@yourTwitterUsername">
+  <meta name="twitter:image" content="">
+  <meta name="twitter:url" content="http://my-ghost-blog.com/ghost-and-github-pages/">
+  <meta name="twitter:domain" content="http://my-ghost-blog.com">
+
+  
+
+  
+  
+
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif" />
+  <link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Open+Sans:600,300" />
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/xpressio.css" />
+
+  <meta name="generator" content="Ghost 0.4" />
+<link rel="alternate" type="application/rss+xml" title="Projects and the Future" href="../rss/index.html">
+<link rel="canonical" href="http://my-ghost-blog.com/ghost-and-github-pages/" />
+</head>
+<body>
+
+  
+
+<header class="site_width text center padding_top_big margin_bottom_big">
+  
+  <h1 class="blog_title margin_bottom_small"><a href="http://my-ghost-blog.com">Projects and the Future</a></h1>
+  <h4 class="text book">I am Eduardo Robles read my thoughts and see me code</h4>
+  
+  <div class="social border solid top_small bottom_small padding_medium">
+  <h6 class="text book color c_black_medium without_margin padding_right_big"><a href="http://about.me/eduardorobles"><i class="fa fa-user"></i> <span class="margin_left_small desktop">About me</span></a></h6>
+  </h6 class="text book color c_black_medium without_margin padding_right_big"><a href="index.html#" target="_blank"><i class="fa fa-linkedin-square"></i> <span class="margin_left_small desktop">Linkedin</span></a></h6>
+  <h6 class="text book color c_black_medium without_margin padding_right_big"><a href="http://twitter.com/hardrived" target="_blank"><i class="fa fa-twitter-square"></i> <span class="margin_left_small desktop">Twitter</span></a></h6>
+  <h6 class="text book color c_black_medium without_margin"><a href="http://github.com/eduardo-robles" target="_blank"><i class="fa fa-github"></i> <span class="margin_left_small desktop">GitHub</span></a></h6>
+</div>
+
+</header>
+
+<main class="site_width" role="main">
+  <article class="post tag-ghost-tag tag-github tag-linux tag-buster tag-nodejs">
+
+    
+
+    <header class="text center margin_bottom_medium">
+      <h5 class="text book small uppercase color c_black_light margin_bottom_small">Posted in <a href="../tag/ghost-tag/index.html">ghost</a>, <a href="../tag/github/index.html">github</a>, <a href="../tag/linux/index.html">linux</a>, <a href="../tag/buster/index.html">buster</a>, <a href="../tag/nodejs/index.html">nodejs</a></h5>
+      <h1 class="margin_bottom_medium">Ghost and Github Pages</h1>
+      <h5 class="text book small uppercase color c_black_light margin_bottom_small"><time datetime="2014-07-11">Friday, July 11, 2014</time></h5>
+    </header>
+
+    <section>
+      <p>I had been searching for a fun way to learn new skills and centralize my online presence. Awhile ago I stumbled upon <a href="http://ghost.org">Ghost</a> which is a blogging platform built around the idea <em>that blogging platforms should be for blogging</em>. That's not a direct qoute but that's how I see the <em>Ghost</em> platform. <a href="index.html#Set Up Github Pages">Blah, blah show me the code!</a></p>
+
+<p>Long story short I wanted to use <em>Ghost</em> but currently I'm on a tight budget. Though they have really cheap plans offered by the folks over at <em>Ghost</em>, I still couldn't take the plunge. That's where <a href="http://pages.github.com">Github Pages</a> and a great article over at <a href="http://ledtechnica.com/free-ghost-hosting-on-github-pages/">LED Technica</a> came in! Github pages is a simple way to host static pages for your Github repos. So I went over and created a Github page and then followed the instruction over at LED Technica to get <em>Ghost</em> working locally.</p>
+
+<p>I ran into some minor road block mainly because the author over at LED Technica was on a Mac and I am a Linux (Ubuntu) user. So I decided to fill some of those gaps so hopefully someone finds this useful.</p>
+
+<p><h2><a name="Set Up Github Pages">Set Up Github Pages</h2></a></p>
+
+<p>If you do not have a <em>Github account</em> please go create one. Then follow their instructions on how to setup a <a href="http://pages.github.com">Github Page</a>. Also setup git on your local machine.</p>
+
+<h2 id="installbuster">Install Buster</h2>
+
+<p>Buster is a tool which works to make Ghost run static pages. Which is needed for Github pages. So install Buster like so...</p>
+
+<p>*If you don't have python-pip installed, install via the terminal like so...</p>
+
+<p><code>sudo apt-get install python-pip</code></p>
+
+<p>*Now Buster</p>
+
+<p><code>pip install buster</code></p>
+
+<h2 id="setupupghostlocally">Setup Up Ghost (locally)</h2>
+
+<p>*First, create 2 different folders in whatever directory you want (make sure they are both in the same directory). One folder is for <em>Ghost</em> and the other is for the <em>Buster Install</em>. Name the 2 folders whatever you want.</p>
+
+<p>*Second, install NodeJS and NPM.</p>
+
+<p><code>sudo apt-get install nodejs</code></p>
+
+<p><code>sudo apt-get install npm</code></p>
+
+<p><em>Notice: you may need to restart you machine to get NodeJS to work properly. To check if NodeJS and NPM are installed properly run in the terminal <code>node -v</code> and <code>npm -v</code></em></p>
+
+<p>*Download the latest version of <a href="http://ghost.org/download"><em>Ghost</em></a> to the folder you created for <em>Ghost</em> and unzip it.</p>
+
+<p>*Thirdly, after unzipping the Ghost archive change into the directory you have Ghost in.</p>
+
+<p><code>cd /path/to/ghost</code></p>
+
+<p>*Fourth step is to install <em>Ghost</em> locally.</p>
+
+<p><code>npm install</code></p>
+
+<p><em>Notice: The article on LED Technica states to use <code>npm install</code> while the Ghost Docs state to use <code>npm install --production</code> but I ran both and saw no big drawbacks. There are technical reasons for using <code>npm install --production</code> if you want to read more on that I suggest you check out the <a href="http://docs.ghost.org/installation/linux/">_Ghost Docs_</a></em></p>
+
+<p>*Fifth, run <em>Ghost</em>.</p>
+
+<p><code>npm start</code></p>
+
+<p>Go to <a href='../index.html'>http://127.0.0.1:2368</a> in a browser, to see your newly setup Ghost. The admin page is at <a href='../ghost'>http://127.0.0.1:2368/ghost</a> </p>
+
+<p><em>Notice: step 4 and 5 require you be in the directory of your Ghost unzipped file</em></p>
+
+<h2 id="setupbuster">Setup Buster</h2>
+
+<p>*First, change into the directory you created earlier for the Buster Install. Once there run the following to setup Buster to your Github repo for your Github Page.</p>
+
+<p><code>buster setup</code> <em>You should get a prompt to enter an address. Enter your Github Page repo like (<a href='https://github.com/username/username.github.io.git'>https://github.com/username/username.github.io.git</a>)</em></p>
+
+<p>Then</p>
+
+<p><code>buster generate --domain=http://127.0.0.1:2368</code></p>
+
+<p>You should now have a folder named <code>static</code> in the folder you created for <em>Buster</em>. Change into that directory.</p>
+
+<p><code>cd /path/to/buster/static</code></p>
+
+<p>Now push everything that's in the <code>static</code> folder to <em>Github</em>.</p>
+
+<p><code>git add --all</code></p>
+
+<p><code>git commit -m '[Enter witty comment]'</code></p>
+
+<p><code>git push</code></p>
+
+<h2 id="updatingyourghostgithubpage">Updating your Ghost/Github Page</h2>
+
+<p>The one thing that I struggled with and the other authors left out was that you will have to run <code>buster generate --domain=http://127.0.0.1:2368</code> evertime you want to update your blog, that means everytime you write a new blog or change the layout run the <code>buster generate</code> command in the <code>static</code> directory. There may be an easier way to do this or maybe some settings tweaking will fix the problem but this is the solution I have for now. Also remember to push and commit after running the <code>buster generate</code> command.</p>
+
+<h2 id="enjoy">Enjoy!</h2>
+
+<p>If I didn't screw up the instructions and you follow along diligently you should have a Github page running on Ghost!! Just give Github about 10 minutes to update your Github Page.</p>
+
+<h3 id="finalthoughts">Final Thoughts</h3>
+
+<p>This was a really fun project and I hope you enjoy my tutorial. One of the coolest functions of this projects is the ability to test thing locally and then push them live to <em>Github Pages</em>. You can also publish all your blogs locally and when they are ready simply push them to <em>Github</em> and they'll be published. The total time to complete was about 40 minutes. Not bad considering I some road blocks to overcome. Well hope you enjoyed this tutorial.</p>
+    </section>
+
+    <footer>
+      
+      <section class="author_info margin_top_big">
+        <div class="alignleft border rad_circle" style="height: 87px; width: 87px; background-image: url(http://www.gravatar.com/avatar/191c338342821fe968fd3af6502a4933?d=404); background-size: cover;"></div>
+        <p class="margin_left_medium text small">Author</p>
+        <p class="margin_left_medium text bold"><a href="http://127.0.0.1:2368/ghost-and-github-pages/www.about.me/eduardorobles">Eduardo Robles</a></p>
+        <p class="margin_left_medium text small">I want a world connected through technology for a better tomorrow. I also founded the RGV Libro Box Project. </p>
+      </section>
+      
+    </footer>
+
+    
+
+    
+    
+    </article>
+</main>
+
+  <footer class="blog_info margin_top_big padding_medium text center">
+    <h5 class="text book small">&copy; 2014 <a href="../index.html">Projects and the Future</a>. All rights reserved.</h5>
+    <h5 class="text book small"><a href="https://github.com/dreyacosta/velox" target="_blank" class="text bold">Velox theme</a> by <a href="http://dreyacosta.com/">David Rey</a></h5>
+    <h5 class="text book small">Proudly published with <a href="http://ghost.org"><span>Ghost</span></a></h5>
+  </footer>
+
+  
+  
+</body>
+</html>

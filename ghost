@@ -1,0 +1,58 @@
+<!doctype html>
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (gte IE 9)| IEMobile |!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="csrf-param" content="CLJRffOkkfuaHVgAWkTpkXC27lBy2EjB0lTfQ=" />
+
+    <title>Ghost Admin</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Ghost" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="http://127.0.0.1:2368/ghost/img/touch-icon-iphone.png?v=ded327d56c" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://127.0.0.1:2368/ghost/img/touch-icon-ipad.png?v=ded327d56c" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://127.0.0.1:2368/ghost/img/small.png?v=ded327d56c" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://127.0.0.1:2368/ghost/img/medium.png?v=ded327d56c" />
+
+    <meta name="application-name" content="Ghost" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-square70x70logo" content="/ghost/img/small.png?v=ded327d56c" />
+    <meta name="msapplication-square150x150logo" content="/ghost/img/medium.png?v=ded327d56c" />
+    <meta name="msapplication-square310x310logo" content="/ghost/img/large.png?v=ded327d56c" />
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" />
+    <link rel="stylesheet" href="http://127.0.0.1:2368/ghost/css/ghost-ui.min.css?v=ded327d56c" />
+</head>
+<body class="ghost-login">
+    
+
+    <main role="main" id="main">
+        
+
+        <aside id="notifications" class="notifications">
+            
+
+        </aside>
+
+        
+<section class="login-box js-login-box">
+
+</section>
+
+    </main>
+
+    <div id="modal-container"></div>
+    <div class="modal-background fade"></div>
+
+    <script src="http://127.0.0.1:2368/ghost/scripts/vendor.js?v=ded327d56c"></script><script src="http://127.0.0.1:2368/ghost/scripts/helpers.js?v=ded327d56c"></script><script src="http://127.0.0.1:2368/ghost/scripts/templates.js?v=ded327d56c"></script><script src="http://127.0.0.1:2368/ghost/scripts/models.js?v=ded327d56c"></script><script src="http://127.0.0.1:2368/ghost/scripts/views.js?v=ded327d56c"></script>
+</body>
+</html>
