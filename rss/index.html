@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Projects and the Future]]></title><description><![CDATA[I am Eduardo Robles read my thoughts and see me code]]></description><link>http://eduardo-robles.github.io/</link><generator>Ghost v0.4.2</generator><lastBuildDate>Mon, 14 Jul 2014 20:43:22 GMT</lastBuildDate><atom:link href="http://eduardo-robles.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Ghost and Github Pages]]></title><description><![CDATA[<p>I had been searching for a fun way to learn new skills and centralize my online presence. Awhile ago I stumbled upon <a href='http://ghost.org/' >Ghost</a> which is a blogging platform built around the idea <em>that blogging platforms should be for blogging</em>. That's not a direct qoute but that's how I see the <em>Ghost</em> platform. <a href="#Set Up Github Pages">Blah, blah show me the code!</a></p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Projects and the Future]]></title><description><![CDATA[I am Eduardo Robles read my thoughts and see me code]]></description><link>http://eduardo-robles.github.io/</link><generator>Ghost v0.4.2</generator><lastBuildDate>Mon, 14 Jul 2014 21:21:17 GMT</lastBuildDate><atom:link href="http://eduardo-robles.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Fixing RSS on Velox theme]]></title><description><![CDATA[<p>In the last <a href='http://eduardo-robles.github.io/ghost-and-github-pages/index.html' >post</a> I got Ghost and Github pages setup. It is working great but I quickly stumbled upon a tiny problem. There was no direct way to view my RSS feed. </p>
+
+<p>So I dug around a bit and learned <a href='http://www.ghostforbeginners.com/how-to-publish-a-rss-feed-like-feedburner-for-your-ghost-blog/' >how RSS works</a> on Ghost blogs. Basically there is a some code on the default theme (casper) for Ghost that control the RSS functions. Here is what I found when I dug in the code</p>
+
+<p>*on default.hbs, casper theme</p>
+
+<p><code>&lt;a class="subscribe icon-feed" href="{{@blog.url}}/rss/"&gt;&lt;span class="tooltip"&gt;Subscribe!&lt;/span&gt;&lt;/a&gt; &lt;div class="inner"&gt;</code></p>
+
+<p>The important part in this code is... </p>
+
+<p><code>&lt;a class="subscribe icon-feed" href="{{@blog.url}}/rss/"&gt;</code></p>
+
+<p>Pay close attention to the part '<strong>href="{{@blog.url}}/rss/</strong>", this bit of code is what produces your blog's RSS feed. The hack is simple just add this code to your theme's default.hbs with any of your modifications. </p>
+
+<p>My final code looked this...</p>
+
+<p><code>&lt;h5 class="text book small"&gt;&lt;a href="{{@blog.url}}/rss/" target="_blank" class="text bold"&gt;Subscribe!&lt;/a&gt;&lt;/h5&gt;</code></p>
+
+<p>I moved things around to match the Velox theme footer which is where I placed my RSS link (Subscribe!). </p>
+
+<p><img src='http://eduardo-robles.github.io/content/images/2014/Jul/RSSonGhost.png'  alt="RSS on Velox Theme" /></p>
+
+<p>Well I hope you found this tutorial helpful because I know RSS is essential for some users.</p>]]></description><link>http://eduardo-robles.github.io/fixing-rss-on-velox-theme/</link><guid isPermaLink="false">e1b46ac9-fc5d-477d-912d-0a6b2285ad67</guid><category><![CDATA[ghost]]></category><category><![CDATA[rss]]></category><category><![CDATA[hacks]]></category><category><![CDATA[theme]]></category><dc:creator><![CDATA[Eduardo Robles]]></dc:creator><pubDate>Mon, 14 Jul 2014 21:20:51 GMT</pubDate></item><item><title><![CDATA[Ghost and Github Pages]]></title><description><![CDATA[<p>I had been searching for a fun way to learn new skills and centralize my online presence. Awhile ago I stumbled upon <a href='http://ghost.org/' >Ghost</a> which is a blogging platform built around the idea <em>that blogging platforms should be for blogging</em>. That's not a direct qoute but that's how I see the <em>Ghost</em> platform. <a href="#Set Up Github Pages">Blah, blah show me the code!</a></p>
 
 <p>Long story short I wanted to use <em>Ghost</em> but currently I'm on a tight budget. Though they have really cheap plans offered by the folks over at <em>Ghost</em>, I still couldn't take the plunge. That's where <a href='http://pages.github.com/' >Github Pages</a> and a great article over at <a href='http://ledtechnica.com/free-ghost-hosting-on-github-pages/' >LED Technica</a> came in! Github pages is a simple way to host static pages for your Github repos. So I went over and created a Github page and then followed the instruction over at LED Technica to get <em>Ghost</em> working locally.</p>
 
