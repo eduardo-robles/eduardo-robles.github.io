@@ -5,7 +5,7 @@ title: About
 
 <p class="message">
 Hi, I am Eduardo Robles.
-
+</p>
 _Welcome to Projects and the Future_
 
 Projects:
@@ -14,4 +14,4 @@ Projects, I have a lot of them. I also tend to not finish them. In a valiant eff
 
 The future:
 
-Well its the future, hopefully we have flying cars and I have kept up with my promise to document my experiences with my various projects.</p>
+Well its the future, hopefully we have flying cars and I have kept up with my promise to document my experiences with my various projects.
