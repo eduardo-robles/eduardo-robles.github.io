@@ -6,20 +6,20 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Eduardo Robles
+title:            Projects and the Future
 tagline:          Projects and the Future
 url:              http://eduardo-robles.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Eduardo Robles
+  url:            https://twitter.com/hardrived
+  email:          eduardorobles02@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/eduardorobles 
 
 # This is the list of pages to incldue in the header of the website.
 pages_list: {'About':'/about','Archive':'/archive','Connect':'/connect','Feed':'/atom.xml'}
