@@ -23,3 +23,5 @@ An interesting thing about Bootstrap is that I uses [_Jekyll_](http://jekyllrb.c
 `exec jekyll serve`
 
 **Conclusions**
+
+It took roughly 2 hours to complete this assignment. Most of the work was researching Bootstrap. It was fun assingment and hope to expand on it in the future.
