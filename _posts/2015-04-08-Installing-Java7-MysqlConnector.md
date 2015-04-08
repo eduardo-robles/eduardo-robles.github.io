@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing Java 7 and MySQL JDBC Connector
-date: '2014-07-29'
+date: '2015-04-08'
 ---
 
 **Installing Java 7 and MySQL JDBC Connector**
