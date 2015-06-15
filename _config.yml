@@ -19,7 +19,7 @@ author:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/eduardorobles 
+  repo:           https://github.com/eduardo-robles 
 
 # This is the list of pages to incldue in the header of the website.
 pages_list: {'About':'/about','Archive':'/archive','Connect':'/connect','Feed':'/atom.xml'}

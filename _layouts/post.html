@@ -1,25 +1,75 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html%}
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      {% for page in site.pages_list %}
+      <a id="logo-container" href="/" class="brand-logo">{{site.title}}</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="{{page[1]}}">{{page[0]}}</a></li>
+      </ul>
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="{{page[1]}}">{{page[0]}}</a></li>
+      </ul>
+      {% endfor %}
+      <a href="{{page[1]}}" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Eduardo Robles</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Web developer with a focus unlike any other.</h5>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="{{ site.baseurl }}public/mainParallax.jpg" alt="Unsplashed background img 2"></div>
+  </div><!--parallax image 1-->
+
+
+ <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12">
+  		  <h1>{{ page.title }}</h1>
+  		<span>{{ page.date | date_to_string }}</span>
+  			{{ content }}
+			<!--end post-->
+        </div>
+      </div>
+    </div>
+  </div><!--content section-->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      A blog by: Eduardo Robles  <br/>
+      Made with: <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/materialize.js"></script>
+  <script src="{{ site.baseurl }}public/js/init.js"></script>
+
+  </body>
+</html>

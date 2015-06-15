@@ -1,38 +1,87 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
+{% include head.html%}
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <!--<a id="logo-container" href="/" class="brand-logo"></a>-->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">Home</a></li>
+      </ul>
+       <ul id="nav-mobile" class="side-nav">
+         <li><a href="/">Home</a></li>
+         <li><a href="/about/">About</a></li>
+         <li><a href="/connect/">Connect</a></li>
+         <li><a href="/archive/">Archive</a></li>
+      </ul>
+      <a href="{{page[1]}}" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
 
-  {% include head.html %}
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br/><br/>
+        <h1 class="header center teal-text text-lighten-2">{{site.title}}</h1>
+        <div class="row center">
+          <h5>I am Eduardo Robles</h5><br/><h5  class="header col s12 light">Web developer with a focus unlike any other.</h5>
+        </div>
+        <div class="row center">
+          <a href="/about/" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">About me</a>
+        </div>
+        <br/><br/>
 
-  <body>
-
-    <div class="container content">
-      <div class="masthead">
-        <!--<h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-        </h3>-->
-
-
-<h3 class="masthead-title">
-<a href="/" title="Home">{{ site.title }}</a>
-
-{% for page in site.pages_list %}
-  &nbsp;&nbsp;&nbsp;
-  <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
-{% endfor %}
-</h3>
-
-
-      </div>
-
-      {{ content }}
-
-      <div class="footer">
-        <p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
       </div>
     </div>
+    <div class="parallax"><img src="{{ site.baseurl }}public/mainParallax.jpg" alt="Unsplashed background img 2"></div>
+  </div><!--parallax image 1-->
+
+
+ <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+  		{{content}}
+        </div>
+      </div>
+    </div>
+  </div><!--content section-->
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{{ site.baseurl }}public/background2.jpg" alt="Unsplashed background img 3"></div>
+  </div><!--parallax image 3-->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Stuff</h5>
+          <p><a href="/connect/" class="grey-text text-lighten-4">Connect</a></p>
+          <p><a href="/archive/" class="grey-text text-lighten-4">Archive</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      A blog by: Eduardo Robles<br/>
+      Made with: <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{{ site.baseurl }}public/js/materialize.js"></script>
+  <script src="{{ site.baseurl }}public/js/init.js"></script>
 
   </body>
 </html>

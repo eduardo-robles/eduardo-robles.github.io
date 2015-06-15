@@ -10,7 +10,7 @@ _Welcome to Projects and the Future_
 
 Projects:
 
-Projects, I have a lot of them. I also tend to not finish them. In a valiant effort to rectify this bad habit I am commiting more time to documenting my trials and tribulations. I hope I don't bore you....
+Projects, I have a lot of them. In a valiant effort I am commiting more time to documenting my trials and tribulations. I hope I don't bore you....
 
 The future:
 
