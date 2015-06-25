@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing miniDLNA
-date: '2014-07-29'
+title: Post Title Goes Here
+date: 'YYYY-MM-DD'
 ---
 
