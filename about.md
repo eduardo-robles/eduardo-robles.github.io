@@ -4,14 +4,14 @@ title: About
 ---
 
 <p class="message">
-![Childhood dream fulfilled!]({{site.url}}/assests/shuttleMe.jpg)
+![Childhood dream fulfilled!](assests/shuttleMe.jpg)
 Hi, I am Eduardo Robles.
 </p>
 _Welcome to Projects and the Future_
 
 Projects:
 
-Projects, I have a lot of them. In a valiant effort I am commiting more time to documenting my trials and tribulations. I hope I don't bore you....
+Projects, I have a lot of them. In a valiant effort I am committing more time to documenting my trials and tribulations. I hope I don't bore you....
 
 The future:
 
