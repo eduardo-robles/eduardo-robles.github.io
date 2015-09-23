@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-![Childhood dream fulfilled!](assests/shuttleMe.jpg)
+![Childhood dream fulfilled!](/assests/shuttleMe.jpg)
 Hi, I am Eduardo Robles.
 </p>
 _Welcome to Projects and the Future_
