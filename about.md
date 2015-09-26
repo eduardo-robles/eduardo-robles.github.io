@@ -4,7 +4,7 @@ title: About
 ---
 
 
-<img class="materialboxed" data-caption="Childhood dream fulfilled" width="500" height="450" src="{{site.baseurl}}assests/shuttleMe.jpg">
+<img class="materialboxed responsive-img" data-caption="Childhood dream fulfilled" width="500" height="450" src="{{site.baseurl}}assests/shuttleMe.jpg">
 <p class="message">
 Hi, I am Eduardo Robles.
 </p>
