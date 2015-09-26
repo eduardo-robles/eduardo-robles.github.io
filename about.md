@@ -3,7 +3,8 @@ layout: page
 title: About
 ---
 
-<img src="{{site.baseurl}}assests/shuttleMe.jpg" alt="Childhood dream fulfilled" />
+
+<img class="materialboxed" data-caption="Childhood dream fulfilled" width="500" height="450" src="{{site.baseurl}}assests/shuttleMe.jpg">
 <p class="message">
 Hi, I am Eduardo Robles.
 </p>
