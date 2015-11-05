@@ -14,4 +14,4 @@ Open sourced under the [MIT license](LICENSE.md).
 
 All other licenses can be found under their respective *LICENSES* files
 
- ¯\\\\\\_(ツ)_/¯
+ ¯\\\\\_(ツ)_/¯
