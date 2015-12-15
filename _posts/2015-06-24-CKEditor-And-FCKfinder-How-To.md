@@ -5,9 +5,9 @@ date: '2015-06-24'
 ---
 
 
-##CKEditor and FCKFinder How To...
+**CKEditor and FCKFinder How To...**
 
-###Intergrate with single sessions in PHP.
+**Intergrate with single sessions in PHP.**
 
 I recently had the opportunity to work with [CKEditor](http://www.ckeditor.com) for a project at my job. CKEditor had already been incorporated into a web project and was quite popular with the staff who used it. Though the current installed version was lacking some features that members of our staff needed.
 
