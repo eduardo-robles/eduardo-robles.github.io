@@ -4,16 +4,19 @@ title: Home
 ---
 
 <div class="row">
- <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+
 </div><!--end row-->
 <div class="row">
+   <div class="col s12 m4 l6">
+	<ul>
+	  {% for post in site.posts %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      {{ post.excerpt }}
+	    </li>
+	  {% endfor %}
+	</ul>
+  </div><!--end site posts-->
 	<div class="col s12 m4 l6">
 		<div class="card teal">
 			<div class="card-content white-text">
