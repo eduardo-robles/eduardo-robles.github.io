@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="row">
+<!--<div class="row">
 	{% for post in paginator.posts %}
         <div class="col s12 m6">
           <div class="card brown darken-1">
@@ -16,7 +16,7 @@ title: Home
             <div class="card-action">
               <a href="{{post.url}}">{{post.title}}</a>
             </div>
-          </div><!--end latest post card-->
+          </div><--end latest post card--
 					</div>
 					{% endfor %}
 					<div class="col s12 m6 l5">
@@ -30,19 +30,29 @@ title: Home
 								</li>
 						{% endfor %}
 							</ul>
-					</div><!--end collections-->
-</div><!--end row-->
+					</div><--end collections--
+</div>end row-->
 
+<div class="row">
+  <ul>
+    {% for posts in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      	{{{ post.excerpt }}}
+    </li>
+    {{% endfor %}}
+  </ul>
+</div><!--end row-->
 <div class="row">
 	<div class="col s12 m4 l6">
 		<div class="card teal">
 			<div class="card-content white-text">
 				<img src="https://pbs.twimg.com/profile_images/606550146797559809/GOt2HB2T.jpg" class="circle responsive-img" height="100" width="100">
 				<h5>A <a href="/about/" class="orange-text">Web developer</a> with a focus unlike any other.</h5>
+				  <h5>Let me steer your ideas into products!</h5>
 			</div>
 			<div class="card-action">
 				<a href="https://www.github.com/eduardo-robles">Github</a>
-				<a href="http://about.me/eduardorobles">View my AboutMe Page</a>
 			</div>
 		</div><!--end profile -->
 	</div>
