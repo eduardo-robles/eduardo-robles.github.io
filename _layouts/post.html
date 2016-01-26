@@ -1,69 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html%}
-<body>
-  <nav class="teal" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="brand-logo">Project and Future</a>
-      <ul class="right hide-on-med-and-down white-text">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-         <li><a href="/connect/">Connect</a></li>
-         <li><a href="/archive/">Archive</a></li>
-      </ul>
-       <ul id="nav-mobile" class="side-nav">
-         <li><a href="/">Home</a></li>
-         <li><a href="/about/">About</a></li>
-         <li><a href="/connect/">Connect</a></li>
-         <li><a href="/archive/">Archive</a></li>
-      </ul>
-      <a href="{{page[1]}}" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center orange-text text-lighten-2">Eduardo Robles</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Web developer with a focus unlike any other.</h5>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="{{ site.baseurl }}public/blanket.png" alt="Unsplashed background img 2"></div>
-  </div><!--parallax image 1-->
-
-
- <div class="container">
-    <div class="section">
-
-      <div class="row">
+---
+layout: default
+---
+<div class="row">
         <div class="col s12">
   		  <h1>{{ page.title }}</h1>
   		<span>{{ page.date | date_to_string }}</span>
   			{{ content }}
 			<!--end post-->
         </div>
-      </div>
-    </div>
-  </div><!--content section-->
-
-  <footer class="page-footer teal">
-    <div class="footer-copyright">
-      <div class="container">
-      A blog by: Eduardo Robles<br/>
-      Made with: <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="{{ site.baseurl }}public/js/materialize.js"></script>
-  <script src="{{ site.baseurl }}public/js/init.js"></script>
-
-  </body>
-</html>
+</div>
