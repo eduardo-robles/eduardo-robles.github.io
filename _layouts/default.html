@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html%}
-<body>
-  <nav class="teal" role="navigation">
+<body class="blue-grey lighten-5">
+  <nav class="grey lighten-3" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="/" class="brand-logo">Project and Future</a>
       <ul class="right hide-on-med-and-down white-text">
@@ -21,28 +21,23 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="parallax"><img src="{{ site.baseurl }}public/blanket.png" alt="Unsplashed background img 2"></div>
-  </div><!--parallax image 1-->
-
-
  <div class="container">
-    <div class="section">
-
       <div class="row">
         <div class="col s12 center">
   		{{content}}
         </div>
       </div>
-    </div>
-  </div><!--content section-->
-  <footer class="page-footer teal">
-    <div class="footer-copyright">
+      </div><!--content section-->
+  <footer>
+    <!--<div class="footer-copyright">
       <div class="container">
-      A blog by: Eduardo Robles<br/>
+        <div class="row">
+      <p>A blog by: Eduardo Robles
       Made with: <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    </p>
       </div>
     </div>
+  </div>-->
   </footer>
 
 
