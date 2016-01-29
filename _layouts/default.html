@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html%}
-<body class="blue-grey lighten-5">
-  <nav class="grey lighten-3" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="brand-logo">Project and Future</a>
-      <ul class="right hide-on-med-and-down white-text">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-         <li><a href="/connect/">Connect</a></li>
-         <li><a href="/archive/">Archive</a></li>
-      </ul>
-       <ul id="nav-mobile" class="side-nav">
-         <li><a href="/">Home</a></li>
-         <li><a href="/about/">About</a></li>
-         <li><a href="/connect/">Connect</a></li>
-         <li><a href="/archive/">Archive</a></li>
-      </ul>
-      <a href="{{page[1]}}" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
 
- <div class="container">
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section hero">
+    <div class="container">
       <div class="row">
-        <div class="col s12 center">
-  		{{content}}
-        </div>
-      </div>
-      </div><!--content section-->
-  <footer>
-    <!--<div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-      <p>A blog by: Eduardo Robles
-      Made with: <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-    </p>
+        <div class="one columns"></div>
+        <div class="ten columns"><span id="hero-title"><h1>Eduardo Robles</h1></span><span id="hero-title"><h4>Web and Technology Consulting</h4></span></div>
+        <div class="one columns"></div>
       </div>
     </div>
-  </div>-->
-  </footer>
+  </div>
+
+<div class="section nav">
+  <div class="container">
+    <div class="row">
+        <div class="one-third column"><a href="/"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Tree_1010946.svg" height="50px"/></a><!--IMAGE CREDIT: By Nevit Dilmen (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 4.0-3.0-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0)], via Wikimedia Commons --></div>
+        <div class="two-thirds column"><span id="tabs-text"></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="section headline">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns"><span id="headline-text">Let me steer your ideas into products</span></div>
+      <!--<div class="one columns"></div>
+      <div class="ten columns"></div>
+      <div class="one columns"></div>-->
+    </div>
+  </div>
+</div>
+
+<div class="section tabs">
+  <div class="container">
+    <div class="row">
+      <div class="one-third column"><span id="tabs-text"><a href="/connect/">Contact</a></span></div>
+      <div class="one-third column"><span id="tabs-text"><a href="/archive/">Blog</a></span></div>
+      <div class="one-third column"><span id="tabs-text"><a href="/about/">Portfolio</a></span></div>
+    </div>
+  </div>
+</div>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="{{ site.baseurl }}public/js/materialize.js"></script>
-  <script src="{{ site.baseurl }}public/js/init.js"></script>
 
-  </body>
+<!--CONTEXT SECTION IS IN index.html-->
+
+<div class="section context">
+  <div class="container">
+    <div class="row">
+      <!--<div class="one-third column"><span id="blog-title">{{page.title}}</span></div>-->
+      <div class="twelve columns">{{content}}</div>
+    </div>
+  </div>
+</div>
+
+<!--  HELPER
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="one columns">ONE</div>
+      <div class="ten columns">TWELVE</div>
+    </div>
+  </div>
+</div>-->
+<div class="section footer">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <p>Eduardo Robles Web and Technology Consulting</p>
+        <p>Email: <a href="mailto:eduardo@eduardorobles.com">eduardo@eduardorobles.com</a><br>
+          Phone: 956-314-0041
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>

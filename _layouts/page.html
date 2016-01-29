@@ -2,11 +2,12 @@
 layout: default
 ---
 
-<div class="row">
-    <div class="col s12 m4 l6">
-  <h1>{{page.title}}</h1><!--page title-->
+<div class="section context">
+  <div class="container">
+    <div class="row">
+      <div class="one-third column"><span id="blog-title">{{page.title}}</span></div>
+      <div class="two-thirds column"><span id="blog">{{content}}</span></div>
+    </div>
+  </div>
 </div>
-<div class="col s12 m6 l5">
-  {{content}}
-</div>
-</div><!--page-->
+<!--page-->
