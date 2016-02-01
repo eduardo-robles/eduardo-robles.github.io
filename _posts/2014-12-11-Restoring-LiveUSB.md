@@ -14,7 +14,7 @@ Second, find where the USB is located. There are many ways you can do this on Li
 
 Third, use the `fdisk` command to edit the partions on your USB drive. With the correct location of your USB drive type this into the terminal `fdisk /dev/sdX`. Again make sure you have the correct drive location!!
 
-Fourth, you will be prompted with a submenu to work with the `fdisk` commands. Type `d` to delete a partition and you will be prompted to select a partition type `1` to select the first partition. Type `d` again to delete the next partition, continue this process untill all partitions have been deleted. 
+Fourth, you will be prompted with a submenu to work with the `fdisk` commands. Type `d` to delete a partition and you will be prompted to select a partition type `1` to select the first partition. Type `d` again to delete the next partition, continue this process untill all partitions have been deleted.
 
 Fifth, type `n` to create a new partition. You will be asked what type of partition you want to create "Primary" or "Secondary", type `p` to make this partition the primary. Then type `1` to make it the first partition in the USB drive.
 
@@ -24,7 +24,7 @@ Seventh, type `w` to write the new partition to the USB drive.
 
 Eigth, make sure your device is unmounted and you can check with this command `umount /dev/sdX1`. You should get a message stating that your device is NOT mounted.
 
-Ninth, finally we can format the device. The command to do this is `mkfs.vfat -F 32 /dev/sdX1`. And that's it your USB drive should now be restored to its original state. 
+Ninth, finally we can format the device. The command to do this is `mkfs.vfat -F 32 /dev/sdX1`. And that's it your USB drive should now be restored to its original state.
 
 Conclusion:
 Following this guide can help you restore a USB drive back to its original state after using it as a LiveUSB device. When going through this process make sure you have the correct drive location. This is very important because if you use the incorrect location you can do accidently delete partitions on your hard drive!! This toturial is not too dificult and can be accomplished in 15 minutes.
