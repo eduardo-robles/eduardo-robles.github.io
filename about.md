@@ -24,7 +24,7 @@ title: About
 
 #City of Edinburg Concept Website
 
-![CityofEdinburg-Concept](../public/CityofEdinburg-Concept.png)
+![CityofEdinburg-Concept](../public/CityofEdinburg-website.png)
 
 #Texas House Committee Testimony
 March 27,2013
