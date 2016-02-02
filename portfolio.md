@@ -2,7 +2,6 @@
 layout: page
 title: Portfolio
 ---
-
 #Work In Progress
 
 ###My Site

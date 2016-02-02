@@ -2,9 +2,6 @@
 layout: page
 title: contact
 ---
-
-
-
 ##Eduardo Robles Web and Technology Consulting
 
 Email: [eduardo@eduardorobles.com](mailto:eduardo@eduardorobles.com)
