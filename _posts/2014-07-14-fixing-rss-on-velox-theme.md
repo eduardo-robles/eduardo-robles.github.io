@@ -10,22 +10,30 @@ So I dug around a bit and learned [how RSS works](http://www.ghostforbeginners.c
 
 *on default.hbs, casper theme
 
-```HTML+PHP
+~~~ HTML
+
 <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span><div class="inner">
-```
+
+~~~
 
 The important part in this code is...
 
-```HTML+PHP
+~~~ HTML
+
 <a class="subscribe icon-feed" href="{{@blog.url}}/rss/">
-```
-Pay close attention to the part ```<strong>href="{{@blog.url}}/rss/</strong>```, this bit of code is what produces your blog's RSS feed. The hack is simple just add this code to your theme's default.hbs with any of your modifications.
+
+~~~
+
+Pay close attention to the part `<strong>href="{{@blog.url}}/rss/</strong>`, this bit of code is what produces your blog's RSS feed. The hack is simple just add this code to your theme's default.hbs with any of your modifications.
 
 My final code looked this..
 
-```HTML+PHP
+~~~HTML
+
 <h5 class="text book small"><a href="{{@blog.url}}/rss/" target="_blank" class="text bold">Subscribe!</a></h5>
-```
+
+~~~
+
 I moved things around to match the Velox theme footer which is where I placed my RSS link (Subscribe!).
 
 ![RSS on Ghost Theme]({{site.url}}/assests/RSSonGhost.png)

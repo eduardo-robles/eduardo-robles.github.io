@@ -16,22 +16,25 @@ to do was install a plugin. Luckily CKEditor has a great "create your own editor
 
 The place where I ran into some problems was incorporating a file browser. CKEditor has there own file broswer (CKFinder) which looks great though you have to buy a yearly license to use. Before I could take a plunge I wanted to use something to test out the same features that CKFinder had. Luckily this is where [KCFinder](http://kcfinder.sunhater.com/install) comes in to fill in the gap. Intergrating KCFinder into CKEditor was simple enough all I had to do was add these lines of PHP code to the CKEditor initalizer.
 
-```HTML+PHP
+~~~ HTML
+
 fileBroswerUploadURL: '/location/of/KCFinder/browse.php',
 
 fileImageUploadURL: '/location/of/KCFinder/upload.php'
-```
+
+~~~
 
 These two lines of code go inside your CKEditor instance like so...
 
-```HTML+PHP
-CKEditor.replace(nameOfEditorInstance, {`
+~~~ HTML
+CKEditor.replace(nameOfEditorInstance, {
 
-  `fileBroswerUploadURL: '/location/of/KCFinder/browse.php',`
+  fileBroswerUploadURL: '/location/of/KCFinder/browse.php',
 
-  `fileImageUploadURL: '/location/of/KCFinder/upload.php'`
-`};)
-```
+  fileImageUploadURL: '/location/of/KCFinder/upload.php'
+};)
+
+~~~
 
 
 You could also skip adding these line to the CKEditor instance and configure your `config.js` file but that is completely optional. After adding these lines to your CKEditor instance you should be able click on the "image" button and browse the images on your server. It didn't quite work the first time I tried it so it was giving me a "permissions denied" error. I did some reading on the [KCFinder docs](http://kcfinder.sunhater.com/integrate#session) and found I missed a step. Now that I had called the FCKFinder in the CKEditor instance I had to make sure the session permission were enabled.
@@ -40,11 +43,13 @@ This was an important step because without these permissions enabled, users will
 
 Simply add this the file in which your CKEditor instance is located...
 
-```HTML+PHP
+~~~
+
 $_SESSION['KCFINDER'] = array(
     'disabled' => false
 );
-```
+
+~~~
 
 This one line of PHP code is stating that for this one session allow this specific user to browse files and directories on the server. Many times you would have created a specific file which manages users login you can also go ahead and add this line to that file so you can expand the priviledges your users have on the system.
 

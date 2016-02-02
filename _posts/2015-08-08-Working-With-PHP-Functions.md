@@ -38,7 +38,8 @@ All I needed to do was pass this variable into a function which would then do so
 **_Second_:**
 
  I needed to write some kind of control structure to determine which image to use based on the page. It would look like this in pseudo code...
-```
+
+~~~
 
 If variable $page is set to "homepage" then do this
 
@@ -52,11 +53,12 @@ if variable $page is set to this "page 1"
 Else if variable $page is not set to anything then
 
   print this image to page
-```
+
+~~~
 
 Ok, so I decided to use a switch statement instead of `if/elseif/else` statements because I felt it gave me more control. So my code ended up looking this...
 
-```HTML+PHP
+~~~
 
 function imageSwitch($pageImg){
 
@@ -77,7 +79,8 @@ switch ($pageImg) {
 
 }//end function imageSwitch
 
-```
+~~~
+
 
 As you can see the `switch` statement based on what variable `$pageImg` is prints out the specific image that I want. Now, I decided to
 name the variable `$page['title']` to `$pageImg` just to keep things separate and clean.
@@ -86,7 +89,7 @@ name the variable `$page['title']` to `$pageImg` just to keep things separate an
 
 Now, that I have my script I need to call it. To do so I simply did the following...
 
-```HTML+PHP
+~~~
 
 <div id="header">
 
@@ -95,7 +98,8 @@ Now, that I have my script I need to call it. To do so I simply did the followin
   </div>
 
 </div><!--end header-->
-```
+
+~~~
 
 The `<div>` statements are to give clarity but the main idea is in the PHP snippet. I call my function I have to include the
 PHP file in which it resides. Now there several ways to "include" a PHP script/file you can either use a _require_, _require once_, or _include_.

@@ -29,4 +29,4 @@ Ninth, finally we can format the device. The command to do this is `mkfs.vfat -F
 Conclusion:
 Following this guide can help you restore a USB drive back to its original state after using it as a LiveUSB device. When going through this process make sure you have the correct drive location. This is very important because if you use the incorrect location you can do accidently delete partitions on your hard drive!! This toturial is not too dificult and can be accomplished in 15 minutes.
 
--Eduardo  
+-Eduardo
