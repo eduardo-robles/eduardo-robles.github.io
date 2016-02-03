@@ -8,7 +8,7 @@ Email: [eduardo@eduardorobles.com](mailto:eduardo@eduardorobles.com)
 
 Phone + WhatsApp: 956-314-0041
 
-Telegram App: [@eduardorobles](telegram.me/eduardorobles)
+Telegram App: [@eduardorobles](https://telegram.me/eduardorobles)
 
 Review my code: [Github](https://github.com/eduardo-robles)
 
