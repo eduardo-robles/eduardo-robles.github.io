@@ -42,6 +42,7 @@ body{
   /*border-style: solid;
   border-color: white;*/ /*hide border on super small screens*/
   text-transform:uppercase;
+  box-shadow: 15px 10px 5px #888;
 }
 
 /*TABS*/
@@ -83,7 +84,6 @@ body{
 
 /*BLOG*/
 #blog{
-  border-left: #2c3e50 solid;
   padding: 1%;
 }
 
@@ -91,6 +91,10 @@ body{
   text-transform:uppercase;
   font-size: large;
   font-weight: 600;
+}
+
+#blog img{
+  box-shadow: 10px 10px 5px #888;
 }
 
 .footer{
