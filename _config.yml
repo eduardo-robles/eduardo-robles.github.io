@@ -13,13 +13,13 @@ paginate:         1
 baseurl:          /
 author:
   name:           Eduardo Robles
-  url:            https://twitter.com/hardrived
-  email:          eduardorobles02@gmail.com
+  url:            http://eduardorobles.com
+  email:          eduardo@eduardorobles.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/eduardo-robles 
+  repo:           https://github.com/eduardo-robles
 
 # This is the list of pages to incldue in the header of the website.
 pages_list: {'About':'/about','Archive':'/archive','Connect':'/connect','Feed':'/atom.xml'}
