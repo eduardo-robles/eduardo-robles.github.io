@@ -79,13 +79,12 @@
         <h3>Blog</h3>
       </div>
       <div class="eight columns">
-            <ul>
+            <dl>
               {% for post in site.posts %}
-               <li>
-                  <a href="{{ post.url }}" id="headline-text">{{post.title }}</a>
-                   {{ post.excerpt }}
-               </li> {% endfor %}
-            </ul>
+              <dt><a href="{{ post.url }}" id="headline-text">{{post.title }}</a></dt>
+              <dd>{{ post.excerpt }}</dd>
+               {% endfor %}
+            </dl>
       </div>
     </div>
   </div>
