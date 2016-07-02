@@ -37,14 +37,13 @@ body{
 }
 
 #headline-text{
-  padding: 1%;
+  display: none;
+  /*padding: 1%;
   font-size: medium;
   font-weight: 600;
   color: #fff;
-  /*border-style: solid;
-  border-color: white;*/ /*hide border on super small screens*/
   text-transform:uppercase;
-  /*box-shadow: 15px 10px 5px #888;*/
+  box-shadow: 15px 10px 5px #888;*/
 }
 
 /*TABS*/
@@ -86,7 +85,7 @@ body{
 
 .context-about{
   padding-top: 20px;
-  color: #95a5a6; /*concrete*/
+  color: #fff; /*white*/
   background-color: #e74c3c; /*alizarin*/
 }
 
@@ -152,6 +151,16 @@ body{
 @media (min-width: 750px) {
   .hero{
     padding-top: 10%;
+  }
+
+  #headline-text{
+    padding: 2%;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    text-transform:uppercase;
   }
 
 }
