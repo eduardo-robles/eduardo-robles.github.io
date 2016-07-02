@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="one columns"></div>
-        <div class="ten columns"><span id="hero-title"><h1>Eduardo Robles</h1></span><span id="hero-title"><h4>Web and Technology Consulting</h4></span></div>
+        <div class="ten columns"><span id="hero-title"><h1>Eduardo Robles</h1></span><span id="hero-title"><h4>Web and Technology Consulting</h4></span><p id="headline-text">Let me steer your ideas into products</p></div>
         <div class="one columns"></div>
       </div>
     </div>
@@ -25,16 +25,13 @@
   </div>
 </div>
 
-<div class="section headline">
+<!--<div class="section headline">
   <div class="container">
     <div class="row">
       <div class="twelve columns"><span id="headline-text">Let me steer your ideas into products</span></div>
-      <!--<div class="one columns"></div>
-      <div class="ten columns"></div>
-      <div class="one columns"></div>-->
     </div>
   </div>
-</div>
+</div>-->
 
 <div class="section tabs">
   <div class="container">
@@ -67,24 +64,6 @@
       <div class="eight columns">
         <p>ONE</p>
         <p>TWO</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section headline">
-  <div class="container">
-    <div class="row">
-      <div class="four columns">
-        <h3>Blog</h3>
-      </div>
-      <div class="eight columns">
-            <dl>
-              {% for post in site.posts %}
-              <dt><a href="{{ post.url }}" id="headline-text">{{post.title }}</a></dt>
-              <dd>{{ post.excerpt }}</dd>
-               {% endfor %}
-            </dl>
       </div>
     </div>
   </div>
