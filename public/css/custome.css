@@ -13,8 +13,9 @@ img {
 /*BODY*/
 body{
   /*background-color: #2c3e50; midnight blue*/
-  background-image: url("../hero-banner.svg");
+  background-image: url("../background4.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 /*NAV*/
 .nav{
