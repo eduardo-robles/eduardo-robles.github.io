@@ -1,18 +1,18 @@
 {
-portfolio:[
+"portfolio":[
 {
-   id: '1',
-   title: 'Title One',
-   description: 'Hello World! I am ONe!!',
-   url: 'http://eduardorobles.com',
-   image_path: '../public/thegrindstone.png)'
+   "id": "1",
+   "title": "Title One",
+   "description": "Hello World! I am ONe!!",
+   "url": "http://eduardorobles.com",
+   "image_path": "../public/thegrindstone.png"
 },
 {
-   id: '2',
-   title: 'Titile Two',
-   description: 'Hello World! I am TWO@!',
-   url: 'http://eduardorobles.com',
-   image_path: '../public/thegrindstone.png)'
+   "id": "2",
+   "title": "Title Two",
+   "description": "Hello World! I am TWO@!",
+   "url": "http://eduardorobles.com",
+   "image_path": "../public/thegrindstone.png"
 }
 
 ]
