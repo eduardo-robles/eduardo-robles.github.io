@@ -26,7 +26,8 @@ body{
 
 /*HERO*/
 .hero{
-  height: 250px;
+  height: 350px;
+  padding-top: 10%;
 }
 
 /*HEADLINE*/
@@ -37,13 +38,13 @@ body{
 }
 
 #headline-text{
-  display: none;
-  /*padding: 1%;
+  padding: 1%;
   font-size: medium;
   font-weight: 600;
   color: #fff;
   text-transform:uppercase;
-  box-shadow: 15px 10px 5px #888;*/
+  text-align: center;
+  /*box-shadow: 15px 10px 5px #888;*/
 }
 
 /*TABS*/
@@ -89,6 +90,10 @@ body{
   background-color: #e74c3c; /*alizarin*/
 }
 
+.context-about a{
+
+}
+
 /*BLOG*/
 #blog{
   padding: 1%;
@@ -113,11 +118,11 @@ body{
 /* Larger than mobile */
 @media (min-width: 400px) {
   #headline-text{
-    padding: 1%;
+    /*padding: 1%;
     font-size: medium;
     font-weight: 600;
     color: white;
-    text-transform:uppercase;
+    text-transform:uppercase;*/
   }
 
   #tabs-text a {

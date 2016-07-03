@@ -1,0 +1,25 @@
+portfolio:
+  - image_path:
+    title: My Site
+    description: This is my site a W.I.P
+    url: http://eduradorobles.com
+ - image_path: ../public/thegrindstone.png
+   title: The Grindstone Coworking Website
+   description: I worked on the Grindstone Coworking website
+   url: http://thegrindstone.co
+ - image_path: ../public/CityofEdinburg-website.png
+   title: City of Edinburg Concept Website
+   description: I worked on the City of Edinburg Website
+   url: http://eduardorobles.com
+ - image_path: ../public/txHouse-testimony.png
+   title: Texas House Committee Testimony
+   description: I testified in front of the Texas House Committee on Education
+   url: http://eduardorobles.com
+ - image_path: ../public/MAS-website.png
+   title: University Of Texas Pan American - Mexican American Studies Website
+   description: I worked on the MAS website
+   url: http://eduarodrobles.com
+ - image_path:
+   title: Technology Blogger
+   description: I worked as a Technology Blogger as Somos Tejanos Website
+   url: http://eduardorobles.com

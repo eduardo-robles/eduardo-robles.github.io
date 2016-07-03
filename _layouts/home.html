@@ -21,7 +21,7 @@
     <div class="row">
       <div class="twelve columns">
       <h3>Welcome</h3>
-      <p>As a freelance web developer I can help you understand how to best represent your prouducts on your website. Contact me today so we can discuss how we can improve your website.</p>></div>
+      <p style="text-align:center;">As a freelance web developer I can help you understand how to best represent your prouducts on your website. <br>Contact me today so we can discuss how we can improve your website.</p></div>
     </div>
   </div>
 </div>
@@ -30,7 +30,7 @@
   <div class="container">
     <div class="row">
       <div class="four columns">
-        <h3><a href="#contact">Contact</a></h3>
+        <h3>Contact</h3>
       </div>
       <div class="eight columns">
         <p>Email: <a href="mailto:eduardo@eduardorobles.com">eduardo[at]eduardorobles[dot]com</a></p>
@@ -48,11 +48,26 @@
   <div class="container">
     <div class="row">
       <div class="four columns">
-        <h3><a href="#portfolio">Portfolio</a></h3>
+        <h3>Portfolio</h3>
       </div>
       <div class="eight columns">
-        <p>ONE</p>
-        <p>TWO</p>
+        {% for portfolio in site.data.portfolio_list %}
+         <div>
+           <a href="{{ portfolio.url }}">
+             <img src="{{ portfolio.image_path }}"alt="{{ portfolio.title }}">
+             <div>
+               <div>
+                 <div>
+                   {{ portfolio.title }}
+                 </div>
+                 <div>
+                   {{ portfolio.description }}
+                 </div>
+               </div>
+             </div>
+           </a>
+         </div>
+       {% endfor %}
       </div>
     </div>
   </div>
