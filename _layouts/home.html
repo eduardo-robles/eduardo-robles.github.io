@@ -50,7 +50,23 @@
       <div class="four columns">
         <h3>Portfolio</h3>
       </div>
-        <p>one</p>
+        {% for portofolio in site.data.portfolio_list %}
+          <div>
+            <a href="{{ portfolio.url }}">
+              <img src="{{ portfolio.image_path }}" alt="{{ portfolio.title }}">
+              <div>
+                <div>
+                  <div>
+                    {{ portfolio.title }}
+                  </div>
+                  <div>
+                    {{ portfolio.title }}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
