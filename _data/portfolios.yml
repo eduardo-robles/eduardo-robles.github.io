@@ -1,0 +1,9 @@
+- title: Title One
+  url: http://eduardorobles.com
+  description: Hello World
+  image_path: ../public/thegrindstone.png
+
+- title: Title Two
+  url: http://eduardorobles.com
+  description: Goodnight Moon
+  image_path: ../public/thegrindstone.png
