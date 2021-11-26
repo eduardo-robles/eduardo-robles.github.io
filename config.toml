@@ -1,0 +1,57 @@
+baseURL = "../"
+title   = "Eduardo Robles Site"
+languageCode = "en-us"
+timeZone = "America/Chicago"
+theme = "smol"
+
+# Parameters
+[params]
+    author = "Eduardo Robles"
+    authorGilab = "https://gitlab.com/tacosandlinux"
+    mainSections = ["posts"]
+    Subtitle = "Hola Mundo 🌮"
+    dateFmt = "02.01.2006 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/pages/about"
+    weight     = -100
+  [[menu.main]]
+    identifier = "Links"
+    name       = "Links"
+    url        = "/pages/links"
+    weight     = -100
+  [[menu.main]]
+    identifier = "Contribute"
+    name       = "Contribute"
+    url        = "/pages/contribute"
+    weight     = -100
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts/"
+    weight     = -100
+  [[menu.main]]
+    identifier = "rss"
+    name       = "RSS"
+    url        = "/index.xml"
+    weight     = 0
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/example"
+        weight = 1
+
+    [[menu.footer]]
+        name = "Mastodon"
+        url = "https://example.com/@user"
+        weight = 2
+
+    [[menu.footer]]
+        name = "Imprint"
+        url = "/imprint"
+        weight = 3
