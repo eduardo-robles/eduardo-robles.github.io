@@ -1,4 +1,4 @@
-baseURL = "../"
+baseURL = "https://eduardorobles-blog.pages.dev/"
 title   = "Eduardo Robles Site"
 languageCode = "en-us"
 timeZone = "America/Chicago"
@@ -42,16 +42,16 @@ theme = "smol"
 
 # Footer
   [[menu.footer]]
-        name = "Github"
-        url = "https://github.com/example"
+        name = "Gitlab"
+        url = "https://gitlab.com/tacosandlinux"
         weight = 1
 
     [[menu.footer]]
-        name = "Mastodon"
-        url = "https://example.com/@user"
+        name = "Twitter"
+        url = "https://twitter.com/tacosandlinux"
         weight = 2
 
     [[menu.footer]]
-        name = "Imprint"
-        url = "/imprint"
+        name = "Linkedin"
+        url = "https://www.linkedin.com/in/hello-im-eduardo/"
         weight = 3

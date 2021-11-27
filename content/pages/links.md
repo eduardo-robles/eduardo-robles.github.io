@@ -5,4 +5,8 @@ draft = false
 
 I can be found at...
 
-email – twitter – linkedin – gitlab
+🐦 twitter – <https://twitter.com/tacosandlinux>
+
+🤝 linkedin – <https://www.linkedin.com/in/hello-im-eduardo/>
+
+📖 gitlab - <https://gitlab.com/tacosandlinux>

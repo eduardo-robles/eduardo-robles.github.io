@@ -1,4 +1,4 @@
-#+hugo_base_dir: ../
+#+hugo_base_dir: /
 #+hugo_section: pages
 
 * Pages
