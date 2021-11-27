@@ -18,11 +18,9 @@ The Services
 
 In order to stay a bit organized I made a list of services/technologies I wanted to run on my homelab. Below are the services I currently have installed.
 
-File server
-Plex server
-Syncthing
-Git server
-Home Assistant
-GNS3 VM
-
-I kept it minimal for now but I plan on added more services in the near future. I also plan on creating blog posts on each individual service I run. But for now that’s my start into homelabbing. Another important feature of homelabbing is the network setup. I will discuss that in a future post as I’m still working on building that out. So keep an eye out for more post in the near future.
+> File server
+> Plex server
+> Syncthing
+> Git server
+> Home Assistant
+> GNS3 VM

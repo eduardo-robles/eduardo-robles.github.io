@@ -19,22 +19,22 @@ Apps
 
 This is a list of my go to apps.
 
-Emacs
-Spotify
-Evolution (Email client)
-Audacity
-Tizonia (Spotify terminal client)
-VLC
-Keybase
+> Emacs
+> Spotify
+> Evolution (Email client)
+> Audacity
+> Tizonia (Spotify terminal client)
+> VLC
+> Keybase
 
 Other apps I install depending on the use case:
 
-VPN
-Audacity
-Open Broadcaster
-GNOME Tweaks
-Syncthing
-Chromium
+> VPN
+> Audacity
+> Open Broadcaster
+> GNOME Tweaks
+> Syncthing
+> Chromium
 
 Configurations
 
@@ -46,24 +46,33 @@ Run my setup scripts
 
 I came across this great post by software dev Victoria Drake. She wrote a great bash script that she uses to setup her Ubuntu laptop (or even a VM). So I cloned it and modified it for my use. Here are some key take aways.
 
+```sh
+# Snap packages
+
 sudo snap install spotify
 
 sudo snap install chromium
 
 sudo snap install tizonia
 
+# GNOME
 install gnome-tweaks
 
+# File Backup
 install deja-dup
 install git
 install curl
 
+# add more apps as needed
+
 This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.
 
+# Set GNOME Settings
 gsettings set org.gnome.desktop.wm.preferences titlebar-font 'IBM Plex Sans Bold 11'
 gsettings set org.gnome.desktop.interface monospace-font-name 'IBM Plex Mono 13'
 gsettings set org.gnome.desktop.interface document-font-name 'IBM Plex Sans Medium 11'
 gsettings set org.gnome.desktop.interface font-name 'IBM Plex Sans 11'
+```
 
 Ubuntu 19.10 Terminal Dracula Theme
 

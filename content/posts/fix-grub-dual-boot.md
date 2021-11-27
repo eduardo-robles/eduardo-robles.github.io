@@ -12,11 +12,13 @@ Next, I had to update grub inside of Ubuntu in order to add the Windows 10 disk 
 
 Inside the LiveUSB Linux environment I used a chroot environment to reach my Ubuntu  19.10 installation. To do so simply follow these steps.
 
+```sh
 sudo mount /dev/sdaX /mnt
 
-for i in _dev_ /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
+for i in /dev/ /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
 
 sudo chroot /mnt
+```
 
 Once in the chroot environment I ran update-grub and I still got an error. So I decided it would be best to simply reinstall grub. To do so simply run reinstall grub-pc (if you’re on a efi system please use grub-efi-amd64). This command worked and prompted me to chose where I wanted to install grub. I chose on the main disk since this is where I wanted to have grub installed. Once that process was done, I rebooted the system and was prompted with a working grub boot screen with both operating systems showing up correctly.
 

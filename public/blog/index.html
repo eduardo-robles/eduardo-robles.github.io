@@ -15,7 +15,7 @@
 <body>
 	<header>
 	=========================<br>
-	== <a href="https://eduardorobles-blog.pages.dev/">Eduardo Robles Site</a> ==<br>
+	== <a href="https://eduardorobles.com/">Eduardo Robles Site</a> ==<br>
 	=========================
 	<div style="float: right;">Hola Mundo 🌮</div><br>
 	<p>
@@ -226,15 +226,14 @@ Proxmox is Type 1 Hypervisor that you can install on your own hardware. It allow
 The Services</p>
 <p>
 In order to stay a bit organized I made a list of services/technologies I wanted to run on my homelab. Below are the services I currently have installed.</p>
-<div class="verse-block">
+<blockquote>
 <p>File server
     Plex server
     Syncthing
     Git server
     Home Assistant
     GNS3 VM</p>
-</div>
-<p>I kept it minimal for now but I plan on added more services in the near future. I also plan on creating blog posts on each individual service I run. But for now that’s my start into homelabbing. Another important feature of homelabbing is the network setup. I will discuss that in a future post as I’m still working on building that out. So keep an eye out for more post in the near future.</p>
+</blockquote>
 </div>
 </div>
 <div id="outline-container-headline-10" class="outline-3">
@@ -282,29 +281,29 @@ pc-1: Is the computer you are connecting from, in this case the laptop.</p>
 pc-2: Is the computer you are connecting to, in this case the desktop with the VM.</p>
 <p>
 So I use KVM to run the VM, so to get the VNC port from the running VM do the following.</p>
-<div class="src src-bash">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo virsh dumpxml NameOfVM | grep vnc</code></pre></div>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo virsh dumpxml NameOfVM | grep vnc</code></pre></div>
 </div>
 <p>You should see an output like this one.</p>
-<pre class="example">
-&lt;graphics type=&#39;vnc&#39; port=&#39;5901&#39; autoport=&#39;yes&#39; listen=&#39;127.0.0.1&#39;&gt;
-</pre>
+<blockquote>
+<p>&lt;graphics type=&#39;vnc&#39; port=&#39;5901&#39; autoport=&#39;yes&#39; listen=&#39;127.0.0.1&#39;&gt;</p>
+</blockquote>
 <p>
 This tells you that KVM is running vnc on port 5901 on address 127.0.0.1 (localhost) for this virtual machine. Now it’s time to connect to the virtual machine from pc-1.</p>
 <p>
 In pc-1 run the following command to create an SSH tunnel that port forward the VNC connection.</p>
-<div class="src src-bash">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh user@pc-2 -L 5901:127.0.0.1:5901</code></pre></div>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ssh user@pc-2 -L 5901:127.0.0.1:5901</code></pre></div>
 </div>
 <p>What is is command doing?</p>
-<pre class="example">
-    ssh user@pc-2 is establishing the SSH connection to pc-2 with the user “user”. In your case, the user and IP address might be different e.g batman@10.10.0.1.
-    -L 5901:127.0.0.1:5901 is telling SSH agent to create a tunnel using local port 5901 and bind it to the remote machine address 127.0.0.1 on port 5901. The address on the remote machine might be different so that’s why we ran the virsh command to find it.
-</pre>
+<blockquote>
+<p>ssh user@pc-2 is establishing the SSH connection to pc-2 with the user “user”. In your case, the user and IP address might be different e.g batman@10.10.0.1.
+    -L 5901:127.0.0.1:5901 is telling SSH agent to create a tunnel using local port 5901 and bind it to the remote machine address 127.0.0.1 on port 5901. The address on the remote machine might be different so that’s why we ran the virsh command to find it.</p>
+</blockquote>
 <p>
 Now that the SSH tunnel is established connect to the VM via VNC. You can use any remote viewer software like Remmina, TightVNC, or even Remote Viewer (part of Virtual Machine Viewer). Simply connect with the following parameters.</p>
-<div class="src src-bash">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vnc://localhost:5901</code></pre></div>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vnc://localhost:5901</code></pre></div>
 </div>
 <p>And the VNC connection should open up and start working. You can do everything you could locally via a remote VNC connection. Once you are done simply close the VNC connection and exit the SSH session.</p>
 <p>
@@ -332,7 +331,7 @@ I recently came acros the Dracula theme for Emacs and I decided I needed this th
 Apps</p>
 <p>
 This is a list of my go to apps.</p>
-<div class="verse-block">
+<blockquote>
 <p>Emacs
     Spotify
     Evolution (Email client)
@@ -340,16 +339,16 @@ This is a list of my go to apps.</p>
     Tizonia (Spotify terminal client)
     VLC
     Keybase</p>
-</div>
+</blockquote>
 <p>Other apps I install depending on the use case:</p>
-<div class="verse-block">
+<blockquote>
 <p>VPN
     Audacity
     Open Broadcaster
     GNOME Tweaks
     Syncthing
     Chromium</p>
-</div>
+</blockquote>
 <p>Configurations</p>
 <p>
 Ok, so let’s talk how I setup my laptop the quickest way possible.
@@ -626,7 +625,7 @@ This site was relaunched with wordpress and with indieweb principles in mind. I�
 
 
 	<footer>
-	<p>&copy; 2021 <a href="https://eduardorobles-blog.pages.dev/"><b>Eduardo Robles Site</b></a>.
+	<p>&copy; 2021 <a href="https://eduardorobles.com/"><b>Eduardo Robles Site</b></a>.
 	<a href="https://gitlab.com/tacosandlinux"><b>Gitlab</b></a>.
 	<a href="https://twitter.com/tacosandlinux"><b>Twitter</b></a>.
 	<a href="https://www.linkedin.com/in/hello-im-eduardo/"><b>Linkedin</b></a>.

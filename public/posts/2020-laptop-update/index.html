@@ -15,7 +15,7 @@
 <body>
 	<header>
 	=========================<br>
-	== <a href="https://eduardorobles-blog.pages.dev/">Eduardo Robles Site</a> ==<br>
+	== <a href="https://eduardorobles.com/">Eduardo Robles Site</a> ==<br>
 	=========================
 	<div style="float: right;">Hola Mundo 🌮</div><br>
 	<p>
@@ -55,6 +55,7 @@ Theme</p>
 <p>I recently came acros the Dracula theme for Emacs and I decided I needed this theme everywhere. Luckily you can go to <a href="https://draculatheme.com/">https://draculatheme.com/</a> and see all the theme options for a lot of apps.
 Apps</p>
 <p>This is a list of my go to apps.</p>
+<blockquote>
 <p>Emacs
 Spotify
 Evolution (Email client)
@@ -62,32 +63,48 @@ Audacity
 Tizonia (Spotify terminal client)
 VLC
 Keybase</p>
+</blockquote>
 <p>Other apps I install depending on the use case:</p>
+<blockquote>
 <p>VPN
 Audacity
 Open Broadcaster
 GNOME Tweaks
 Syncthing
 Chromium</p>
+</blockquote>
 <p>Configurations</p>
 <p>Ok, so let’s talk how I setup my laptop the quickest way possible.
 Sign into my Google account in GNOME online accounts.</p>
 <p>This is to have Evolution setup as soon as it’s installed and launched.
 Run my setup scripts</p>
 <p>I came across this great post by software dev Victoria Drake. She wrote a great bash script that she uses to setup her Ubuntu laptop (or even a VM). So I cloned it and modified it for my use. Here are some key take aways.</p>
-<p>sudo snap install spotify</p>
-<p>sudo snap install chromium</p>
-<p>sudo snap install tizonia</p>
-<p>install gnome-tweaks</p>
-<p>install deja-dup
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Snap packages</span>
+
+sudo snap install spotify
+
+sudo snap install chromium
+
+sudo snap install tizonia
+
+<span style="color:#75715e"># GNOME</span>
+install gnome-tweaks
+
+<span style="color:#75715e"># File Backup</span>
+install deja-dup
 install git
-install curl</p>
-<p>This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.</p>
-<p>gsettings set org.gnome.desktop.wm.preferences titlebar-font &lsquo;IBM Plex Sans Bold 11&rsquo;
-gsettings set org.gnome.desktop.interface monospace-font-name &lsquo;IBM Plex Mono 13&rsquo;
-gsettings set org.gnome.desktop.interface document-font-name &lsquo;IBM Plex Sans Medium 11&rsquo;
-gsettings set org.gnome.desktop.interface font-name &lsquo;IBM Plex Sans 11&rsquo;</p>
-<p>Ubuntu 19.10 Terminal Dracula Theme</p>
+install curl
+
+<span style="color:#75715e"># add more apps as needed</span>
+
+This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.
+
+<span style="color:#75715e"># Set GNOME Settings</span>
+gsettings set org.gnome.desktop.wm.preferences titlebar-font <span style="color:#e6db74">&#39;IBM Plex Sans Bold 11&#39;</span>
+gsettings set org.gnome.desktop.interface monospace-font-name <span style="color:#e6db74">&#39;IBM Plex Mono 13&#39;</span>
+gsettings set org.gnome.desktop.interface document-font-name <span style="color:#e6db74">&#39;IBM Plex Sans Medium 11&#39;</span>
+gsettings set org.gnome.desktop.interface font-name <span style="color:#e6db74">&#39;IBM Plex Sans 11&#39;</span>
+</code></pre></div><p>Ubuntu 19.10 Terminal Dracula Theme</p>
 <p>I use this script to setup my fonts. It downloads IBM Plex font and installs it on my system. I love this font and thus I use it everywhere. My setup scripts do other things depending on what I want to do, like setup some PPA’s or change other GNOME settings.</p>
 <p>One thing that I found after I setup my laptop was this great script to change the terminal theme. It’s called Gogh and you can find it here <a href="https://github.com/Mayccoll/Gogh">https://github.com/Mayccoll/Gogh</a>.
 GPG, Git, and Emacs setup</p>
@@ -124,7 +141,7 @@ And that’s it</p>
 
 
 	<footer>
-	<p>&copy; 2021 <a href="https://eduardorobles-blog.pages.dev/"><b>Eduardo Robles Site</b></a>.
+	<p>&copy; 2021 <a href="https://eduardorobles.com/"><b>Eduardo Robles Site</b></a>.
 	<a href="https://gitlab.com/tacosandlinux"><b>Gitlab</b></a>.
 	<a href="https://twitter.com/tacosandlinux"><b>Twitter</b></a>.
 	<a href="https://www.linkedin.com/in/hello-im-eduardo/"><b>Linkedin</b></a>.
