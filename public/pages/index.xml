@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Eduardo Robles Site</title>
+    <link>../pages/</link>
+    <description>Recent content in Pages on Eduardo Robles Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="../pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>../pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>../pages/about/</guid>
+      <description>Hi 👋 I&amp;rsquo;m Eduardo Robles
+Linux nerd interested in Information Security, Cyber Security, Open Source, tacos, and coffee. I’ve been using Linux for 12+ yrs, still haven’t figured out how to exit Vim.
+Founder of the South Texas Linux Users Group.
+Resume
+Currently reading&amp;hellip;
+ Dune Messiah by Frank Hebert Lives of the Stoics by Ryan Holiday  </description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>../pages/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>../pages/contribute/</guid>
+      <description>Thanks I enjoy sharing my knowledge with the public for free, and I hope you can see my enthusiasm as I bring to light my content.
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+Buy Me a Coffee</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>../pages/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>../pages/links/</guid>
+      <description>I can be found at&amp;hellip;
+email – twitter – linkedin – gitlab</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>../pages/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>../pages/resume/</guid>
+      <description>RESUME</description>
+    </item>
+    
+  </channel>
+</rss>
