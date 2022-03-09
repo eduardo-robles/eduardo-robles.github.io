@@ -546,3 +546,21 @@ One of the core concepts of the indieweb is to “own”, your content. This is 
 So here we are
 
 This site was relaunched with wordpress and with indieweb principles in mind. I’m happy I took the plunge even though it drove me a bit crazy at times. I think I’ll do more of a deep dive on all the moving parts in a later post. But it feels good to be taking control of my content, soon I’ll be saying goodbye to social media!
+** TODO Create SSH Key
+:PROPERTIES:
+:EXPORT_FILE_NAME: create-ssh-key
+:END:
+Creating an SSH key is very easy. Below is an example of how to generate an SSH key with the ~ssh-keygen~ command.
+
+*** Create SSH Key
+   #+BEGIN_SRC sh
+ssh-keygen -t ed25519 -f ~/.ssh/nameofkey -N '' -C "comment goes here"
+   #+END_SRC
+
+**** -t option is for the type of keys to be created
+
+**** -f option is the filename and location of the keys
+
+**** -N is the passphrase to be given, leave blank for no passphrase
+
+**** -C enter a comment to best find keys later
