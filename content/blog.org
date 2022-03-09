@@ -557,10 +557,7 @@ Creating an SSH key is very easy. Below is an example of how to generate an SSH 
 ssh-keygen -t ed25519 -f ~/.ssh/nameofkey -N '' -C "comment goes here"
    #+END_SRC
 
-**** -t option is for the type of keys to be created
-
-**** -f option is the filename and location of the keys
-
+**** -t option is for the type of keys to be created (ex. ed25519)
+**** -f option is the filename and location of the keys (ex. /path/to/file)
 **** -N is the passphrase to be given, leave blank for no passphrase
-
-**** -C enter a comment to best find keys later
+**** -C enter a comment to best find keys later (ex. "github key")
