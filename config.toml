@@ -11,6 +11,8 @@ theme = "smol"
     mainSections = ["posts"]
     Subtitle = "Hola Mundo 🌮"
     dateFmt = "02.01.2006"
+    canonifyurls = true
+    relativeURLS = false
 
 # Header
 [menu]
