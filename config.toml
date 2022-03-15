@@ -1,9 +1,9 @@
-baseURL = "https://tacosandlinux.gitlab.io/eduardorobles_blog"
+baseURL = "https://tacosandlinux.gitlab.io/eduardorobles_blog/"
 title   = "Eduardo Robles Site"
 languageCode = "en-us"
 timeZone = "America/Chicago"
 theme = "smol"
-
+canonifyurls = true
 # Parameters
 [params]
     author = "Eduardo Robles"
@@ -11,7 +11,6 @@ theme = "smol"
     mainSections = ["posts"]
     Subtitle = "Hola Mundo 🌮"
     dateFmt = "02.01.2006"
-    relativeURLS = true
 
 # Header
 [menu]
