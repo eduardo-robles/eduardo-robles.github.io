@@ -1,4 +1,4 @@
-baseURL = "https://tacosandlinux.gitlab.io/eduardorobles_blog/"
+baseURL = "https://eduardorobles.com"
 title   = "Eduardo Robles Site"
 languageCode = "en-us"
 timeZone = "America/Chicago"
