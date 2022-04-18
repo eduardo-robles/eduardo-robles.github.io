@@ -737,7 +737,11 @@ Default is ~512~ but ~1024~ is better
 =ssh version 2=
 ** Add a username and password for SSH access
 =username admin secret admin123=
-line vty 0 15
-transport input ssh
-login local
-copy run start
+** Configure the lines which will have SSH access
+=line vty 0 15= or =line vty 0 2=
+** Enable SSH on enable lines
+=transport input ssh=
+** Keep SSH to local logins
+=login local=
+** Save config
+=copy run start=
