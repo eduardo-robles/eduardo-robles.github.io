@@ -726,6 +726,10 @@ A key will be generated. To upload a public key simply use =sftp= or =scp= to up
 Extreme switches have a limitation of only being able to use RSA or DSA keys. Recommend to use RSA 2048
 ** Enabling SSH on an Extreme Switch
 =enable ssh2=
+** Chaning SSH port
+=enable ssh2 port tcp 766=
+** Enable SSH on VR-Mgmt Only
+=enable ssh2 vr VR-Mgmt=
 * Enable SSH On Cisco Devices
 ** Add hostname to the device
 =ip domain-name ex.cisco.com=
