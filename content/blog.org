@@ -716,7 +716,8 @@ CLOSED: [2022-03-22 Tue 08:11]
 #+BEGIN_SRC sh
 ssh-copy-id user@host.local
 #+END_SRC
-** TODO SSH on Extreme and Cisco Devices
+** DONE SSH on Extreme and Cisco Devices
+CLOSED: [2022-04-18 Mon 06:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: ssh-on-extreme-and-cisco-devices
 :END:
