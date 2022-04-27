@@ -721,32 +721,62 @@ CLOSED: [2022-04-18 Mon 06:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: ssh-on-extreme-and-cisco-devices
 :END:
-* Enable SSH on Extreme Devices
+*** Enable SSH on Extreme Devices
 A key will be generated. To upload a public key simply use =sftp= or =scp= to upload key. But be sure to change the extension to =.ssh= for example =id_rsa.pub= will be =id_rsa.ssh= on the switch. Also you can assign a key to a user by simply appending the username to the key file for example =admin.id_rsa.pub=.
 
 Extreme switches have a limitation of only being able to use RSA or DSA keys. Recommend to use RSA 2048
-** Enabling SSH on an Extreme Switch
+**** Enabling SSH on an Extreme Switch
 =enable ssh2=
-** Chaning SSH port
+**** Chaning SSH port
 =enable ssh2 port tcp 766=
-** Enable SSH on VR-Mgmt Only
+**** Enable SSH on VR-Mgmt Only
 =enable ssh2 vr VR-Mgmt=
-* Enable SSH On Cisco Devices
-** Add hostname to the device
+*** Enable SSH On Cisco Devices
+**** Add hostname to the device
 =ip domain-name ex.cisco.com=
-** Generate SSH Key for device
+**** Generate SSH Key for device
 =crypto key generate rsa=
-** Chose SSH Key size
+**** Chose SSH Key size
 Default is ~512~ but ~1024~ is better
-** Change SSH version
+**** Change SSH version
 =ssh version 2=
-** Add a username and password for SSH access
+**** Add a username and password for SSH access
 =username admin secret admin123=
-** Configure the lines which will have SSH access
+**** Configure the lines which will have SSH access
 =line vty 0 15= or =line vty 0 2=
-** Enable SSH on enable lines
+**** Enable SSH on enable lines
 =transport input ssh=
-** Keep SSH to local logins
+**** Keep SSH to local logins
 =login local=
-** Save config
+**** Save config
 =copy run start=
+** DONE SSH Config File - Make SSH Easier
+CLOSED: [2022-04-27 Wed 07:30]
+:PROPERTIES:
+:EXPORT_FILE_NAME: ssh-config-file-make-ssh-easier
+:END:
+How do you stay organized with SSH connections? Most of use simply search our terminals history to find SSH connections. You may do =history | grep "ssh"= or even =Ctrl+R= and search SSH. While that may work for a few connections, there is a better way: SSH Config file. An SSH Config file simply tells OpenSSH how to open up connections. The benefit is that you can keep all your connections all in one place. Plus you can use things like Jumphosts and Public Keys to make connections easier. Let's look at a typical SSH command.
+
+=ssh erobles@10.0.3.11 -p 2300 -i ~/.ssh/mykeys=
+
+*** =erobles@10.0.3.11= this states our username on the server and the IP/Hostname of the server
+
+*** =-p 2300= the port we are connecting to on the server
+
+*** =-i ~/.ssh/mykeys= the Public/Private keys used in the SSH connection
+
+While this is fine, it can be time consuming and easily forgotten. So let's see how this commands translates to in an SSH Config file.
+
+#+BEGIN_SRC bash
+  HOST myserver
+    HostName 10.0.3.11
+    User erobles
+    Port 2300
+    IdentityFile ~/.ssh/mykeys
+#+END_SRC
+The example above achieves the same as the long SSH command in the previous example. You can save this file in =~/.ssh./= directory with the filename =ssh_config=. Once the file is saved you can simple type =ssh myserver=, OpenSSH will check the SSH config file for an entry anme =myserver= and execute an SSH connections with the options you specify. As you have more servers/machines you have to SSH into you simply add those the SSH config file. You can have 20, 40, or 100 connections all in one file! Working with an SSH Config file makes your SSH workflow much easier. It can also be helpful to keep track of SSH connectitons.
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
+#+END_QUOTE
