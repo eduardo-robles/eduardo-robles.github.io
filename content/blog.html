@@ -3,13 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-04-18 Mon 07:13 -->
+<!-- 2022-05-23 Mon 20:50 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
-<meta name="generator" content="Org mode" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -30,8 +30,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,21 +41,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,145 +191,109 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
-<div id="content">
-<div id="table-of-contents">
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org879f785">1. Pages</a>
+<li><a href="#org9b29ec1">1. Pages</a>
 <ul>
-<li><a href="#org5a0b2f2">1.1. About</a></li>
-<li><a href="#orgf2f843a">1.2. Videos</a>
+<li><a href="#org784b025">1.1. About</a></li>
+<li><a href="#orgec07978">1.2. Videos</a>
 <ul>
-<li><a href="#org5d5a266">1.2.1. Getting Started with Gitlab - Livestream 6-16-18</a></li>
-<li><a href="#orgfb6fde1">1.2.2. Beaker Browser - Livestream 7-21-18</a></li>
-<li><a href="#orga681fd6">1.2.3. Launching a Decentralized Website- Livestream 8-18-18</a></li>
-<li><a href="#org87d26e1">1.2.4. Installing Arch Linux - Livestream 9-15-18</a></li>
-<li><a href="#org3616290">1.2.5. Ubuntu Server How To -  Livestream 10-20-18</a></li>
-<li><a href="#org845b86c">1.2.6. Samba Installation Guide - Livestream 12-15-18</a></li>
-<li><a href="#orgf55e9dd">1.2.7. Bash Scripts and Cron Jobs</a></li>
-<li><a href="#org9796857">1.2.8. RazDC a Linux Active Directory Replacement - Livestream 1-19-19</a></li>
-<li><a href="#org4a404fc">1.2.9. Block Ads On Your Network - Livestream 2-16-19</a></li>
-<li><a href="#orgcf14b9d">1.2.10. Introduction to Encryption - Livestream 3-16-19</a></li>
-<li><a href="#orgfbe67ca">1.2.11. Encrypt Data and Communications - Livestream 4-20-19</a></li>
-<li><a href="#org3f36754">1.2.12. Build a Virtualization Server - Livestream 5-18-19</a></li>
-<li><a href="#org66434be">1.2.13. Kali Linux Introduction - Livestream 7-20-19</a></li>
-<li><a href="#org8e1b6af">1.2.14. Build a VPN Server - Livestream 8-17-19</a></li>
-<li><a href="#org67cca87">1.2.15. Online Security with Tails and Tor Browser - Livestream 10-19-19</a></li>
-<li><a href="#org57003b1">1.2.16. CentOS Server How To - Livestream 11-24-19</a></li>
-<li><a href="#org3c9e35a">1.2.17. Kali Linux vs. ParrotOS - Livestream 12-21-19</a></li>
+<li><a href="#orge1333fe">1.2.1. Getting Started with Gitlab - Livestream 6-16-18</a></li>
+<li><a href="#orgdc38286">1.2.2. Beaker Browser - Livestream 7-21-18</a></li>
+<li><a href="#org84b681b">1.2.3. Launching a Decentralized Website- Livestream 8-18-18</a></li>
+<li><a href="#org99933a1">1.2.4. Installing Arch Linux - Livestream 9-15-18</a></li>
+<li><a href="#orgb132490">1.2.5. Ubuntu Server How To -  Livestream 10-20-18</a></li>
+<li><a href="#org67eca17">1.2.6. Samba Installation Guide - Livestream 12-15-18</a></li>
+<li><a href="#org1f1c715">1.2.7. Bash Scripts and Cron Jobs</a></li>
+<li><a href="#org730923c">1.2.8. RazDC a Linux Active Directory Replacement - Livestream 1-19-19</a></li>
+<li><a href="#orgff895cb">1.2.9. Block Ads On Your Network - Livestream 2-16-19</a></li>
+<li><a href="#orgaa6053f">1.2.10. Introduction to Encryption - Livestream 3-16-19</a></li>
+<li><a href="#orga8d1c7c">1.2.11. Encrypt Data and Communications - Livestream 4-20-19</a></li>
+<li><a href="#org05c2952">1.2.12. Build a Virtualization Server - Livestream 5-18-19</a></li>
+<li><a href="#orga1c93ad">1.2.13. Kali Linux Introduction - Livestream 7-20-19</a></li>
+<li><a href="#org6ae0a88">1.2.14. Build a VPN Server - Livestream 8-17-19</a></li>
+<li><a href="#org20d3b20">1.2.15. Online Security with Tails and Tor Browser - Livestream 10-19-19</a></li>
+<li><a href="#org89711b1">1.2.16. CentOS Server How To - Livestream 11-24-19</a></li>
+<li><a href="#org281e0df">1.2.17. Kali Linux vs. ParrotOS - Livestream 12-21-19</a></li>
 </ul>
 </li>
-<li><a href="#org72f2acd">1.3. Links</a></li>
-<li><a href="#org28e88b3">1.4. Contribute</a>
+<li><a href="#org0b54328">1.3. Links</a></li>
+<li><a href="#orgf2b6ded">1.4. Contribute</a>
 <ul>
-<li><a href="#org4607c32">1.4.1. Thanks</a></li>
+<li><a href="#org54edad7">1.4.1. Thanks</a></li>
 </ul>
 </li>
-<li><a href="#orga023fea">1.5. Resume</a></li>
+<li><a href="#orgb16a124">1.5. Resume</a></li>
 </ul>
 </li>
-<li><a href="#org1b936e8">2. Posts</a>
+<li><a href="#org40a2d5d">2. Posts</a>
 <ul>
-<li><a href="#org80937a5">2.1. <span class="done DONE">DONE</span> Create SSH Key</a>
+<li><a href="#org39c7be3">2.1. BSIDES RGV 2022</a></li>
+<li><a href="#org4f85a3b">2.2. <span class="done DONE">DONE</span> Create SSH Key</a>
 <ul>
-<li><a href="#orgaf32fd1">2.1.1. Create SSH Key</a></li>
+<li><a href="#org6829c61">2.2.1. Create SSH Key</a></li>
 </ul>
 </li>
-<li><a href="#org51fe5b3">2.2. <span class="done DONE">DONE</span> 256 Color In SSH Sessions</a></li>
-<li><a href="#org82064e2">2.3. Using GNU Screen</a>
+<li><a href="#org77d3e80">2.3. <span class="done DONE">DONE</span> 256 Color In SSH Sessions</a></li>
+<li><a href="#orgb45d9ec">2.4. Using GNU Screen</a>
 <ul>
-<li><a href="#org0b47e1f">2.3.1. The Problem</a></li>
-<li><a href="#orgb061102">2.3.2. A Surprising Solution</a></li>
-<li><a href="#org9638cd1">2.3.3. Screen and ttyUSB</a></li>
-<li><a href="#orga5644df">2.3.4. Old tools to the job</a></li>
-<li><a href="#org0554a04">2.3.5. Some useful links</a></li>
+<li><a href="#orgd1185db">2.4.1. The Problem</a></li>
+<li><a href="#org39c1c3f">2.4.2. A Surprising Solution</a></li>
+<li><a href="#orgaf041f4">2.4.3. Screen and ttyUSB</a></li>
+<li><a href="#org1a4021e">2.4.4. Old tools to the job</a></li>
+<li><a href="#org82a4da0">2.4.5. Some useful links</a></li>
 </ul>
 </li>
-<li><a href="#orgd218428">2.4. Accessing my homelab with Cloudflare</a></li>
-<li><a href="#orgcd752ec">2.5. Starting a Homelab with Proxmox</a></li>
-<li><a href="#orgee2abd3">2.6. Installation of Fog Project 1.5.8</a></li>
-<li><a href="#org31f3f7a">2.7. SSH Port Forward a VNC Connection</a></li>
-<li><a href="#org0b84eaf">2.8. My 2020 Ubuntu Laptop Setup</a></li>
-<li><a href="#org1ead62f">2.9. Fixing Grub on a Dual Boot</a></li>
-<li><a href="#org9b02422">2.10. DuckDuckGo Mobile Browser</a></li>
-<li><a href="#org75be0a3">2.11. Region One Cybersecurity Summit 2019</a></li>
-<li><a href="#org01a3acd">2.12. Escape Rooms Challenge at STC</a></li>
-<li><a href="#orgff086be">2.13. Firefox Focus</a></li>
-<li><a href="#orgea178ac">2.14. My thoughts on “The Alchemist” by Paulo Coelho</a></li>
-<li><a href="#orgb656b1c">2.15. My thoughts on “Smarter Faster Better: The Transformative Power of Real Productivity” by Charles Duhigg</a></li>
-<li><a href="#org81a5623">2.16. Why I got a Library Card in 2019</a></li>
-<li><a href="#org1d92bbc">2.17. Reset Windows Password with Linux</a></li>
-<li><a href="#org5d4bc54">2.18. Relaunching my personal website</a></li>
-<li><a href="#org3fe4694">2.19. <span class="done DONE">DONE</span> Adding SSH Key To Agent</a>
+<li><a href="#orga77407a">2.5. Accessing my homelab with Cloudflare</a></li>
+<li><a href="#org0ac8ba0">2.6. Starting a Homelab with Proxmox</a></li>
+<li><a href="#org18790ed">2.7. Installation of Fog Project 1.5.8</a></li>
+<li><a href="#org8bc8b20">2.8. SSH Port Forward a VNC Connection</a></li>
+<li><a href="#orgc183cc7">2.9. My 2020 Ubuntu Laptop Setup</a></li>
+<li><a href="#orge4d0941">2.10. Fixing Grub on a Dual Boot</a></li>
+<li><a href="#org34d11f8">2.11. DuckDuckGo Mobile Browser</a></li>
+<li><a href="#orgc9efca7">2.12. Region One Cybersecurity Summit 2019</a></li>
+<li><a href="#orgedccf23">2.13. Escape Rooms Challenge at STC</a></li>
+<li><a href="#org197b9e6">2.14. Firefox Focus</a></li>
+<li><a href="#org82b69cf">2.15. My thoughts on “The Alchemist” by Paulo Coelho</a></li>
+<li><a href="#orgc41353c">2.16. My thoughts on “Smarter Faster Better: The Transformative Power of Real Productivity” by Charles Duhigg</a></li>
+<li><a href="#orgc5cc110">2.17. Why I got a Library Card in 2019</a></li>
+<li><a href="#org82448bb">2.18. Reset Windows Password with Linux</a></li>
+<li><a href="#org74c92f8">2.19. Relaunching my personal website</a></li>
+<li><a href="#org87cfbb6">2.20. <span class="done DONE">DONE</span> Adding SSH Key To Agent</a>
 <ul>
-<li><a href="#org044db69">2.19.1. Check if SSH Agent is running</a></li>
-<li><a href="#org6c60833">2.19.2. Add the Keys to SSH Agent</a></li>
-<li><a href="#orgd431530">2.19.3. Verify Keys Added to SSH Agent</a></li>
-<li><a href="#orgd81b32c">2.19.4. Copy Key to Remote Server</a></li>
-<li><a href="#org42a52a8">2.19.5. Copy Server Key to Host</a></li>
+<li><a href="#org6e8e54b">2.20.1. Check if SSH Agent is running</a></li>
+<li><a href="#org7923ccb">2.20.2. Add the Keys to SSH Agent</a></li>
+<li><a href="#org880a7c3">2.20.3. Verify Keys Added to SSH Agent</a></li>
+<li><a href="#org25d5da4">2.20.4. Copy Key to Remote Server</a></li>
+<li><a href="#orga407882">2.20.5. Copy Server Key to Host</a></li>
 </ul>
 </li>
-<li><a href="#org49feed4">2.20. <span class="done DONE">DONE</span> SSH on Extreme and Cisco Devices</a></li>
+<li><a href="#org14a0324">2.21. <span class="done DONE">DONE</span> SSH on Extreme and Cisco Devices</a>
+<ul>
+<li><a href="#orgffc6384">2.21.1. Enable SSH on Extreme Devices</a></li>
+<li><a href="#org6f50596">2.21.2. Enable SSH On Cisco Devices</a></li>
 </ul>
 </li>
-<li><a href="#org5c3eb1f">3. Enable SSH on Extreme Devices</a>
-<ul>
-<li><a href="#org3472e69">3.1. Enabling SSH on an Extreme Switch</a></li>
-<li><a href="#orga995a9d">3.2. Chaning SSH port</a></li>
-<li><a href="#org8ab5191">3.3. Enable SSH on VR-Mgmt Only</a></li>
-</ul>
-</li>
-<li><a href="#org69ce199">4. Enable SSH On Cisco Devices</a>
-<ul>
-<li><a href="#orgcb0a69d">4.1. Add hostname to the device</a></li>
-<li><a href="#orga61c2ae">4.2. Generate SSH Key for device</a></li>
-<li><a href="#orgc93fdf5">4.3. Chose SSH Key size</a></li>
-<li><a href="#org4adc873">4.4. Change SSH version</a></li>
-<li><a href="#orga2c922e">4.5. Add a username and password for SSH access</a></li>
-<li><a href="#org2d24780">4.6. Configure the lines which will have SSH access</a></li>
-<li><a href="#org9365e85">4.7. Enable SSH on enable lines</a></li>
-<li><a href="#org388ff20">4.8. Keep SSH to local logins</a></li>
-<li><a href="#orgf546d26">4.9. Save config</a></li>
+<li><a href="#orga8ec0ba">2.22. <span class="done DONE">DONE</span> SSH Config File - Make SSH Easier</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org879f785" class="outline-2">
-<h2 id="org879f785"><span class="section-number-2">1</span> Pages</h2>
+<div id="outline-container-org9b29ec1" class="outline-2">
+<h2 id="org9b29ec1"><span class="section-number-2">1.</span> Pages</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 
-<div id="outline-container-org5a0b2f2" class="outline-3">
-<h3 id="org5a0b2f2"><span class="section-number-3">1.1</span> About</h3>
+<div id="outline-container-org784b025" class="outline-3">
+<h3 id="org784b025"><span class="section-number-3">1.1.</span> About</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Hi 👋 I'm Eduardo Robles
@@ -356,16 +321,16 @@ Currently reading&#x2026;
 </div>
 </div>
 
-<div id="outline-container-orgf2f843a" class="outline-3">
-<h3 id="orgf2f843a"><span class="section-number-3">1.2</span> Videos</h3>
+<div id="outline-container-orgec07978" class="outline-3">
+<h3 id="orgec07978"><span class="section-number-3">1.2.</span> Videos</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 <b>The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please help out and <a href="https://www.buymeacoffee.com/eduardorobles">Buy Me A Coffee</a>.</b>
 </p>
 </div>
 
-<div id="outline-container-org5d5a266" class="outline-4">
-<h4 id="org5d5a266"><span class="section-number-4">1.2.1</span> Getting Started with Gitlab - Livestream 6-16-18</h4>
+<div id="outline-container-orge1333fe" class="outline-4">
+<h4 id="orge1333fe"><span class="section-number-4">1.2.1.</span> Getting Started with Gitlab - Livestream 6-16-18</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Video: <a href="https://archive.org/details/stxlug_6-16-18">https://archive.org/details/stxlug_6-16-18</a>
@@ -374,8 +339,8 @@ Video: <a href="https://archive.org/details/stxlug_6-16-18">https://archive.org/
 </div>
 </div>
 
-<div id="outline-container-orgfb6fde1" class="outline-4">
-<h4 id="orgfb6fde1"><span class="section-number-4">1.2.2</span> Beaker Browser - Livestream 7-21-18</h4>
+<div id="outline-container-orgdc38286" class="outline-4">
+<h4 id="orgdc38286"><span class="section-number-4">1.2.2.</span> Beaker Browser - Livestream 7-21-18</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <p>
 Video: <a href="https://archive.org/details/stxlug_7-21-18">https://archive.org/details/stxlug_7-21-18</a>
@@ -384,8 +349,8 @@ Video: <a href="https://archive.org/details/stxlug_7-21-18">https://archive.org/
 </div>
 </div>
 
-<div id="outline-container-orga681fd6" class="outline-4">
-<h4 id="orga681fd6"><span class="section-number-4">1.2.3</span> Launching a Decentralized Website- Livestream 8-18-18</h4>
+<div id="outline-container-org84b681b" class="outline-4">
+<h4 id="org84b681b"><span class="section-number-4">1.2.3.</span> Launching a Decentralized Website- Livestream 8-18-18</h4>
 <div class="outline-text-4" id="text-1-2-3">
 <p>
 Video: <a href="https://archive.org/details/stxlug_8-18-18">https://archive.org/details/stxlug_8-18-18</a>
@@ -394,8 +359,8 @@ Video: <a href="https://archive.org/details/stxlug_8-18-18">https://archive.org/
 </div>
 </div>
 
-<div id="outline-container-org87d26e1" class="outline-4">
-<h4 id="org87d26e1"><span class="section-number-4">1.2.4</span> Installing Arch Linux - Livestream 9-15-18</h4>
+<div id="outline-container-org99933a1" class="outline-4">
+<h4 id="org99933a1"><span class="section-number-4">1.2.4.</span> Installing Arch Linux - Livestream 9-15-18</h4>
 <div class="outline-text-4" id="text-1-2-4">
 <p>
 Video: <a href="https://archive.org/details/stxlug_9-15-18">https://archive.org/details/stxlug_9-15-18</a>
@@ -404,8 +369,8 @@ Video: <a href="https://archive.org/details/stxlug_9-15-18">https://archive.org/
 </div>
 </div>
 
-<div id="outline-container-org3616290" class="outline-4">
-<h4 id="org3616290"><span class="section-number-4">1.2.5</span> Ubuntu Server How To -  Livestream 10-20-18</h4>
+<div id="outline-container-orgb132490" class="outline-4">
+<h4 id="orgb132490"><span class="section-number-4">1.2.5.</span> Ubuntu Server How To -  Livestream 10-20-18</h4>
 <div class="outline-text-4" id="text-1-2-5">
 <p>
 Video: <a href="https://archive.org/details/stxlug_10-20-18">https://archive.org/details/stxlug_10-20-18</a>
@@ -414,8 +379,8 @@ Video: <a href="https://archive.org/details/stxlug_10-20-18">https://archive.org
 </div>
 </div>
 
-<div id="outline-container-org845b86c" class="outline-4">
-<h4 id="org845b86c"><span class="section-number-4">1.2.6</span> Samba Installation Guide - Livestream 12-15-18</h4>
+<div id="outline-container-org67eca17" class="outline-4">
+<h4 id="org67eca17"><span class="section-number-4">1.2.6.</span> Samba Installation Guide - Livestream 12-15-18</h4>
 <div class="outline-text-4" id="text-1-2-6">
 <p>
 Video: <a href="https://archive.org/details/stxlug_12-15-18">https://archive.org/details/stxlug_12-15-18</a>
@@ -425,8 +390,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/tree/master/m
 </div>
 </div>
 
-<div id="outline-container-orgf55e9dd" class="outline-4">
-<h4 id="orgf55e9dd"><span class="section-number-4">1.2.7</span> Bash Scripts and Cron Jobs</h4>
+<div id="outline-container-org1f1c715" class="outline-4">
+<h4 id="org1f1c715"><span class="section-number-4">1.2.7.</span> Bash Scripts and Cron Jobs</h4>
 <div class="outline-text-4" id="text-1-2-7">
 <p>
 Video: <a href="https://archive.org/details/stxlug-1-25-20">https://archive.org/details/stxlug-1-25-20</a>
@@ -436,8 +401,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org9796857" class="outline-4">
-<h4 id="org9796857"><span class="section-number-4">1.2.8</span> RazDC a Linux Active Directory Replacement - Livestream 1-19-19</h4>
+<div id="outline-container-org730923c" class="outline-4">
+<h4 id="org730923c"><span class="section-number-4">1.2.8.</span> RazDC a Linux Active Directory Replacement - Livestream 1-19-19</h4>
 <div class="outline-text-4" id="text-1-2-8">
 <p>
 Video: <a href="https://archive.org/details/stxlug_1-19-19">https://archive.org/details/stxlug_1-19-19</a>
@@ -447,8 +412,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org4a404fc" class="outline-4">
-<h4 id="org4a404fc"><span class="section-number-4">1.2.9</span> Block Ads On Your Network - Livestream 2-16-19</h4>
+<div id="outline-container-orgff895cb" class="outline-4">
+<h4 id="orgff895cb"><span class="section-number-4">1.2.9.</span> Block Ads On Your Network - Livestream 2-16-19</h4>
 <div class="outline-text-4" id="text-1-2-9">
 <p>
 Video: <a href="https://archive.org/details/stxlug_2-16-19">https://archive.org/details/stxlug_2-16-19</a>
@@ -458,8 +423,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-orgcf14b9d" class="outline-4">
-<h4 id="orgcf14b9d"><span class="section-number-4">1.2.10</span> Introduction to Encryption - Livestream 3-16-19</h4>
+<div id="outline-container-orgaa6053f" class="outline-4">
+<h4 id="orgaa6053f"><span class="section-number-4">1.2.10.</span> Introduction to Encryption - Livestream 3-16-19</h4>
 <div class="outline-text-4" id="text-1-2-10">
 <p>
 Video: <a href="https://archive.org/details/stxlug_3-16-19">https://archive.org/details/stxlug_3-16-19</a>
@@ -469,8 +434,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-orgfbe67ca" class="outline-4">
-<h4 id="orgfbe67ca"><span class="section-number-4">1.2.11</span> Encrypt Data and Communications - Livestream 4-20-19</h4>
+<div id="outline-container-orga8d1c7c" class="outline-4">
+<h4 id="orga8d1c7c"><span class="section-number-4">1.2.11.</span> Encrypt Data and Communications - Livestream 4-20-19</h4>
 <div class="outline-text-4" id="text-1-2-11">
 <p>
 Video: <a href="https://archive.org/details/stxlug_4-20-19">https://archive.org/details/stxlug_4-20-19</a>
@@ -480,8 +445,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org3f36754" class="outline-4">
-<h4 id="org3f36754"><span class="section-number-4">1.2.12</span> Build a Virtualization Server - Livestream 5-18-19</h4>
+<div id="outline-container-org05c2952" class="outline-4">
+<h4 id="org05c2952"><span class="section-number-4">1.2.12.</span> Build a Virtualization Server - Livestream 5-18-19</h4>
 <div class="outline-text-4" id="text-1-2-12">
 <p>
 Video: <a href="https://archive.org/details/stxlug_5-18-19">https://archive.org/details/stxlug_5-18-19</a>
@@ -491,8 +456,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org66434be" class="outline-4">
-<h4 id="org66434be"><span class="section-number-4">1.2.13</span> Kali Linux Introduction - Livestream 7-20-19</h4>
+<div id="outline-container-orga1c93ad" class="outline-4">
+<h4 id="orga1c93ad"><span class="section-number-4">1.2.13.</span> Kali Linux Introduction - Livestream 7-20-19</h4>
 <div class="outline-text-4" id="text-1-2-13">
 <p>
 Video: <a href="https://archive.org/details/kalilinux_202203">https://archive.org/details/kalilinux_202203</a>
@@ -502,8 +467,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org8e1b6af" class="outline-4">
-<h4 id="org8e1b6af"><span class="section-number-4">1.2.14</span> Build a VPN Server - Livestream 8-17-19</h4>
+<div id="outline-container-org6ae0a88" class="outline-4">
+<h4 id="org6ae0a88"><span class="section-number-4">1.2.14.</span> Build a VPN Server - Livestream 8-17-19</h4>
 <div class="outline-text-4" id="text-1-2-14">
 <p>
 Video: <a href="https://archive.org/details/stxlug_08-17-19">https://archive.org/details/stxlug_08-17-19</a>
@@ -513,8 +478,8 @@ Meeting Notes: <a href="https://www.stxlug.com/meetup-8-17-19/">https://www.stxl
 </div>
 </div>
 
-<div id="outline-container-org67cca87" class="outline-4">
-<h4 id="org67cca87"><span class="section-number-4">1.2.15</span> Online Security with Tails and Tor Browser - Livestream 10-19-19</h4>
+<div id="outline-container-org20d3b20" class="outline-4">
+<h4 id="org20d3b20"><span class="section-number-4">1.2.15.</span> Online Security with Tails and Tor Browser - Livestream 10-19-19</h4>
 <div class="outline-text-4" id="text-1-2-15">
 <p>
 Video: <a href="https://archive.org/details/stxlug_10-19-19">https://archive.org/details/stxlug_10-19-19</a>
@@ -524,8 +489,8 @@ Meeting Notes: <a href="https://www.stxlug.com/meetup-10-19-19/">https://www.stx
 </div>
 </div>
 
-<div id="outline-container-org57003b1" class="outline-4">
-<h4 id="org57003b1"><span class="section-number-4">1.2.16</span> CentOS Server How To - Livestream 11-24-19</h4>
+<div id="outline-container-org89711b1" class="outline-4">
+<h4 id="org89711b1"><span class="section-number-4">1.2.16.</span> CentOS Server How To - Livestream 11-24-19</h4>
 <div class="outline-text-4" id="text-1-2-16">
 <p>
 Video: <a href="https://archive.org/details/stxlug_11-24-19">https://archive.org/details/stxlug_11-24-19</a>
@@ -535,8 +500,8 @@ Meeting Notes:
 </div>
 </div>
 
-<div id="outline-container-org3c9e35a" class="outline-4">
-<h4 id="org3c9e35a"><span class="section-number-4">1.2.17</span> Kali Linux vs. ParrotOS - Livestream 12-21-19</h4>
+<div id="outline-container-org281e0df" class="outline-4">
+<h4 id="org281e0df"><span class="section-number-4">1.2.17.</span> Kali Linux vs. ParrotOS - Livestream 12-21-19</h4>
 <div class="outline-text-4" id="text-1-2-17">
 <p>
 Video: <a href="https://archive.org/details/stxlug_12-21-19">https://archive.org/details/stxlug_12-21-19</a>
@@ -547,8 +512,8 @@ Meeting Notes: <a href="https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/m
 </div>
 </div>
 
-<div id="outline-container-org72f2acd" class="outline-3">
-<h3 id="org72f2acd"><span class="section-number-3">1.3</span> Links</h3>
+<div id="outline-container-org0b54328" class="outline-3">
+<h3 id="org0b54328"><span class="section-number-3">1.3.</span> Links</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 I can be found at&#x2026;
@@ -568,12 +533,12 @@ I can be found at&#x2026;
 </div>
 </div>
 
-<div id="outline-container-org28e88b3" class="outline-3">
-<h3 id="org28e88b3"><span class="section-number-3">1.4</span> Contribute</h3>
+<div id="outline-container-orgf2b6ded" class="outline-3">
+<h3 id="orgf2b6ded"><span class="section-number-3">1.4.</span> Contribute</h3>
 <div class="outline-text-3" id="text-1-4">
 </div>
-<div id="outline-container-org4607c32" class="outline-4">
-<h4 id="org4607c32"><span class="section-number-4">1.4.1</span> Thanks</h4>
+<div id="outline-container-org54edad7" class="outline-4">
+<h4 id="org54edad7"><span class="section-number-4">1.4.1.</span> Thanks</h4>
 <div class="outline-text-4" id="text-1-4-1">
 <p>
 I enjoy sharing my knowledge with the public for free, and I hope you can see my enthusiasm as I bring to light my content.
@@ -590,8 +555,8 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 </div>
 </div>
 
-<div id="outline-container-orga023fea" class="outline-3">
-<h3 id="orga023fea"><span class="section-number-3">1.5</span> Resume</h3>
+<div id="outline-container-orgb16a124" class="outline-3">
+<h3 id="orgb16a124"><span class="section-number-3">1.5.</span> Resume</h3>
 <div class="outline-text-3" id="text-1-5">
 <p>
 RESUME
@@ -599,21 +564,31 @@ RESUME
 </div>
 </div>
 </div>
-<div id="outline-container-org1b936e8" class="outline-2">
-<h2 id="org1b936e8"><span class="section-number-2">2</span> Posts</h2>
+<div id="outline-container-org40a2d5d" class="outline-2">
+<h2 id="org40a2d5d"><span class="section-number-2">2.</span> Posts</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org80937a5" class="outline-3">
-<h3 id="org80937a5"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Create SSH Key</h3>
+<div id="outline-container-org39c7be3" class="outline-3">
+<h3 id="org39c7be3"><span class="section-number-3">2.1.</span> BSIDES RGV 2022</h3>
 <div class="outline-text-3" id="text-2-1">
+<p>
+Here's the presentation for my talk at BSIDESRGV 2022
+<a href="https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation.html">https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation.html</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4f85a3b" class="outline-3">
+<h3 id="org4f85a3b"><span class="section-number-3">2.2.</span> <span class="done DONE">DONE</span> Create SSH Key</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 Creating an SSH key is very easy. Below is an example of how to generate an SSH key with the <code>ssh-keygen</code> command.
 </p>
 </div>
 
-<div id="outline-container-orgaf32fd1" class="outline-4">
-<h4 id="orgaf32fd1"><span class="section-number-4">2.1.1</span> Create SSH Key</h4>
-<div class="outline-text-4" id="text-2-1-1">
+<div id="outline-container-org6829c61" class="outline-4">
+<h4 id="org6829c61"><span class="section-number-4">2.2.1.</span> Create SSH Key</h4>
+<div class="outline-text-4" id="text-2-2-1">
 <div class="org-src-container">
 <pre class="src src-bash">ssh-keygen -t ed25519 -f ~/.ssh/nameofkey -N <span style="color: #f1fa8c;">''</span> -C <span style="color: #f1fa8c;">"comment goes here"</span>
 </pre>
@@ -625,16 +600,16 @@ Creating an SSH key is very easy. Below is an example of how to generate an SSH 
 </div>
 </div>
 <ol class="org-ol">
-<li><a id="orgef839b1"></a>-t option is for the type of keys to be created (ex. ed25519)<br /></li>
-<li><a id="org35edfbd"></a>-f option is the filename and location of the keys (ex. <code>/path/to/file</code>)<br /></li>
-<li><a id="org2b11e85"></a>-N is the passphrase to be given, leave blank for no passphrase<br /></li>
-<li><a id="orgbb162d6"></a>-C enter a comment to best find keys later (ex. "github key")<br /></li>
+<li><a id="org4f55ebe"></a>-t option is for the type of keys to be created (ex. ed25519)<br /></li>
+<li><a id="org1661ac1"></a>-f option is the filename and location of the keys (ex. <code>/path/to/file</code>)<br /></li>
+<li><a id="org317d559"></a>-N is the passphrase to be given, leave blank for no passphrase<br /></li>
+<li><a id="orga4e9129"></a>-C enter a comment to best find keys later (ex. "github key")<br /></li>
 </ol>
 </div>
 </div>
-<div id="outline-container-org51fe5b3" class="outline-3">
-<h3 id="org51fe5b3"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> 256 Color In SSH Sessions</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-org77d3e80" class="outline-3">
+<h3 id="org77d3e80"><span class="section-number-3">2.3.</span> <span class="done DONE">DONE</span> 256 Color In SSH Sessions</h3>
+<div class="outline-text-3" id="text-2-3">
 <p>
 I found myself going a bit crazy over theme rendering in my SSH sessions. Especially when I wanted to use <code>emacs -nw</code> in an SSH session. Recently I've been using GNU Screen as my terminal multiplexer and it comes with 256 color support. But you need to set it up and thanks to the Arch Wiki it's rather easy. All you have to do is put <code>term xterm-256color</code> somewhere in your <code>.screenrc</code> file. This tells your GNU Screen session to pull the correct colors based on what your <code>$TERM</code> supports.
 </p>
@@ -644,52 +619,52 @@ An easy way to find out if you terminal emulator has 256 color support is by run
 </p>
 
 
-<div id="orgf11c7c6" class="figure">
+<div id="org3313c88" class="figure">
 <p><img src="file:///images/emacs-colors-gnuScreen.png" alt="emacs-colors-gnuScreen.png" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Showing 256 Colors in Emacs -nw inside of GNU Screen.</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org82064e2" class="outline-3">
-<h3 id="org82064e2"><span class="section-number-3">2.3</span> Using GNU Screen</h3>
-<div class="outline-text-3" id="text-2-3">
+<div id="outline-container-orgb45d9ec" class="outline-3">
+<h3 id="orgb45d9ec"><span class="section-number-3">2.4.</span> Using GNU Screen</h3>
+<div class="outline-text-3" id="text-2-4">
 </div>
-<div id="outline-container-org0b47e1f" class="outline-4">
-<h4 id="org0b47e1f"><span class="section-number-4">2.3.1</span> The Problem</h4>
-<div class="outline-text-4" id="text-2-3-1">
+<div id="outline-container-orgd1185db" class="outline-4">
+<h4 id="orgd1185db"><span class="section-number-4">2.4.1.</span> The Problem</h4>
+<div class="outline-text-4" id="text-2-4-1">
 <p>
 So it all started with a simple problem. <i>How to I connect to the console port on my Extreme Summit X440 switch?</i> Luckily in the past I remembered that I could use <code>minicom</code>. It a great application to connect to console sessions. I used it way back in the day to connect to Cisco switches. If it wasn't for the fact that I had use an actual Cisco switch for a class I would have totally forgotten about it. But what does this have to do with <code>GNU Screen</code>?
 </p>
 </div>
 </div>
-<div id="outline-container-orgb061102" class="outline-4">
-<h4 id="orgb061102"><span class="section-number-4">2.3.2</span> A Surprising Solution</h4>
-<div class="outline-text-4" id="text-2-3-2">
+<div id="outline-container-org39c1c3f" class="outline-4">
+<h4 id="org39c1c3f"><span class="section-number-4">2.4.2.</span> A Surprising Solution</h4>
+<div class="outline-text-4" id="text-2-4-2">
 <p>
 One afternoon I was surfing the web and came across a blerb of information that blew my mind. Screen can be used to connect to console sessions! I had recently been trying to redo my workflow to incorporate a terminal multiplexer. Most folks use TMUX and TMUX is a great choice. But at first glance the keybinding just seem weird and not very intituive for me. So went down the rabbit hole of Youtube videos on Screen vs. TMUX. In the end I decided to give Screen a try and see if it was really true that you can connect to serial console sessions.
 </p>
 </div>
 </div>
-<div id="outline-container-org9638cd1" class="outline-4">
-<h4 id="org9638cd1"><span class="section-number-4">2.3.3</span> Screen and ttyUSB</h4>
-<div class="outline-text-4" id="text-2-3-3">
+<div id="outline-container-orgaf041f4" class="outline-4">
+<h4 id="orgaf041f4"><span class="section-number-4">2.4.3.</span> Screen and ttyUSB</h4>
+<div class="outline-text-4" id="text-2-4-3">
 <p>
 In Linux console cables interface with <code>/dev/ttyUSB</code> (<a href="https://www.amazon.com/OIKWAN-Compatible-Opengear-Aruba%EF%BC%8CJuniper-Switches/dp/B075V1RGQK/ref=sr_1_1_sspa?crid=2MB6VVSMG5FAG&amp;keywords=console%2Bcable&amp;qid=1639881636&amp;sprefix=console%2Bcabl%2Caps%2C190&amp;sr=8-1-spons&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFIMExNREg5MUozSEcmZW5jcnlwdGVkSWQ9QTEwMjA3NzIzSEIwVllKTTBOM0JCJmVuY3J5cHRlZEFkSWQ9QTAwOTQxMzgzTEdHNTE3NktaWlVOJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&amp;th=1">My console cable</a>), this allows me to connect programs like minicom or screen to the serial connection. I did run into one small permissions issue when trying to run <code>screen /dev/ttyUSB0 9600</code>. Which led me to find out that I needed to add my user to the <code>dialout</code> group (<a href="https://www.arduino.cc/en/guide/linux#toc6">Arduino post</a>). So I added my user like so <code>sudo usermod -a -G dialout myuser</code> and a quick reboot (a logout will work too) just to get things sorted. Once you log back in all you have to do is execute <code>screen /dev/ttyUSB0 9600</code> and you will get connected to your console session.
 </p>
 </div>
 </div>
-<div id="outline-container-orga5644df" class="outline-4">
-<h4 id="orga5644df"><span class="section-number-4">2.3.4</span> Old tools to the job</h4>
-<div class="outline-text-4" id="text-2-3-4">
+<div id="outline-container-org1a4021e" class="outline-4">
+<h4 id="org1a4021e"><span class="section-number-4">2.4.4.</span> Old tools to the job</h4>
+<div class="outline-text-4" id="text-2-4-4">
 <p>
 Sometimes old, tried, and true tools are the best. I'm glad I found out that GNU Screen can connect to console sessions. This allows me the flexibility of having a terminal multiplexer that is well rounded.
 </p>
 </div>
 </div>
-<div id="outline-container-org0554a04" class="outline-4">
-<h4 id="org0554a04"><span class="section-number-4">2.3.5</span> Some useful links</h4>
-<div class="outline-text-4" id="text-2-3-5">
+<div id="outline-container-org82a4da0" class="outline-4">
+<h4 id="org82a4da0"><span class="section-number-4">2.4.5.</span> Some useful links</h4>
+<div class="outline-text-4" id="text-2-4-5">
 <ul class="org-ul">
 <li>GNU Screen Manual: <a href="https://www.gnu.org/software/screen/manual/screen.html">https://www.gnu.org/software/screen/manual/screen.html</a></li>
 <li>Screen Baud Rate: <a href="https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/">https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/</a></li>
@@ -698,9 +673,9 @@ Sometimes old, tried, and true tools are the best. I'm glad I found out that GNU
 </div>
 </div>
 
-<div id="outline-container-orgd218428" class="outline-3">
-<h3 id="orgd218428"><span class="section-number-3">2.4</span> Accessing my homelab with Cloudflare</h3>
-<div class="outline-text-3" id="text-2-4">
+<div id="outline-container-orga77407a" class="outline-3">
+<h3 id="orga77407a"><span class="section-number-3">2.5.</span> Accessing my homelab with Cloudflare</h3>
+<div class="outline-text-3" id="text-2-5">
 <p>
 :EXPORT<sub>FILE</sub><sub>NAME</sub>: accessing-homelab-with-cloudflare
 :EXPORT<sub>HUGO</sub><sub>PUBLISHDATE</sub>: 2021-07-18
@@ -761,7 +736,7 @@ Create/Edit Cloudflared Configurations
 tunnel: TUNNEL<sub>ID</sub><sub>GOES</sub><sub>HERE</sub>
 credentials-file: <code>/home/pi/.cloudflared/TUNNEL_ID.json</code>
 </p>
-<pre class="example" id="orgf868c63">
+<pre class="example" id="orgd535a39">
 ingress:
   - hostname: rterm.eduardorobles.com
     service: ssh://localhost:22
@@ -824,9 +799,9 @@ I also a Zero Trust Policy was setup which allows for very locked down sites. I 
 </p>
 </div>
 </div>
-<div id="outline-container-orgcd752ec" class="outline-3">
-<h3 id="orgcd752ec"><span class="section-number-3">2.5</span> Starting a Homelab with Proxmox</h3>
-<div class="outline-text-3" id="text-2-5">
+<div id="outline-container-org0ac8ba0" class="outline-3">
+<h3 id="org0ac8ba0"><span class="section-number-3">2.6.</span> Starting a Homelab with Proxmox</h3>
+<div class="outline-text-3" id="text-2-6">
 <p>
 The Beginning
 </p>
@@ -865,9 +840,9 @@ GNS3 VM
 </div>
 </div>
 
-<div id="outline-container-orgee2abd3" class="outline-3">
-<h3 id="orgee2abd3"><span class="section-number-3">2.6</span> Installation of Fog Project 1.5.8</h3>
-<div class="outline-text-3" id="text-2-6">
+<div id="outline-container-org18790ed" class="outline-3">
+<h3 id="org18790ed"><span class="section-number-3">2.7.</span> Installation of Fog Project 1.5.8</h3>
+<div class="outline-text-3" id="text-2-7">
 <p>
 Hi there!
 </p>
@@ -893,9 +868,9 @@ Somethings to keep in mind:
 </div>
 </div>
 
-<div id="outline-container-org31f3f7a" class="outline-3">
-<h3 id="org31f3f7a"><span class="section-number-3">2.7</span> SSH Port Forward a VNC Connection</h3>
-<div class="outline-text-3" id="text-2-7">
+<div id="outline-container-org8bc8b20" class="outline-3">
+<h3 id="org8bc8b20"><span class="section-number-3">2.8.</span> SSH Port Forward a VNC Connection</h3>
+<div class="outline-text-3" id="text-2-8">
 <p>
 Recently I wanted to access a Virtual Machine I had created on my desktop from my laptop. I had access to the desktop via SSH but I wanted access to the virtual machine. To make things more interesting I wanted to access the VM(virtual machine) via a graphical interface.
 </p>
@@ -976,9 +951,9 @@ Congrats, you are now running a headless VM with a secure connection. SSH is coo
 </div>
 </div>
 
-<div id="outline-container-org0b84eaf" class="outline-3">
-<h3 id="org0b84eaf"><span class="section-number-3">2.8</span> My 2020 Ubuntu Laptop Setup</h3>
-<div class="outline-text-3" id="text-2-8">
+<div id="outline-container-orgc183cc7" class="outline-3">
+<h3 id="orgc183cc7"><span class="section-number-3">2.9.</span> My 2020 Ubuntu Laptop Setup</h3>
+<div class="outline-text-3" id="text-2-9">
 <p>
 New Year, New Setup
 </p>
@@ -1101,9 +1076,9 @@ The setup scripts do most of the grunt work. So I simply run them and a few minu
 </p>
 </div>
 </div>
-<div id="outline-container-org1ead62f" class="outline-3">
-<h3 id="org1ead62f"><span class="section-number-3">2.9</span> Fixing Grub on a Dual Boot</h3>
-<div class="outline-text-3" id="text-2-9">
+<div id="outline-container-orge4d0941" class="outline-3">
+<h3 id="orge4d0941"><span class="section-number-3">2.10.</span> Fixing Grub on a Dual Boot</h3>
+<div class="outline-text-3" id="text-2-10">
 <p>
 I recently decided to move my Ubuntu installation from my laptop to my desktop without having to reinstall. So basically all I wanted to do is move the SSD (which had Ubuntu 19.10 installed) in my laptop to my desktop. This process is not hard at all but in my case it was a little more complicated. I wanted to do a dual boot on my desktop computer with 2 different hard drives. One spinning disk hard drive will have a Windows 10 installation while the SSD from my laptop will have Ubuntu 19.10. Again I did not want to do any reinstall of Windows 10 or Ubuntu. So how can you accomplish this? Simple with the command update-grub.
 </p>
@@ -1140,9 +1115,9 @@ Tip: If you want to customize your Grub boot screen you can do with the app Grub
 </div>
 </div>
 
-<div id="outline-container-org9b02422" class="outline-3">
-<h3 id="org9b02422"><span class="section-number-3">2.10</span> DuckDuckGo Mobile Browser</h3>
-<div class="outline-text-3" id="text-2-10">
+<div id="outline-container-org34d11f8" class="outline-3">
+<h3 id="org34d11f8"><span class="section-number-3">2.11.</span> DuckDuckGo Mobile Browser</h3>
+<div class="outline-text-3" id="text-2-11">
 <p>
 I blogged before about switching from Firefox Focus to DuckDuckGo mobile. Now it’s been 3 weeks since I made the switch and I wanted to do a quick post about my experience.
 </p>
@@ -1169,9 +1144,9 @@ Overall I am really happy with DuckDuckGo mobile and I would recommend it for an
 </div>
 </div>
 
-<div id="outline-container-org75be0a3" class="outline-3">
-<h3 id="org75be0a3"><span class="section-number-3">2.11</span> Region One Cybersecurity Summit 2019</h3>
-<div class="outline-text-3" id="text-2-11">
+<div id="outline-container-orgc9efca7" class="outline-3">
+<h3 id="orgc9efca7"><span class="section-number-3">2.12.</span> Region One Cybersecurity Summit 2019</h3>
+<div class="outline-text-3" id="text-2-12">
 <p>
 Region One hosted a Cybersecurity Summit for 2019 in Edinburg, TX. The event was free and I signed up to attend. It was a great event that had many great presenters. The theme of the summit was Cybersecurity on a regional level. Here are some of the talks I attended and the takeaways I got from them.
 </p>
@@ -1223,9 +1198,9 @@ Ransomware: How to Detect, Prevent, and Respond
 </div>
 </div>
 
-<div id="outline-container-org01a3acd" class="outline-3">
-<h3 id="org01a3acd"><span class="section-number-3">2.12</span> Escape Rooms Challenge at STC</h3>
-<div class="outline-text-3" id="text-2-12">
+<div id="outline-container-orgedccf23" class="outline-3">
+<h3 id="orgedccf23"><span class="section-number-3">2.13.</span> Escape Rooms Challenge at STC</h3>
+<div class="outline-text-3" id="text-2-13">
 <p>
 To help celebrate National CyberSecurity Awareness month the Information Security office at South Texas College created an “Escape Room” challenge. I got to participate in this years festivities. I like the challenge of doing escape rooms so one that had a cybersecurity theme seemed even more fun. The activity was quite fun despite not being able to “escape” in time.
 </p>
@@ -1236,9 +1211,9 @@ The challenge consisted of finding the decryption key to decrypt a computer that
 </div>
 </div>
 
-<div id="outline-container-orgff086be" class="outline-3">
-<h3 id="orgff086be"><span class="section-number-3">2.13</span> Firefox Focus</h3>
-<div class="outline-text-3" id="text-2-13">
+<div id="outline-container-org197b9e6" class="outline-3">
+<h3 id="org197b9e6"><span class="section-number-3">2.14.</span> Firefox Focus</h3>
+<div class="outline-text-3" id="text-2-14">
 <p>
 I have been using Firefox Focus for about half a year now. I came to use because I was using Chrome and simply got paranoid of what stuff Google was collecting via Chrome. So I made the switch to Firefox on my PC and started using Firefox for Android. Now before I started using Firefox Focus I was using Brave Browser for Android.
 </p>
@@ -1265,9 +1240,9 @@ On first impressions I really like it and it feels faster than Firefox Focus. Pl
 </div>
 </div>
 
-<div id="outline-container-orgea178ac" class="outline-3">
-<h3 id="orgea178ac"><span class="section-number-3">2.14</span> My thoughts on “The Alchemist” by Paulo Coelho</h3>
-<div class="outline-text-3" id="text-2-14">
+<div id="outline-container-org82b69cf" class="outline-3">
+<h3 id="org82b69cf"><span class="section-number-3">2.15.</span> My thoughts on “The Alchemist” by Paulo Coelho</h3>
+<div class="outline-text-3" id="text-2-15">
 <p>
 The Alchemist by Paulo Coelho
 </p>
@@ -1302,9 +1277,9 @@ I got teary eyed when reading this part. It’s funny how sometimes you read som
 </div>
 </div>
 
-<div id="outline-container-orgb656b1c" class="outline-3">
-<h3 id="orgb656b1c"><span class="section-number-3">2.15</span> My thoughts on “Smarter Faster Better: The Transformative Power of Real Productivity” by Charles Duhigg</h3>
-<div class="outline-text-3" id="text-2-15">
+<div id="outline-container-orgc41353c" class="outline-3">
+<h3 id="orgc41353c"><span class="section-number-3">2.16.</span> My thoughts on “Smarter Faster Better: The Transformative Power of Real Productivity” by Charles Duhigg</h3>
+<div class="outline-text-3" id="text-2-16">
 <p>
 Smarter Faster Better: The Transformative Power of Real Productivity by Charles Duhigg
 </p>
@@ -1325,9 +1300,9 @@ There has been very few work environments where I felt trust between myself and 
 </div>
 </div>
 
-<div id="outline-container-org81a5623" class="outline-3">
-<h3 id="org81a5623"><span class="section-number-3">2.16</span> Why I got a Library Card in 2019</h3>
-<div class="outline-text-3" id="text-2-16">
+<div id="outline-container-orgc5cc110" class="outline-3">
+<h3 id="orgc5cc110"><span class="section-number-3">2.17.</span> Why I got a Library Card in 2019</h3>
+<div class="outline-text-3" id="text-2-17">
 <p>
 I was having a conversation with my wife and I said to her “You know, I feel like I’m getting dumber”. We both laughed out loud at my ridiculous statement, she then asked why I felt that. The reason I was l feeling like that was because I was simply spending too much time on other silly distractions. And no it wasn’t just “social media”, I tend to go down YouTube rabbit holes too. So I decided to try a small experiment. Reading.
 </p>
@@ -1350,9 +1325,9 @@ in the end I’ve been reading more and taking full advantage of free books at m
 </div>
 </div>
 
-<div id="outline-container-org1d92bbc" class="outline-3">
-<h3 id="org1d92bbc"><span class="section-number-3">2.17</span> Reset Windows Password with Linux</h3>
-<div class="outline-text-3" id="text-2-17">
+<div id="outline-container-org82448bb" class="outline-3">
+<h3 id="org82448bb"><span class="section-number-3">2.18.</span> Reset Windows Password with Linux</h3>
+<div class="outline-text-3" id="text-2-18">
 <p>
 Ever needed to reset your Windows password but forgot to make a Windows Reset Password disk? If so, you can easily reset a Windows Users password with a Live Linux USB. Let’s see just how easy it is to so.
 </p>
@@ -1381,9 +1356,9 @@ Congratulations you have successfully reset your Windows with Linux! And that’
 </div>
 </div>
 
-<div id="outline-container-org5d4bc54" class="outline-3">
-<h3 id="org5d4bc54"><span class="section-number-3">2.18</span> Relaunching my personal website</h3>
-<div class="outline-text-3" id="text-2-18">
+<div id="outline-container-org74c92f8" class="outline-3">
+<h3 id="org74c92f8"><span class="section-number-3">2.19.</span> Relaunching my personal website</h3>
+<div class="outline-text-3" id="text-2-19">
 <p>
 Leaving social media
 </p>
@@ -1403,26 +1378,26 @@ This site was relaunched with wordpress and with indieweb principles in mind. I�
 </p>
 </div>
 </div>
-<div id="outline-container-org3fe4694" class="outline-3">
-<h3 id="org3fe4694"><span class="section-number-3">2.19</span> <span class="done DONE">DONE</span> Adding SSH Key To Agent</h3>
-<div class="outline-text-3" id="text-2-19">
+<div id="outline-container-org87cfbb6" class="outline-3">
+<h3 id="org87cfbb6"><span class="section-number-3">2.20.</span> <span class="done DONE">DONE</span> Adding SSH Key To Agent</h3>
+<div class="outline-text-3" id="text-2-20">
 </div>
-<div id="outline-container-org044db69" class="outline-4">
-<h4 id="org044db69"><span class="section-number-4">2.19.1</span> Check if SSH Agent is running</h4>
-<div class="outline-text-4" id="text-2-19-1">
+<div id="outline-container-org6e8e54b" class="outline-4">
+<h4 id="org6e8e54b"><span class="section-number-4">2.20.1.</span> Check if SSH Agent is running</h4>
+<div class="outline-text-4" id="text-2-20-1">
 <p>
 This is to add the keys to the SSH Agent
 </p>
 <div class="org-src-container">
-<pre class="src src-sh"><span style="color: #ffb86c;">eval</span> <span style="color: #f1fa8c;">"$(</span><span style="color: #bd93f9; font-weight: bold;">ssh-agent</span><span style="color: #f1fa8c;"> -s)"</span>
+<pre class="src src-sh"><span style="color: #ffb86c;">eval</span> <span style="color: #f1fa8c;">"$(</span><span style="color: #bd93f9; font-weight: bold;">ssh-agent -s</span><span style="color: #f1fa8c;">)"</span>
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org6c60833" class="outline-4">
-<h4 id="org6c60833"><span class="section-number-4">2.19.2</span> Add the Keys to SSH Agent</h4>
-<div class="outline-text-4" id="text-2-19-2">
+<div id="outline-container-org7923ccb" class="outline-4">
+<h4 id="org7923ccb"><span class="section-number-4">2.20.2.</span> Add the Keys to SSH Agent</h4>
+<div class="outline-text-4" id="text-2-20-2">
 <div class="org-src-container">
 <pre class="src src-sh">ssh-add ~/.ssh/nameofkey
 </pre>
@@ -1430,9 +1405,9 @@ This is to add the keys to the SSH Agent
 </div>
 </div>
 
-<div id="outline-container-orgd431530" class="outline-4">
-<h4 id="orgd431530"><span class="section-number-4">2.19.3</span> Verify Keys Added to SSH Agent</h4>
-<div class="outline-text-4" id="text-2-19-3">
+<div id="outline-container-org880a7c3" class="outline-4">
+<h4 id="org880a7c3"><span class="section-number-4">2.20.3.</span> Verify Keys Added to SSH Agent</h4>
+<div class="outline-text-4" id="text-2-20-3">
 <div class="org-src-container">
 <pre class="src src-sh">ssh-add -l
 </pre>
@@ -1440,9 +1415,9 @@ This is to add the keys to the SSH Agent
 </div>
 </div>
 
-<div id="outline-container-orgd81b32c" class="outline-4">
-<h4 id="orgd81b32c"><span class="section-number-4">2.19.4</span> Copy Key to Remote Server</h4>
-<div class="outline-text-4" id="text-2-19-4">
+<div id="outline-container-org25d5da4" class="outline-4">
+<h4 id="org25d5da4"><span class="section-number-4">2.20.4.</span> Copy Key to Remote Server</h4>
+<div class="outline-text-4" id="text-2-20-4">
 <div class="org-src-container">
 <pre class="src src-sh">ssh-copy-id user@remote.server.location
 </pre>
@@ -1450,9 +1425,9 @@ This is to add the keys to the SSH Agent
 </div>
 </div>
 
-<div id="outline-container-org42a52a8" class="outline-4">
-<h4 id="org42a52a8"><span class="section-number-4">2.19.5</span> Copy Server Key to Host</h4>
-<div class="outline-text-4" id="text-2-19-5">
+<div id="outline-container-orga407882" class="outline-4">
+<h4 id="orga407882"><span class="section-number-4">2.20.5.</span> Copy Server Key to Host</h4>
+<div class="outline-text-4" id="text-2-20-5">
 <div class="org-src-container">
 <pre class="src src-sh">ssh-copy-id user@host.local
 </pre>
@@ -1460,15 +1435,13 @@ This is to add the keys to the SSH Agent
 </div>
 </div>
 </div>
-<div id="outline-container-org49feed4" class="outline-3">
-<h3 id="org49feed4"><span class="section-number-3">2.20</span> <span class="done DONE">DONE</span> SSH on Extreme and Cisco Devices</h3>
-<div class="outline-text-3" id="text-2-20">
+<div id="outline-container-org14a0324" class="outline-3">
+<h3 id="org14a0324"><span class="section-number-3">2.21.</span> <span class="done DONE">DONE</span> SSH on Extreme and Cisco Devices</h3>
+<div class="outline-text-3" id="text-2-21">
 </div>
-</div>
-</div>
-<div id="outline-container-org5c3eb1f" class="outline-2">
-<h2 id="org5c3eb1f"><span class="section-number-2">3</span> Enable SSH on Extreme Devices</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-orgffc6384" class="outline-4">
+<h4 id="orgffc6384"><span class="section-number-4">2.21.1.</span> Enable SSH on Extreme Devices</h4>
+<div class="outline-text-4" id="text-2-21-1">
 <p>
 A key will be generated. To upload a public key simply use <code>sftp</code> or <code>scp</code> to upload key. But be sure to change the extension to <code>.ssh</code> for example <code>id_rsa.pub</code> will be <code>id_rsa.ssh</code> on the switch. Also you can assign a key to a user by simply appending the username to the key file for example <code>admin.id_rsa.pub</code>.
 </p>
@@ -1477,111 +1450,152 @@ A key will be generated. To upload a public key simply use <code>sftp</code> or 
 Extreme switches have a limitation of only being able to use RSA or DSA keys. Recommend to use RSA 2048
 </p>
 </div>
-<div id="outline-container-org3472e69" class="outline-3">
-<h3 id="org3472e69"><span class="section-number-3">3.1</span> Enabling SSH on an Extreme Switch</h3>
-<div class="outline-text-3" id="text-3-1">
+<ol class="org-ol">
+<li><a id="org4679e85"></a>Enabling SSH on an Extreme Switch<br />
+<div class="outline-text-5" id="text-2-21-1-1">
 <p>
 <code>enable ssh2</code>
 </p>
 </div>
-</div>
-<div id="outline-container-orga995a9d" class="outline-3">
-<h3 id="orga995a9d"><span class="section-number-3">3.2</span> Chaning SSH port</h3>
-<div class="outline-text-3" id="text-3-2">
+</li>
+<li><a id="orga50f2f3"></a>Chaning SSH port<br />
+<div class="outline-text-5" id="text-2-21-1-2">
 <p>
 <code>enable ssh2 port tcp 766</code>
 </p>
 </div>
-</div>
-<div id="outline-container-org8ab5191" class="outline-3">
-<h3 id="org8ab5191"><span class="section-number-3">3.3</span> Enable SSH on VR-Mgmt Only</h3>
-<div class="outline-text-3" id="text-3-3">
+</li>
+<li><a id="orgc882533"></a>Enable SSH on VR-Mgmt Only<br />
+<div class="outline-text-5" id="text-2-21-1-3">
 <p>
 <code>enable ssh2 vr VR-Mgmt</code>
 </p>
 </div>
+</li>
+</ol>
 </div>
+<div id="outline-container-org6f50596" class="outline-4">
+<h4 id="org6f50596"><span class="section-number-4">2.21.2.</span> Enable SSH On Cisco Devices</h4>
+<div class="outline-text-4" id="text-2-21-2">
 </div>
-<div id="outline-container-org69ce199" class="outline-2">
-<h2 id="org69ce199"><span class="section-number-2">4</span> Enable SSH On Cisco Devices</h2>
-<div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-orgcb0a69d" class="outline-3">
-<h3 id="orgcb0a69d"><span class="section-number-3">4.1</span> Add hostname to the device</h3>
-<div class="outline-text-3" id="text-4-1">
+<ol class="org-ol">
+<li><a id="orgc235f80"></a>Add hostname to the device<br />
+<div class="outline-text-5" id="text-2-21-2-1">
 <p>
 <code>ip domain-name ex.cisco.com</code>
 </p>
 </div>
-</div>
-<div id="outline-container-orga61c2ae" class="outline-3">
-<h3 id="orga61c2ae"><span class="section-number-3">4.2</span> Generate SSH Key for device</h3>
-<div class="outline-text-3" id="text-4-2">
+</li>
+<li><a id="orga5fb849"></a>Generate SSH Key for device<br />
+<div class="outline-text-5" id="text-2-21-2-2">
 <p>
 <code>crypto key generate rsa</code>
 </p>
 </div>
-</div>
-<div id="outline-container-orgc93fdf5" class="outline-3">
-<h3 id="orgc93fdf5"><span class="section-number-3">4.3</span> Chose SSH Key size</h3>
-<div class="outline-text-3" id="text-4-3">
+</li>
+<li><a id="org395fbb9"></a>Chose SSH Key size<br />
+<div class="outline-text-5" id="text-2-21-2-3">
 <p>
 Default is <code>512</code> but <code>1024</code> is better
 </p>
 </div>
-</div>
-<div id="outline-container-org4adc873" class="outline-3">
-<h3 id="org4adc873"><span class="section-number-3">4.4</span> Change SSH version</h3>
-<div class="outline-text-3" id="text-4-4">
+</li>
+<li><a id="org1e89fbd"></a>Change SSH version<br />
+<div class="outline-text-5" id="text-2-21-2-4">
 <p>
 <code>ssh version 2</code>
 </p>
 </div>
-</div>
-<div id="outline-container-orga2c922e" class="outline-3">
-<h3 id="orga2c922e"><span class="section-number-3">4.5</span> Add a username and password for SSH access</h3>
-<div class="outline-text-3" id="text-4-5">
+</li>
+<li><a id="org93fafab"></a>Add a username and password for SSH access<br />
+<div class="outline-text-5" id="text-2-21-2-5">
 <p>
 <code>username admin secret admin123</code>
 </p>
 </div>
-</div>
-<div id="outline-container-org2d24780" class="outline-3">
-<h3 id="org2d24780"><span class="section-number-3">4.6</span> Configure the lines which will have SSH access</h3>
-<div class="outline-text-3" id="text-4-6">
+</li>
+<li><a id="org17f6964"></a>Configure the lines which will have SSH access<br />
+<div class="outline-text-5" id="text-2-21-2-6">
 <p>
 <code>line vty 0 15</code> or <code>line vty 0 2</code>
 </p>
 </div>
-</div>
-<div id="outline-container-org9365e85" class="outline-3">
-<h3 id="org9365e85"><span class="section-number-3">4.7</span> Enable SSH on enable lines</h3>
-<div class="outline-text-3" id="text-4-7">
+</li>
+<li><a id="org5b83576"></a>Enable SSH on enable lines<br />
+<div class="outline-text-5" id="text-2-21-2-7">
 <p>
 <code>transport input ssh</code>
 </p>
 </div>
-</div>
-<div id="outline-container-org388ff20" class="outline-3">
-<h3 id="org388ff20"><span class="section-number-3">4.8</span> Keep SSH to local logins</h3>
-<div class="outline-text-3" id="text-4-8">
+</li>
+<li><a id="org98b44f1"></a>Keep SSH to local logins<br />
+<div class="outline-text-5" id="text-2-21-2-8">
 <p>
 <code>login local</code>
 </p>
 </div>
-</div>
-<div id="outline-container-orgf546d26" class="outline-3">
-<h3 id="orgf546d26"><span class="section-number-3">4.9</span> Save config</h3>
-<div class="outline-text-3" id="text-4-9">
+</li>
+<li><a id="org8ddf354"></a>Save config<br />
+<div class="outline-text-5" id="text-2-21-2-9">
 <p>
 <code>copy run start</code>
 </p>
 </div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orga8ec0ba" class="outline-3">
+<h3 id="orga8ec0ba"><span class="section-number-3">2.22.</span> <span class="done DONE">DONE</span> SSH Config File - Make SSH Easier</h3>
+<div class="outline-text-3" id="text-2-22">
+<p>
+How do you stay organized with SSH connections? Most of us simply search our terminals history to find SSH connections. You may do <code>history | grep "ssh"</code> or even <code>Ctrl+R</code> and search SSH. While that may work for a few connections, there is a better way: SSH Config file. An SSH Config file simply tells OpenSSH how to open up connections. The benefit is that you can keep all your connections all in one place. Plus you can use things like Jumphosts and Public Keys to make connections easier. Let's look at a typical SSH command.
+</p>
+
+<p>
+<code>ssh erobles@10.0.3.11 -p 2300 -i ~/.ssh/mykeys</code>
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="orga29042d"></a><code>erobles@10.0.3.11</code> this states our username on the server and the IP/Hostname of the server<br /></li>
+
+<li><a id="org2940fd5"></a><code>-p 2300</code> the port we are connecting to on the server<br /></li>
+
+<li><a id="org05bf015"></a><code>-i ~/.ssh/mykeys</code> the Public/Private keys used in the SSH connection<br />
+<div class="outline-text-5" id="text-2-22-0-3">
+<p>
+While this is fine, it can be time consuming and easily forgotten. So let's see how this commands translates to an SSH Config file.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash">HOST myserver
+  HostName 10.0.3.11
+  User erobles
+  Port 2300
+  IdentityFile ~/.ssh/mykeys
+</pre>
+</div>
+<p>
+The example above achieves the same as the long SSH command in the previous example. You can save this file in <code>~/.ssh./</code> directory with the filename <code>ssh_config</code>. Once the file is saved you can type <code>ssh myserver</code>, OpenSSH will check the SSH config file for an entry <code>myserver</code> and execute an SSH connections with the options you specify. As you have more servers/machines you have to SSH into you simply add those the SSH config file. You can have 20, 40, or 100 connections all in one file! Working with an SSH Config file makes your SSH workflow much easier. It can also be helpful to keep track of SSH connectitons.
+</p>
+<blockquote>
+<p>
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+</p>
+
+<p>
+<a href="https://www.buymeacoffee.com/eduardorobles">Buy Me a Coffee</a>
+</p>
+</blockquote>
+</div>
+</li>
+</ol>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2022-04-18 Mon 07:13</p>
+<p class="date">Created: 2022-05-23 Mon 20:50</p>
 </div>
 </body>
 </html>

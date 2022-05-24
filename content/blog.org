@@ -179,6 +179,15 @@ RESUME
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** BSIDES RGV 2022
+:PROPERTIES:
+:EXPORT_FILE_NAME: bsides-rgv-2022
+:EXPORT_HUGO_PUBLISHDATE: 2022-05-23
+:END:
+
+Here's the presentation for my talk at BSIDESRGV 2022
+https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation.html
+
 ** DONE Create SSH Key
 CLOSED: [2022-03-08 Tue 18:38]
 :PROPERTIES:
