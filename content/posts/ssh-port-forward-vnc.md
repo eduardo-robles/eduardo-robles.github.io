@@ -22,7 +22,7 @@ sudo virsh dumpxml NameOfVM | grep vnc
 
 You should see an output like this one.
 
-> <graphics type='vnc' port='5901' autoport='yes' listen='127.0.0.1'>
+> &lt;graphics type='vnc' port='5901' autoport='yes' listen='127.0.0.1'&gt;
 
 This tells you that KVM is running vnc on port 5901 on address 127.0.0.1 (localhost) for this virtual machine. Now it’s time to connect to the virtual machine from pc-1.
 

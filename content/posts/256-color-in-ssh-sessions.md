@@ -8,4 +8,4 @@ I found myself going a bit crazy over theme rendering in my SSH sessions. Especi
 
 An easy way to find out if you terminal emulator has 256 color support is by running `tput colors`, if `256` is your output then you have support! The main idea of ensuring that you get 256 colors working correctly is to make sure that you explicitly set it up. In other words if you use TMUX, be sure to let TMUX know to use 256 colors.
 
-{{< figure src="/images/emacs-colors-gnuScreen.png" caption="Figure 1: Showing 256 Colors in Emacs -nw inside of GNU Screen." >}}
+{{< figure src="/images/emacs-colors-gnuScreen.png" caption="<span class=\"figure-number\">Figure 1: </span>Showing 256 Colors in Emacs -nw inside of GNU Screen." >}}

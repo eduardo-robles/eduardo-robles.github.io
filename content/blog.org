@@ -179,14 +179,19 @@ RESUME
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** BSIDES RGV 2022
+** DONE BSIDES RGV 2022
+CLOSED: [2022-05-23 Mon 21:05]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bsides-rgv-2022
-:EXPORT_HUGO_PUBLISHDATE: 2022-05-23
 :END:
 
 Here's the presentation for my talk at BSIDESRGV 2022
 https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation.html
+
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
 
 ** DONE Create SSH Key
 CLOSED: [2022-03-08 Tue 18:38]
