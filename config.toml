@@ -1,4 +1,4 @@
-baseURL = "https://eduardo-robles.github.io/eduardorobles_blog"
+baseURL = "https://eduardo-robles.github.io/"
 title   = "Eduardo Robles Site"
 languageCode = "en-us"
 timeZone = "America/Chicago"
