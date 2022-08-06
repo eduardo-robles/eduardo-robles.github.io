@@ -1,4 +1,4 @@
-baseURL = http://blog.eduardorobles.com""
+baseURL = "http://blog.eduardorobles.com"
 title   = "Eduardo Robles Site"
 languageCode = "en-us"
 timeZone = "America/Chicago"
