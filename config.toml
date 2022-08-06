@@ -7,7 +7,7 @@ canonifyurls = true
 # Parameters
 [params]
     author = "Eduardo Robles"
-    authorGilab = "https://gitlab.com/tacosandlinux"
+    authorGithub = "https://github.com/eduardo-robles"
     mainSections = ["posts"]
     Subtitle = "Hola Mundo 🌮"
     dateFmt = "02.01.2006"
