@@ -9,4 +9,4 @@ I can be found at...
 
 🤝 linkedin – <https://www.linkedin.com/in/hello-im-eduardo/>
 
-📖 gitlab - <https://gitlab.com/tacosandlinux>
+📖 github - <https://github.com/eduardo-robles>

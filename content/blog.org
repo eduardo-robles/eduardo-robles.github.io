@@ -13,7 +13,7 @@
 
 Hi 👋 I'm Eduardo Robles
 
-Linux nerd interested in Information Security, Cyber Security, Open Source, tacos, and coffee. I’ve been using Linux for 12+ yrs, still haven’t figured out how to exit Vim.
+Linux nerd interested in Information Security, Cyber Security, Open Source, tacos, and coffee. I've been using #linux for 12+ yrs, learned emacs and never looked back.
 
 Founder of the South Texas Linux Users Group.
 
@@ -154,7 +154,7 @@ I can be found at...
 
 🤝 linkedin – https://www.linkedin.com/in/hello-im-eduardo/
 
-📖 gitlab - https://gitlab.com/tacosandlinux
+📖 github - https://github.com/eduardo-robles
 
 ** Contribute
 :PROPERTIES:
@@ -179,6 +179,11 @@ RESUME
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** TODO Moved my site to Github!
+I recently decided to move away from Gitlab. There was a bit of news around Gitlab closing free accounts which I think is a fair business move by Gitlab. Businesses need to make money after all. Most of the internet decided that Gitlab as evil for doing this. But I didn't in fact I think it's for the best. Since I was barely even using my Gitlab account and most importantly I wasn't paying for any services I felt that I was cheating Gitlab. So to help them I decided to move to Github. This is shaky reasoning at best but I want Gitlab to succeed and me draining resources and not paying won't help.
+
+Now there are a lot of FOSS project hosted on Gitlab which still leaves the possibility of interacting with Gitlab. I think this is for the best for now. Github doesn't really care if you use up a free account. Now I know Github has it's privacy and freedom respecting issues. But this where each individual person has to asses for themselves. For now I moved to Githb and will do what I can to promote Gitlab.
+
 ** DONE BSIDES RGV 2022
 CLOSED: [2022-05-23 Mon 21:05]
 :PROPERTIES:
@@ -192,7 +197,6 @@ https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
 [[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
-
 ** DONE Create SSH Key
 CLOSED: [2022-03-08 Tue 18:38]
 :PROPERTIES:
