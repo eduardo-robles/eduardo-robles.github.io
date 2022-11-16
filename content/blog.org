@@ -1,3 +1,4 @@
+
 #+hugo_base_dir: ../
 #+hugo_section: pages
 
@@ -17,9 +18,8 @@ Linux nerd interested in Information Security, Cyber Security, Open Source, taco
 
 Founder of the South Texas Linux Users Group.
 
-[[../content/pages/resume.md][Resume]]
-
 Currently reading...
+- Ansible for DevOps by Jeff Gerlling
 - Dune Messiah by Frank Hebert
 - Lives of the Stoics by Ryan Holiday
 
@@ -150,7 +150,7 @@ Meeting Notes: https://gitlab.com/stxlug/STXLUG-Meetups/-/blob/master/meetups/12
 :END:
 I can be found at...
 
-🐦 twitter – https://twitter.com/tacosandlinux
+🦣 mastodon – https://emacs.ch/@tacoandlinux
 
 🤝 linkedin – https://www.linkedin.com/in/hello-im-eduardo/
 
