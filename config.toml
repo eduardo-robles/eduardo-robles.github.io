@@ -50,13 +50,13 @@ canonifyurls = true
 
 # Footer
   [[menu.footer]]
-        name = "Gitlab"
-        url = "https://gitlab.com/tacosandlinux"
+        name = "Github"
+        url = "https://github.com/eduardo-robles"
         weight = 1
 
     [[menu.footer]]
-        name = "Twitter"
-        url = "https://twitter.com/tacosandlinux"
+        name = "Mastodon"
+        url = "https://emacs.ch/@tacosandlinux"
         weight = 2
 
     [[menu.footer]]
