@@ -5,7 +5,7 @@ draft = false
 +++
 
 Here's the presentation for my talk at BSIDESRGV 2022
-<https://tacosandlinux.gitlab.io/talks/talks-2022/bsides_2022/bsides_presentation.html>
+<https://github.com/eduardo-robles/talks/blob/main/talks-2022/bsides_2022/bsides_presentation.org>
 
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
