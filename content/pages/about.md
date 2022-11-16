@@ -9,9 +9,8 @@ Linux nerd interested in Information Security, Cyber Security, Open Source, taco
 
 Founder of the South Texas Linux Users Group.
 
-[Resume](../content/pages/resume.md)
-
 Currently reading...
 
+-   Ansible for DevOps by Jeff Gerlling
 -   Dune Messiah by Frank Hebert
 -   Lives of the Stoics by Ryan Holiday
