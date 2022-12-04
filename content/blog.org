@@ -825,3 +825,23 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 [[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
 #+END_QUOTE
 * Drafts
+** TODO Atreus Keyboard - First Impressions
+:PROPERTIES:
+:EXPORT_FILE_NAME: atreus-keyboard-first-impressions
+:END:
+
+*Atreus Keyboard*
+
+/Ergonomics/
+This keyboard is small and light. I found it to be and amazing size and shape. I dont think it is too small or too close together I actually found it very comfortable. I did experience some fatigue in the beginning but that was from poor typing technique. I am a bit of a finger and touch typist. I tend to finger type with my left hand which made hitting keys like the *C* key really annoying because im used to lifting my left hand and pressing the C key with my left index finger. Super weird way to type, I know but that is what I grew accustomed to and never really fixed. Well the Atreus forces you to fix that. My left hand was had a lot of bad habits to break, luckily I am patient.
+
+/Customizing/
+Atreus is a fully Open Source keyboard which is awesome. I used the Chrysallis software to configure the keyboard to my liking. I felt the default keybindings were confusing and forced to learn
+
+
+
+
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
