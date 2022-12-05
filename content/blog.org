@@ -193,12 +193,12 @@ CLOSED: [2022-12-03 Sat 21:53]
 /Ergonomics/
 
 
-This keyboard is small and light. I found it to be and amazing size and shape. I don't think it is too small or too close together I actually found it very comfortable. I did experience some fatigue in the beginning but that was from poor typing technique. I am a bit of a finger and touch typist. I tend to finger type with my left hand which made hitting keys like the *C* key really annoying because I'm used to lifting my left hand and pressing the C key with my left index finger. Super weird way to type, I know but that is what I grew accustomed to and never really fixed. Well the Atreus forces you to fix that. My left hand had a lot of bad habits to break, luckily I am patient.
+This [[https://shop.keyboard.io/products/keyboardio-atreus][keyboard]] is small and light. I found it to be an amazing size and shape. I don't think it is too small or too close together I actually found it very comfortable. I did experience some fatigue in the beginning but that was from poor typing technique. I am a bit of a finger and touch typist. I tend to finger type with my left hand which made hitting keys like the *C* key really annoying because I'm used to lifting my left hand and pressing the C key with my left index finger. Super weird way to type, I know but that is what I grew accustomed to and never really fixed. Well the Atreus forces you to fix that. My left hand had a lot of bad habits to break, luckily I am patient.
 
 /Customizing/
 
 
-Atreus is a fully Open Source keyboard which is awesome. I used the Chrysallis software to configure the keyboard to my liking. I felt the default keybindings were confusing and too opinionated. I did some research online and found blogs about other users configurations. I found this great post on [[https://alexschroeder.ch/wiki/Atreus]] and I followed most of his keybindings. I still managed to create my own keybindings which is the point of a fully customizable keyboard.
+Atreus is a fully Open Source keyboard which is awesome. I used the [[https://github.com/keyboardio/Chrysalis][Chrysalis]] software to configure the keyboard to my liking. I felt the default keybindings were confusing and too opinionated. I did some research online and found blogs about other users configurations. I found this great post on [[https://alexschroeder.ch/wiki/Atreus]] and I followed most of his keybindings. I still managed to create my own keybindings which is the point of a fully customizable keyboard.
 
 
 #+caption: My second layer
