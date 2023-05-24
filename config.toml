@@ -10,7 +10,7 @@ canonifyurls = true
     authorGithub = "https://github.com/eduardo-robles"
     mainSections = ["posts"]
     Subtitle = "Hola Mundo 🌮"
-    dateFmt = "02.01.2006"
+    dateFmt = "02 Jan 2006"
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -13,3 +13,10 @@ One of the core concepts of the indieweb is to “own”, your content. This is 
 So here we are
 
 This site was relaunched with wordpress and with indieweb principles in mind. I’m happy I took the plunge even though it drove me a bit crazy at times. I think I’ll do more of a deep dive on all the moving parts in a later post. But it feels good to be taking control of my content, soon I’ll be saying goodbye to social media!
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

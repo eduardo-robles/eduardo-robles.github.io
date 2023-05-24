@@ -9,4 +9,7 @@ Here's the presentation for my talk at BSIDESRGV 2022
 
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/eduardorobles)
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

@@ -4,7 +4,12 @@ publishDate = 2022-03-27
 draft = false
 +++
 
-**The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please help out and [Buy Me A Coffee](https://www.buymeacoffee.com/eduardorobles).**
+**The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please consider helping me out on my journey!**
+
+
+## Support: {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}
 
 
 ## Getting Started with Gitlab - Livestream 6-16-18 {#getting-started-with-gitlab-livestream-6-16-18}

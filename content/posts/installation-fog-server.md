@@ -18,3 +18,10 @@ Somethings to keep in mind:
 2.  Be sure to have a password ready, during the installation you will be prompted to create a MySQL account for the database.
 3.  The Fog Project login page is located at <http://localhost.lan/fog/management>
 4.  The installation can take a while so be patient.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

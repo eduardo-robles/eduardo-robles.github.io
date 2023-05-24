@@ -15,3 +15,10 @@ Also it’s been nice to have the option to have multiple tabs open. This was po
 The one down side that I really experienced was the fact that not all apps were able to send URL links to DuckDuckGo mobile. For example, when I click on a link in a Youtube video description I do not get the option to open it in DuckDuckGo. I only get regular Firefox or Chrome. When I had Firefox Focus installed I could open that same link easily.
 
 Overall I am really happy with DuckDuckGo mobile and I would recommend it for anyone wanting a “privacy” browser. I still using Firefox Focus and may download it again in the future. But for now I’m sticking with DuckDuckGo mobile.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

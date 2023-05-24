@@ -15,3 +15,10 @@ This is why I was a bit disappointed at the latest update. The app started to ha
 But I loved having a mobile browser that deleted search and use history after each use. When I looked in the Google Play store for other mobile browsers, DuckDuckGo, was recommnended. DuckDuckGo is my favorite search engine, so I was excited to see they offered a mobile browser. And it was highly rated (4.7 out 5) with a lot of positive reviews. I decided to give it a try.
 
 On first impressions I really like it and it feels faster than Firefox Focus. Plus if I want I can get DuckDuckGo browser via F-Droid store too. It’s only been a few days since I downloaded it but so far I’m really impressed with it. I’ll continue to test it out and see if I stick to it or go back to Firefox Focus.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

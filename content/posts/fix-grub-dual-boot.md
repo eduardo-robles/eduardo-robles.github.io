@@ -23,3 +23,10 @@ sudo chroot /mnt
 Once in the chroot environment I ran update-grub and I still got an error. So I decided it would be best to simply reinstall grub. To do so simply run reinstall grub-pc (if you’re on a efi system please use grub-efi-amd64). This command worked and prompted me to chose where I wanted to install grub. I chose on the main disk since this is where I wanted to have grub installed. Once that process was done, I rebooted the system and was prompted with a working grub boot screen with both operating systems showing up correctly.
 
 Tip: If you want to customize your Grub boot screen you can do with the app Grub Customizer. Simply install it with sudo apt install grub-customizer. This allows you to add a background to Grub bootscreen, change the boot order, and much more.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

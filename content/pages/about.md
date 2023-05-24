@@ -12,5 +12,5 @@ Founder of the South Texas Linux Users Group.
 Currently reading...
 
 -   Ansible for DevOps by Jeff Gerlling
--   Dune Messiah by Frank Hebert
+-   Children of Dune by Frank Hebert
 -   Lives of the Stoics by Ryan Holiday

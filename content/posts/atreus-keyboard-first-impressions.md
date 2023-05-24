@@ -24,6 +24,9 @@ _Conclusion_
 
 In closing this is awesome keyboard. It has so much potential and I am excited to keep using it. I will post updates on my progress with this keyboard.
 
-_If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!_
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/eduardorobles)
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

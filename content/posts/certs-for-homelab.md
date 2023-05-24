@@ -20,6 +20,9 @@ Then `-nodes -out homessl.crt -keyout homessl.key` is telling openssl that we wa
 
 Once you run this command you should have 2 files on your system. In this example they would be `homessl.crt` and `homessl.key`. Those 2 files you simply upload to your proxy manager or cert authority of choice and you will have valid self-signed openssl certificates. If you are curious to learn more about OpenSSL you can always check out the manpages online at <https://www.openssl.org/docs/man3.0/man7/crypto.html>.
 
-**If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!**
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/eduardorobles)
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

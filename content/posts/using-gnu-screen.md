@@ -28,3 +28,10 @@ Sometimes old, tried, and true tools are the best. I'm glad I found out that GNU
 
 -   GNU Screen Manual: <https://www.gnu.org/software/screen/manual/screen.html>
 -   Screen Baud Rate: <https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/>
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+### Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

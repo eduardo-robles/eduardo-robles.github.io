@@ -17,3 +17,10 @@ I loved this part because it closely aligns with my own personal beliefs on suff
 > “Every second of the search is an encounter with God”, the boy told his heart. “When I have been truly searching for my treasure, every day has been luminous, because I’ve know that every hour was a part of the dream that I find it. When I have been truly searching for my treasure, I’ve discovered things along the way that I never would have seen had I not had the courage to try things that seemed impossible for a shepherd to achieve”.
 
 I got teary eyed when reading this part. It’s funny how sometimes you read something and it spurs such a deep emotion. That’s how I felt reading this part in the book. I’ve always characterized myself as an optimist and I believe that it takes a bit of courage to remain an optimist in this day and age.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

@@ -29,6 +29,9 @@ HOST myserver
 
 The example above achieves the same as the long SSH command in the previous example. You can save this file in `~/.ssh./` directory with the filename `ssh_config`. Once the file is saved you can type `ssh myserver`, OpenSSH will check the SSH config file for an entry `myserver` and execute an SSH connections with the options you specify. As you have more servers/machines you have to SSH into you simply add those the SSH config file. You can have 20, 40, or 100 connections all in one file! Working with an SSH Config file makes your SSH workflow much easier. It can also be helpful to keep track of SSH connectitons.
 
-> If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
->
-> [Buy Me a Coffee](https://www.buymeacoffee.com/eduardorobles)
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

@@ -28,3 +28,10 @@ ssh-keygen -t rsa -f ~/.ssh/nameofkey -N '' -C "comment goes here"
 
 
 ### -C enter a comment to best find keys later (ex. "github key") {#c-enter-a-comment-to-best-find-keys-later--ex-dot-github-key}
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+### Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

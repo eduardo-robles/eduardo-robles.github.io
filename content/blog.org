@@ -1,4 +1,3 @@
-
 #+hugo_base_dir: ../
 #+hugo_section: pages
 
@@ -20,7 +19,7 @@ Founder of the South Texas Linux Users Group.
 
 Currently reading...
 - Ansible for DevOps by Jeff Gerlling
-- Dune Messiah by Frank Hebert
+- Children of Dune by Frank Hebert
 - Lives of the Stoics by Ryan Holiday
 
 ** Videos
@@ -28,7 +27,15 @@ Currently reading...
 :EXPORT_FILE_NAME: videos
 :EXPORT_HUGO_PUBLISHDATE: 2022-03-27
 :END:
-*The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please help out and [[https://www.buymeacoffee.com/eduardorobles][Buy Me A Coffee]].*
+*The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please consider helping me out on my journey!*
+
+*** Support:
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 
 *** Getting Started with Gitlab - Livestream 6-16-18
 Video: https://archive.org/details/stxlug_6-16-18
@@ -165,7 +172,12 @@ I enjoy sharing my knowledge with the public for free, and I hope you can see my
 
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
+*** Support:
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Resume
 :PROPERTIES:
@@ -179,7 +191,22 @@ RESUME
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** DONE BSIDES RGV 2023
+CLOSED: [2023-05-23 Tue 22:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: bsides-rgv-2023
+:END:
+This years BSIDES RGV was great! I had a lot of fun was able to meetup with a lot of old colleagues and meet some new interesting people. The talks were great and I had a real hard time deciding which talks to attend. I'm glad it was another great successful year for BSIDES and I hope for more BSIDES in the future!
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align:    left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 ** DONE Certs for Homelab
+
 CLOSED: [2023-04-27 Thu 18:00]
 :PROPERTIES:
 :EXPORT_FILE_NAME: certs-for-homelab
@@ -200,9 +227,14 @@ Then ~-nodes -out homessl.crt -keyout homessl.key~ is telling openssl that we wa
 
 Once you run this command you should have 2 files on your system. In this example they would be ~homessl.crt~ and ~homessl.key~. Those 2 files you simply upload to your proxy manager or cert authority of choice and you will have valid self-signed openssl certificates. If you are curious to learn more about OpenSSL you can always check out the manpages online at https://www.openssl.org/docs/man3.0/man7/crypto.html.
 
-*If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!*
 
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** DONE Atreus Keyboard - First Impressions
 CLOSED: [2022-12-03 Sat 21:53]
@@ -240,9 +272,14 @@ In closing this is awesome keyboard. It has so much potential and I am excited t
 
 
 
-/If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!/
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
 ** DONE Using a Reverse Proxy and Pi-Hole
 CLOSED: [2022-10-20 Thu 06:37]
 :PROPERTIES:
@@ -262,9 +299,13 @@ Since I am using Pi-Hole as my DNS server I need to have the custom domains I se
 
 And that's it! Once I have all settings in place I can start using my custom domains on my local LAN. This make so much easier to reach my local services instead of memorizing IP addresses. In the future I look forward to setting up some local SSL certificates to secure my local custom domains with SSL.
 
-/If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!/
-
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 ** DONE Moved my site to Github!
 CLOSED: [2022-08-20 Sat 11:09]
 :PROPERTIES:
@@ -273,6 +314,14 @@ CLOSED: [2022-08-20 Sat 11:09]
 I recently decided to move away from Gitlab. There was a bit of news around Gitlab closing free accounts which I think is a fair business move by Gitlab. Businesses need to make money after all. Most of the internet decided that Gitlab as evil for doing this. But I didn't in fact I think it's for the best. Since I was barely even using my Gitlab account and most importantly I wasn't paying for any services I felt that I was cheating Gitlab. So to help them I decided to move to Github. This is shaky reasoning at best but I want Gitlab to succeed and me draining resources and not paying won't help.
 
 Now there are a lot of FOSS project hosted on Gitlab which still leaves the possibility of interacting with Gitlab. I think this is for the best for now. Github doesn't really care if you use up a free account. Now I know Github has it's privacy and freedom respecting issues. But this where each individual person has to asses for themselves. For now I moved to Githb and will do what I can to promote Gitlab.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** DONE BSIDES RGV 2022
 CLOSED: [2022-05-23 Mon 21:05]
@@ -283,10 +332,14 @@ CLOSED: [2022-05-23 Mon 21:05]
 Here's the presentation for my talk at BSIDESRGV 2022
 https://github.com/eduardo-robles/talks/blob/main/talks-2022/bsides_2022/bsides_presentation.org
 
-
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
 ** DONE Create SSH Key
 CLOSED: [2022-03-08 Tue 18:38]
 :PROPERTIES:
@@ -306,6 +359,16 @@ ssh-keygen -t ed25519 -f ~/.ssh/nameofkey -N '' -C "comment goes here"
 **** -f option is the filename and location of the keys (ex. =/path/to/file=)
 **** -N is the passphrase to be given, leave blank for no passphrase
 **** -C enter a comment to best find keys later (ex. "github key")
+
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** DONE 256 Color In SSH Sessions
 CLOSED: [2022-01-07 Fri 23:00]
 :PROPERTIES:
@@ -317,6 +380,15 @@ An easy way to find out if you terminal emulator has 256 color support is by run
 
 #+CAPTION: Showing 256 Colors in Emacs -nw inside of GNU Screen.
 [[/images/emacs-colors-gnuScreen.png]]
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Using GNU Screen
 :PROPERTIES:
 :EXPORT_FILE_NAME: using-gnu-screen
@@ -333,6 +405,14 @@ Sometimes old, tried, and true tools are the best. I'm glad I found out that GNU
 *** Some useful links
 - GNU Screen Manual: https://www.gnu.org/software/screen/manual/screen.html
 - Screen Baud Rate: https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Accessing my homelab with Cloudflare
 
@@ -418,6 +498,15 @@ rendering an SSH session in the browser
 You can setup another machine with SSH to proxy your connection. But adding multiple ingress points allows you to access any and all of your services. Since you are using a Secure Web Gateway, your services are not automatically open on the internet.
 
 I also a Zero Trust Policy was setup which allows for very locked down sites. I setup 2 Factor Authentication for my Web Gateway. In the end I feel happy with the results and recommend anyone try Cloudflare Access.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Starting a Homelab with Proxmox
 :PROPERTIES:
 :EXPORT_FILE_NAME: starting-homelab-proxmox
@@ -445,6 +534,14 @@ In order to stay a bit organized I made a list of services/technologies I wanted
     GNS3 VM
 #+END_QUOTE
 
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Installation of Fog Project 1.5.8
 :PROPERTIES:
 :EXPORT_FILE_NAME: installation-fog-server
@@ -466,6 +563,14 @@ Somethings to keep in mind:
 2. Be sure to have a password ready, during the installation you will be prompted to create a MySQL account for the database.
 3. The Fog Project login page is located at http://localhost.lan/fog/management
 4. The installation can take a while so be patient.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** SSH Port Forward a VNC Connection
 :PROPERTIES:
@@ -514,6 +619,14 @@ And the VNC connection should open up and start working. You can do everything y
 In this tutorial I showed how to this in KVM but VirtualBox and VMware have their own methods of doing this. Simply search for “headless” virtual machine for each to find out how to accomplish the same procedure.
 
 Congrats, you are now running a headless VM with a secure connection. SSH is cool tool that can do alot and if you combine it with other tools you can accomplish even more.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** My 2020 Ubuntu Laptop Setup
 :PROPERTIES:
@@ -601,6 +714,15 @@ Emacs 26.3
 And that’s it
 
 The setup scripts do most of the grunt work. So I simply run them and a few minutes later all my apps and laptop is setup. After I do some post installation tweaks I’m ready to get to work in about 15 minutes. So I hope you all found this post insightful and useful. Some things that I didn’t discuss here but I did do were: I encrypted my drive on initial installation and I downloaded updates while I installed Ubuntu.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Fixing Grub on a Dual Boot
 :PROPERTIES:
 :EXPORT_FILE_NAME: fix-grub-dual-boot
@@ -627,6 +749,15 @@ Once in the chroot environment I ran update-grub and I still got an error. So I 
 
 Tip: If you want to customize your Grub boot screen you can do with the app Grub Customizer. Simply install it with sudo apt install grub-customizer. This allows you to add a background to Grub bootscreen, change the boot order, and much more.
 
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** DuckDuckGo Mobile Browser
 :PROPERTIES:
 :EXPORT_FILE_NAME: duckduckgo-mobile-browser
@@ -643,6 +774,14 @@ Also it’s been nice to have the option to have multiple tabs open. This was po
 The one down side that I really experienced was the fact that not all apps were able to send URL links to DuckDuckGo mobile. For example, when I click on a link in a Youtube video description I do not get the option to open it in DuckDuckGo. I only get regular Firefox or Chrome. When I had Firefox Focus installed I could open that same link easily.
 
 Overall I am really happy with DuckDuckGo mobile and I would recommend it for anyone wanting a “privacy” browser. I still using Firefox Focus and may download it again in the future. But for now I’m sticking with DuckDuckGo mobile.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Region One Cybersecurity Summit 2019
 :PROPERTIES:
@@ -676,6 +815,14 @@ Ransomware: How to Detect, Prevent, and Respond
 
 – Develop strategies and policies.
 
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Escape Rooms Challenge at STC
 :PROPERTIES:
 :EXPORT_FILE_NAME: escapre-rooms-stc
@@ -684,6 +831,14 @@ Ransomware: How to Detect, Prevent, and Respond
 To help celebrate National CyberSecurity Awareness month the Information Security office at South Texas College created an “Escape Room” challenge. I got to participate in this years festivities. I like the challenge of doing escape rooms so one that had a cybersecurity theme seemed even more fun. The activity was quite fun despite not being able to “escape” in time.
 
 The challenge consisted of finding the decryption key to decrypt a computer that was attacked with Ransomware. The whole exercise was intended to show the damaging effects ransomware can have on a business or institution. After the challenge the moderators gave a brief talk on tips and tricks to securing your online identities and business.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Firefox Focus
 :PROPERTIES:
@@ -701,6 +856,14 @@ This is why I was a bit disappointed at the latest update. The app started to ha
 But I loved having a mobile browser that deleted search and use history after each use. When I looked in the Google Play store for other mobile browsers, DuckDuckGo, was recommnended. DuckDuckGo is my favorite search engine, so I was excited to see they offered a mobile browser. And it was highly rated (4.7 out 5) with a lot of positive reviews. I decided to give it a try.
 
 On first impressions I really like it and it feels faster than Firefox Focus. Plus if I want I can get DuckDuckGo browser via F-Droid store too. It’s only been a few days since I downloaded it but so far I’m really impressed with it. I’ll continue to test it out and see if I stick to it or go back to Firefox Focus.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** My thoughts on “The Alchemist” by Paulo Coelho
 :PROPERTIES:
@@ -725,7 +888,15 @@ I loved this part because it closely aligns with my own personal beliefs on suff
 
 I got teary eyed when reading this part. It’s funny how sometimes you read something and it spurs such a deep emotion. That’s how I felt reading this part in the book. I’ve always characterized myself as an optimist and I believe that it takes a bit of courage to remain an optimist in this day and age.
 
-** My thoughts on “Smarter Faster Better: The Transformative Power of Real Productivity” by Charles Duhigg
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+** My thoughts on “Smarter Faster Better: The Transformative Powe r of Real Productivity” by Charles Duhigg
 :PROPERTIES:
 :EXPORT_FILE_NAME: smarter-faster-better
 :EXPORT_HUGO_PUBLISHDATE: 2019-09-01
@@ -739,6 +910,14 @@ This, ultimately, is one of the most important lessons of places such as NUMMI a
 #+END_QUOTE
 
 There has been very few work environments where I felt trust between myself and management. This always left me alienated and demotivated. But I’ve had other jobs where I truly felt like I was part of the team. Those were great jobs and enjoyed my time at them. Not just because it was a fun working environment but because at the end of the day I felt that my work meant something.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Why I got a Library Card in 2019
 :PROPERTIES:
@@ -754,6 +933,14 @@ So in the end I decided I wanted to read more. But starting something is always 
 Lucky for me my local library has a great selection of books. Plus they are part of a regional system which allows me to find more book across libraries in the county. In the end I checked out a book title Why Buddhism is True by Robert Wright. I read it in the 2 weeks checkout period and I really enjoyed the book.
 
 in the end I’ve been reading more and taking full advantage of free books at my local library. So if you want to get into reading go get a library card and checkout a few books.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Reset Windows Password with Linux
 :PROPERTIES:
@@ -780,6 +967,14 @@ in the end I’ve been reading more and taking full advantage of free books at m
 
 Congratulations you have successfully reset your Windows with Linux! And that’s it!
 
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** Relaunching my personal website
 :PROPERTIES:
 :EXPORT_FILE_NAME: relaunching-website
@@ -794,6 +989,15 @@ One of the core concepts of the indieweb is to “own”, your content. This is 
 So here we are
 
 This site was relaunched with wordpress and with indieweb principles in mind. I’m happy I took the plunge even though it drove me a bit crazy at times. I think I’ll do more of a deep dive on all the moving parts in a later post. But it feels good to be taking control of my content, soon I’ll be saying goodbye to social media!
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** DONE Adding SSH Key To Agent
 CLOSED: [2022-03-22 Tue 08:11]
 :PROPERTIES:
@@ -824,6 +1028,15 @@ CLOSED: [2022-03-22 Tue 08:11]
 #+BEGIN_SRC sh
 ssh-copy-id user@host.local
 #+END_SRC
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** DONE SSH on Extreme and Cisco Devices
 CLOSED: [2022-04-18 Mon 06:58]
 :PROPERTIES:
@@ -858,6 +1071,15 @@ Default is ~512~ but ~1024~ is better
 =login local=
 **** Save config
 =copy run start=
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 ** DONE SSH Config File - Make SSH Easier
 CLOSED: [2022-04-27 Wed 07:30]
 :PROPERTIES:
@@ -883,9 +1105,34 @@ While this is fine, it can be time consuming and easily forgotten. So let's see 
     IdentityFile ~/.ssh/mykeys
 #+END_SRC
 The example above achieves the same as the long SSH command in the previous example. You can save this file in =~/.ssh./= directory with the filename =ssh_config=. Once the file is saved you can type =ssh myserver=, OpenSSH will check the SSH config file for an entry =myserver= and execute an SSH connections with the options you specify. As you have more servers/machines you have to SSH into you simply add those the SSH config file. You can have 20, 40, or 100 connections all in one file! Working with an SSH Config file makes your SSH workflow much easier. It can also be helpful to keep track of SSH connectitons.
-#+BEGIN_QUOTE
-If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[[https://www.buymeacoffee.com/eduardorobles][Buy Me a Coffee]]
-#+END_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+**** Thank You
+:PROPERTIES:
+:CUSTOM_ID: support
+:align: left
+:END:
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 * Drafts
+** TODO Living and Working on Windows 10 with Emacs
+:PROPERTIES:
+:EXPORT_FILE_NAME: living-and-working-on-windows-10-with-emacs
+:END:
+*** Work OS
+Write a brief overview of using Windows 10 at work
+*** Work Workflow
+Explain what I do and the type of work I need to do on a day to day basis
+*** Emacs setup
+Explain my work emacs setup
+*** Windows 10 setup
+Explain the tools I use under windows to make emacs better and my workflow smooth
+** TODO Literate "Pentesting"?
+:PROPERTIES:
+:EXPORT_FILE_NAME: literate-pentesting
+:END:
+*** What do I mean by "Literate pentesting"?
+Explain what this term means to me
+*** How do I accomplish this?
+I use Emacs and Org-mode
+*** An configurable workflow
+How this workflow can be expanded to fit many use cases

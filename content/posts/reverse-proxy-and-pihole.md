@@ -22,6 +22,9 @@ Since I am using Pi-Hole as my DNS server I need to have the custom domains I se
 
 And that's it! Once I have all settings in place I can start using my custom domains on my local LAN. This make so much easier to reach my local services instead of memorizing IP addresses. In the future I look forward to setting up some local SSL certificates to secure my local custom domains with SSL.
 
-_If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!_
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/eduardorobles)
+
+### Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

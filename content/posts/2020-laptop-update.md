@@ -87,3 +87,10 @@ Emacs 26.3
 And that’s it
 
 The setup scripts do most of the grunt work. So I simply run them and a few minutes later all my apps and laptop is setup. After I do some post installation tweaks I’m ready to get to work in about 15 minutes. So I hope you all found this post insightful and useful. Some things that I didn’t discuss here but I did do were: I encrypted my drive on initial installation and I downloaded updates while I installed Ubuntu.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}

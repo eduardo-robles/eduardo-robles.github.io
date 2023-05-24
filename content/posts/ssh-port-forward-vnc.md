@@ -48,3 +48,10 @@ And the VNC connection should open up and start working. You can do everything y
 In this tutorial I showed how to this in KVM but VirtualBox and VMware have their own methods of doing this. Simply search for “headless” virtual machine for each to find out how to accomplish the same procedure.
 
 Congrats, you are now running a headless VM with a secure connection. SSH is cool tool that can do alot and if you combine it with other tools you can accomplish even more.
+
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
+
+
+## Thank You {#support}
+
+{{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}
