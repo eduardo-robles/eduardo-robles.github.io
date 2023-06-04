@@ -7,9 +7,17 @@ draft = false
 **The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please consider helping me out on my journey!**
 
 
-## Support: {#support}
+### Thank You {#thank-you}
+
+
+#### You can Buy Me A Coffee {#you-can-buy-me-a-coffee}
 
 {{< figure src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" link="https://www.buymeacoffee.com/eduardorobles" >}}
+
+
+#### Tip with some Sats {#tip-with-some-sats}
+
+[Tip Some Sats ⚡](https://getalby.com/p/tacosandlinux)
 
 
 ## Getting Started with Gitlab - Livestream 6-16-18 {#getting-started-with-gitlab-livestream-6-16-18}

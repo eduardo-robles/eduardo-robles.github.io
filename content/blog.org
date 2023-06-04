@@ -29,12 +29,12 @@ Currently reading...
 :END:
 *The following videos are Livestreams I recorded for the South Texas Linux User Group. I edited and produced all the Livestreams. If you get any use out of any of them, please consider helping me out on my journey!*
 
-*** Support:
-:PROPERTIES:
-:CUSTOM_ID: support
-:align: left
-:END:
+**** Thank You
+***** You can Buy Me A Coffee
 [[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
 
 
 *** Getting Started with Gitlab - Livestream 6-16-18
@@ -173,12 +173,13 @@ I enjoy sharing my knowledge with the public for free, and I hope you can see my
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 
 *** Support:
-:PROPERTIES:
-:CUSTOM_ID: support
-:align: left
-:END:
+**** Thank You
+
+***** You can Buy Me A Coffee
 [[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
 ** Resume
 :PROPERTIES:
 :EXPORT_FILE_NAME: resume
@@ -1126,6 +1127,19 @@ Explain what I do and the type of work I need to do on a day to day basis
 Explain my work emacs setup
 *** Windows 10 setup
 Explain the tools I use under windows to make emacs better and my workflow smooth
+
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+
 ** TODO Literate "Pentesting"?
 :PROPERTIES:
 :EXPORT_FILE_NAME: literate-pentesting
