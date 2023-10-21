@@ -1,6 +1,6 @@
 +++
 title = "Certifications"
-publishDate = 2022-03-27
+publishDate = 2023-10-21
 draft = false
 +++
 

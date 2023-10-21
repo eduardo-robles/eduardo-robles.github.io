@@ -1,6 +1,5 @@
 #+hugo_base_dir: ../
 #+hugo_section: pages
-
 * Pages
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: pages
@@ -167,6 +166,7 @@ I can be found at...
 ** Contribute
 :PROPERTIES:
 :EXPORT_FILE_NAME: contribute
+:EXPORT_HUGO_PUBLISHDATE: 2023-01-01
 :END:
 *** Thanks
 I enjoy sharing my knowledge with the public for free, and I hope you can see my enthusiasm as I bring to light my content.
@@ -184,21 +184,45 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 ** Certifications
 :PROPERTIES:
 :EXPORT_FILE_NAME: certs
-:EXPORT_HUGO_PUBLISHDATE: 2022-03-27
+:EXPORT_HUGO_PUBLISHDATE: 2023-10-21
 :END:
 
 *** 2023
 
 **** Practical Malware Analysis and Triage - TCM Security Academy
 
-** Resume
-:PROPERTIES:
-:EXPORT_FILE_NAME: resume
-:END:
 
-RESUME
 
-#+hugo_section: posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#+HUGO_SECTION: posts
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts

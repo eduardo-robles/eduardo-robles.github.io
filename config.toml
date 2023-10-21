@@ -43,6 +43,11 @@ canonifyurls = true
     url        = "/pages/videos/"
     weight     = -100
   [[menu.main]]
+    identifier = "Certs"
+    name       = "Certs"
+    url        = "/pages/certs/"
+    weight     = -100
+  [[menu.main]]
     identifier = "rss"
     name       = "RSS"
     url        = "/index.xml"
