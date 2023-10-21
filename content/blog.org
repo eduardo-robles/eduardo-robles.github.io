@@ -181,8 +181,6 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 
 ***** Tip with some Sats
 [[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
-
-
 ** Certifications
 :PROPERTIES:
 :EXPORT_FILE_NAME: certs
@@ -192,7 +190,6 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 *** 2023
 
 **** Practical Malware Analysis and Triage - TCM Security Academy
-
 
 ** Resume
 :PROPERTIES:
