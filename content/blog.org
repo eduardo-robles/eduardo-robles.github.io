@@ -9,6 +9,7 @@
 ** About
 :PROPERTIES:
 :EXPORT_FILE_NAME: about
+:EXPORT_HUGO_PUBLISHDATE: 2022-01-01
 :END:
 
 Hi 👋 I'm Eduardo Robles
@@ -180,6 +181,19 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 
 ***** Tip with some Sats
 [[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+
+
+** Certifications
+:PROPERTIES:
+:EXPORT_FILE_NAME: certs
+:EXPORT_HUGO_PUBLISHDATE: 2022-03-27
+:END:
+
+*** 2023
+
+**** Practical Malware Analysis and Triage - TCM Security Academy
+
+
 ** Resume
 :PROPERTIES:
 :EXPORT_FILE_NAME: resume
