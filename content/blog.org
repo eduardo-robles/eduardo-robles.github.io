@@ -227,6 +227,48 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** DONE Cyber Work Templates by Me!
+CLOSED: [2023-10-22 Sun 09:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: cyber-work-templates-by-me
+:END:
+
+*** The obvious approach
+I use Emacs + Org-mode for my note-taking workflow as a Cybersecurity Analyst. Emacs is my geeky cred at my job, plus it is genuinely useful. So one day when working on taking some repetitive notes on an incident I had a bright idea. Why don't I just create a few templates that speed up my workflow?
+- A demonstration of my workflow for capturing notes on an incident
+   #+begin_example
+   Incident --> Get Data --> Investigation --> Capture Templates --> Notes
+   #+end_example
+*** Expanding the approach
+Once I became comfortable with the approach of my capture templates, I expanded them to use the full power of Emacs and Org-mode! I began integrating Org-babel into my workflow. I use a Window 10 PC for my day job and I have WSL2 for all my Linux needs. Furthermore, I can call WSL from a regular shell (by default it calls the Windows Command Prompt) in Emacs. Org-babel does the work of putting the results in my notes. If this sounds familiar to you ~#Emacs~ nerds, well it's the concept of [[https://howardism.org/Technical/Emacs/literate-devops.html][Literate Devops]] by Howard Abrams. I as many others was inspired by the work of Howard Abrams and decided to incorporate their ideas into my workflow. It's a little weird to use these tools in a Windows environment, but hey it works ¯\_(ツ)_/¯.
+
+#+begin_quote
+Here I am explaining one of my weird workflows.
+
+https://emacs.ch/@tacosandlinux/111108755456994431
+#+end_quote
+
+*** The templates and beyond
+So I put up my templates on [[https://github.com/eduardo-robles/cyber-work-templates][Github]] and licensed them under ~CC BY-SA 4.0~. I will continue working on them and updating them as needed. At the time of writing this blog post, I move my note-taking workflow to [[https://www.orgroam.com/][Org Roam]] and I will be tweaking the templates to better fit that workflow. But I plan on creating a different set of templates, I do change them.
+
+I mentioned Literate Devops earlier and while my workflow isn't "Devops" but it is "Literate". It's more like /Literate Pentesting/ which is very useful for me. I am not the first one to try this idea for Pentesting. [[https://github.com/mttaggart][Michael Taggart]] and [[https://github.com/HuskyHacks][@HuskyHacks]] have the really cool project [[https://github.com/mttaggart/blue-jupyter][Blue Jupyter]]. They take the Jupyter Notebooks and apply them to Blue Team work.
+
+So check out and fork my templates on github! Happy Hacking!
+
+https://github.com/eduardo-robles/cyber-work-templates
+
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+
 ** DONE BSIDES RGV 2023
 CLOSED: [2023-05-23 Tue 22:23]
 :PROPERTIES:
@@ -1185,11 +1227,37 @@ Explain what this term means to me
 I use Emacs and Org-mode
 *** An configurable workflow
 How this workflow can be expanded to fit many use cases
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+
 
 ** TODO On the Practice of Malware Analysis
 :PROPERTIES:
 :EXPORT_FILE_NAME: practice-malware-analysis
 :END:
+
+
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+
 ** TODO On the Practice of Multifactor Authentication
 :PROPERTIES:
 :EXPORT_FILE_NAME: practice-mfa
@@ -1203,3 +1271,15 @@ MFA is basically putting an extra step, an extra *barrier* to login into an app 
 :PROPERTIES:
 :EXPORT_FILE_NAME: tcm-security-course-completion
 :END:
+
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
