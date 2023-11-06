@@ -299,8 +299,9 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 
 ***** Tip with some Sats
 [[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
-
-
+**** Setup
+- Keyboard: Anne Pro 2 (Kalih Box White)
+- Mouse: MX Master (Original)
 ** DONE Cyber Work Templates by Me!
 CLOSED: [2023-10-22 Sun 09:08]
 :PROPERTIES:

@@ -88,3 +88,9 @@ Alerts are constant in my line of work. So it's easy to get distracted and disor
 #### Tip with some Sats {#tip-with-some-sats}
 
 [Tip Some Sats ⚡](https://getalby.com/p/tacosandlinux)
+
+
+### Setup {#setup}
+
+-   Keyboard: Anne Pro 2 (Kalih Box White)
+-   Mouse: MX Master (Original)
