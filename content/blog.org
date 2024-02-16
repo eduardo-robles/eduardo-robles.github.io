@@ -228,6 +228,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_HUGO_SECTION: posts
 :END:
 ** DONE TAGITM Regional Summit 2024
+CLOSED: [2024-02-15 Thu 21:35]
 :PROPERTIES:
 :EXPORT_FILE_NAME: tagitm-regional-summit-2024
 :END:

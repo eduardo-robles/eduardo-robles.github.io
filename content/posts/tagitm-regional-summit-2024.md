@@ -1,5 +1,6 @@
 +++
 title = "TAGITM Regional Summit 2024"
+date = 2024-02-15T21:35:00-06:00
 draft = false
 +++
 
