@@ -1,22 +1,14 @@
 * Eduardo Robles Site
 
- ____        __                             __
-/\  _`\     /\ \                           /\ \
-\ \ \L\_\   \_\ \  __  __     __     _ __  \_\ \    ___
- \ \  _\L   /'_` \/\ \/\ \  /'__`\  /\`'__\/'_` \  / __`\
-  \ \ \L\ \/\ \L\ \ \ \_\ \/\ \L\.\_\ \ \//\ \L\ \/\ \L\ \
-   \ \____/\ \___,_\ \____/\ \__/.\_\\ \_\\ \___,_\ \____/
-    \/___/  \/__,_ /\/___/  \/__/\/_/ \/_/ \/__,_ /\/___/
 
+**** Thank You
 
- ____            __       ___
-/\  _`\         /\ \     /\_ \
-\ \ \L\ \    ___\ \ \____\//\ \      __    ____
- \ \ ,  /   / __`\ \ '__`\ \ \ \   /'__`\ /',__\
-  \ \ \\ \ /\ \L\ \ \ \L\ \ \_\ \_/\  __//\__, `\
-   \ \_\ \_\ \____/\ \_,__/ /\____\ \____\/\____/
-    \/_/\/ /\/___/  \/___/  \/____/\/____/\/___/
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
 
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
-
- Here is my website.
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
