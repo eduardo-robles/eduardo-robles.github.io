@@ -1348,6 +1348,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :align: left
 :END:
 [[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
 * Drafts
 ** TODO Living and Working on Windows 10 with Emacs
 :PROPERTIES:
@@ -1462,3 +1463,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 
 ***** Tip with some Sats
 [[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+** TODO My new Laptop. The Framework Laptop
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-new-laptop-dot-the-framework-laptop
+:END:
