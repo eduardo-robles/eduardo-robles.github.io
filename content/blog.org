@@ -198,6 +198,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 ** Ansible for Cybersecurity Work - Part 1
 :PROPERTIES:
 :EXPORT_FILE_NAME: ansible-cyberwork-pt1
+:EXPORT_HUGO_PUBLISHDATE: 2024-07-12
 :END:
 *** Is it DevSecOp, SecDevOps, OpsSecDev?
 The infosec field is full of buzzword now more so with the explosion of automation and AI. Luckily, I am not easily fooled by the buzzword and look for the real meat and bones. So when I was tasked with automating some tasks at work I jumped into an interesting technology called Ansible. Ansible is a tool for automation that is cross platform. It relies on setting up a secure connection to an endpoint and then Ansible handle executing tasks on the system.
@@ -403,6 +404,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 ** Ansible for Cybersecurity Work - Part 2
 :PROPERTIES:
 :EXPORT_FILE_NAME: ansible-cyberwork-pt2
+:EXPORT_HUGO_PUBLISHDATE: 2024-07-12
 :END:
 *** Learning to Authenticate
 WinRM has 2 componets: Communication and Authentication. Like with SSH, you establish a connection then you authenticate on the endpoint. In the previous post I wrote about setting up WinRM Listener over HTTPS. Now we have to setup Authentication luckily Windows offers serveral options for Authentication. But keep in mind not all are secure nor are supported with the type of account you would like to use. In other words if you want to authenticate with Kerberos forget about using a Local Account.

@@ -1,5 +1,6 @@
 +++
 title = "Ansible for Cybersecurity Work - Part 2"
+publishDate = 2024-07-12
 draft = false
 +++
 
