@@ -1,6 +1,6 @@
 +++
 title = "Ansible for Cybersecurity Work - Part 2"
-draft = true
+draft = false
 +++
 
 ## Learning to Authenticate {#learning-to-authenticate}

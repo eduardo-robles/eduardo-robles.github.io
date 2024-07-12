@@ -195,7 +195,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** DONE Ansible for Cybersecurity Work - Part 1
+** Ansible for Cybersecurity Work - Part 1
 :PROPERTIES:
 :EXPORT_FILE_NAME: ansible-cyberwork-pt1
 :END:
@@ -400,7 +400,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 - Keyboard: Keyboardio Atreus (JWICk Ultimate Black Linear)
 - Mouse: MX Master (Original)
 - Emacs (WSL term)
-** TODO Ansible for Cybersecurity Work - Part 2
+** Ansible for Cybersecurity Work - Part 2
 :PROPERTIES:
 :EXPORT_FILE_NAME: ansible-cyberwork-pt2
 :END:
