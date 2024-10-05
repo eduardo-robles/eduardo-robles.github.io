@@ -195,6 +195,17 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** DONE On the Practice of Multifactor Authentication
+:PROPERTIES:
+:EXPORT_FILE_NAME: practice-mfa
+:EXPORT_HUGO_PUBLISHDATE: 2024-10-05
+:END:
+*** The basics
+MFA is basically putting an extra step, an extra *barrier* to login into an app or website. This extra step is what creates security. It does not prevent attacks or stop attacks. But what it does do is simple: /it makes it harder for someone to hack you/.
+*** The struggle
+ Doing extra work is never fun. No one likes to do the extra work. I don't like doing extra work. So the struggle becomes, convincing people to do the extra work. It's a struggle to convince oneself.
+*** The solution
+Accept the fact that the risk is not acceptable. Convince others that the risk is not acceptable. Once you internalize this you become aware of the benefits of securing yourself with MFA.
 ** Ansible for Cybersecurity Work - Part 1
 :PROPERTIES:
 :EXPORT_FILE_NAME: ansible-cyberwork-pt1
@@ -904,7 +915,6 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :END:
 [[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 ** DONE Certs for Homelab
-
 CLOSED: [2023-04-27 Thu 18:00]
 :PROPERTIES:
 :EXPORT_FILE_NAME: certs-for-homelab
@@ -1113,7 +1123,6 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 [[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
 
 ** Accessing my homelab with Cloudflare
-
 :PROPERTIES:
 :EXPORT_FILE_NAME: accessing-homelab-with-cloudflare
 :EXPORT_HUGO_PUBLISHDATE: 2021-07-18
