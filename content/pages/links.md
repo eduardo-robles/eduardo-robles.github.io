@@ -5,7 +5,7 @@ draft = false
 
 I can be found at...
 
-🦣 mastodon – <https://emacs.ch/@tacosandlinux>
+🦣 mastodon – [@tacosandlinux_@infosec.exchange](https://infosec.exchange/@tacosandlinux_)
 
 🤝 linkedin – <https://www.linkedin.com/in/hello-im-eduardo/>
 

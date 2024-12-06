@@ -12,6 +12,6 @@ Founder of the South Texas Linux Users Group.
 
 Currently reading...
 
--   Ansible for DevOps by Jeff Gerlling
+-   DNS and BIND by Cricket Liu and Paul Albitz
 -   Children of Dune by Frank Hebert
--   Lives of the Stoics by Ryan Holiday
+-   Thinking, Fast and Slow by Daniel Kahneman
