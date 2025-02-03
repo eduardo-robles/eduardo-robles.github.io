@@ -195,7 +195,42 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
+** TODO Cyberchef for Forensic Investigation and Incident Response
+:PROPERTIES:
+:EXPORT_FILE_NAME: cyberchef-infosec-ir-2025
+:EXPORT_HUGO_PUBLISHDATE: 2025-02-04
+:END:
 
+*** What is Cyberchef?
+Cyberchef is a tool I learned about toward the end of 2024. Since then I began using it more and more.
+#+begin_quote
+CyberChef was developed by GCHQ and is the Cyber Swiss Army Knife web app for encryption, encoding, compression and data analysis.
+#+end_quote
+In the end it proved to extremely useful for Forensic Analysis and Incident Response investigation. You can use the free version online but if you want to run it in your environment you can. You can leverage container to do so and I've been using it with Podman. Let's run it in a container!
+#+begin_src sh :async
+  podman run \
+         -d \
+         --name cyberchef \
+         -p 8000:8000 \
+         mpepping/cyberchef
+#+end_src
+
+*** Foresic Analysis with Cyberchef
+**** OCR Images
+Cyberchef has the ability to do Optical Character Recoginition (OCR). This is useful if you need to get text from a screenshot or picture. Say you get a piece of evidence in a =jpg= you can drag and drop the image into Cyberchef and use the "Optical Character Recognition" operation. Your mileage may vary but in a pinch this can be a great tool.
+**** QR Codes - Decoding Quishing Attacks
+Did you or a coworker get a possible phishing email that contains a suspicious QR Code? You can avoid using your phone to scan the QR Code to find out if it's contents are malicious simply use "Parse QR Code" operation in Cyberchef! This prevents accidental Quishing attacks and you can now block the IP/URL embedded in the QR Code.
+
+Bonus: You can also use the "Defang URL" operation in Cyberchef to safely share the URL!
+*** Decode Malicious Scripts
+**** Deobfuscate Powershell scripts
+A common tactic advesaries use is to Obsfuscate their Powershell scripts to avoide detection. Cyberchef has a the capability to decode scripts that have been heavily obfuscated. This require some knowledge of Regex and various encoding formats. So it's helpful if you learn that first so you can leverage the tools inside of Cyberchef. Nonetheless, Cyberchef has all the tools you would need to do so. I'll link to a few resources that can give you insights on how to accomplish this.
+***** Github - mattnotmax/cyberchef-recipes
+https://github.com/mattnotmax/cyberchef-recipes?tab=readme-ov-file
+***** Tevora - 5 Minute Forensics: Decoding Powershell Payloads
+https://www.tevora.com/threat-blog/5-minute-forensics-decoding-powershell-payloads/
+*** Conclusion
+Leveraging Cyberchef with all it' s
 ** DONE Quick, Easy, Malware Investigations and Threat Hunting
 :PROPERTIES:
 :EXPORT_FILE_NAME: bsides-austin-2024
