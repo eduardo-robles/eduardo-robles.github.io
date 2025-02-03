@@ -195,7 +195,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** TODO Cyberchef for Forensic Investigation and Incident Response
+** DONE Cyberchef for Forensic Investigation and Incident Response
 :PROPERTIES:
 :EXPORT_FILE_NAME: cyberchef-infosec-ir-2025
 :EXPORT_HUGO_PUBLISHDATE: 2025-02-04
@@ -207,7 +207,7 @@ Cyberchef is a tool I learned about toward the end of 2024. Since then I began u
 CyberChef was developed by GCHQ and is the Cyber Swiss Army Knife web app for encryption, encoding, compression and data analysis.
 #+end_quote
 In the end it proved to extremely useful for Forensic Analysis and Incident Response investigation. You can use the free version online but if you want to run it in your environment you can. You can leverage container to do so and I've been using it with Podman. Let's run it in a container!
-#+begin_src sh :async
+#+begin_src sh
   podman run \
          -d \
          --name cyberchef \
@@ -230,7 +230,20 @@ https://github.com/mattnotmax/cyberchef-recipes?tab=readme-ov-file
 ***** Tevora - 5 Minute Forensics: Decoding Powershell Payloads
 https://www.tevora.com/threat-blog/5-minute-forensics-decoding-powershell-payloads/
 *** Conclusion
-Leveraging Cyberchef with all it' s
+Leveraging Cyberchef with all it's operations is essential for day to day operations. This is something you should definitely consider using in your tool bag.
+**** Thank You
+
+#+BEGIN_QUOTE
+If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee or send some bitcoin  ⚡ so I can continue to bring you amazing content for free!
+#+END_QUOTE
+
+***** You can Buy Me A Coffee
+[[https://www.buymeacoffee.com/eduardorobles][https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png]]
+
+***** Tip with some Sats
+[[https://getalby.com/p/tacosandlinux][Tip Some Sats ⚡]]
+**** Setup
+- Computer: Framework 13 (Fedora Linux)
 ** DONE Quick, Easy, Malware Investigations and Threat Hunting
 :PROPERTIES:
 :EXPORT_FILE_NAME: bsides-austin-2024
