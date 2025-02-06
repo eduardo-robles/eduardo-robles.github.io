@@ -220,17 +220,13 @@ In the end it proved to extremely useful for Forensic Analysis and Incident Resp
 Cyberchef has the ability to do Optical Character Recoginition (OCR). This is useful if you need to get text from a screenshot or picture. Say you get a piece of evidence in a =jpg= you can drag and drop the image into Cyberchef and use the "Optical Character Recognition" operation. Your mileage may vary but in a pinch this can be a great tool.
 
 #+CAPTION: Getting a command from a screenshot
-#+BEGIN_EXPORT html
-<iframe src="images/cyberchefdemo1.mp4" width="720" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-#+END_EXPORT
+[[/images/cyberchefdemo1.gif]]
 
 **** QR Codes - Decoding Quishing Attacks
 Did you or a coworker get a possible phishing email that contains a suspicious QR Code? You can avoid using your phone to scan the QR Code to find out if it's contents are malicious simply use "Parse QR Code" operation in Cyberchef! This prevents accidental Quishing attacks and you can now block the IP/URL embedded in the QR Code.
 
 #+CAPTION: Hack the planet!
-#+BEGIN_EXPORT html
-<iframe src="images/cyberchefdemo2.mp4" width="720" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-#+END_EXPORT
+[[/images/cyberchefdemo2.gif]]
 
 Bonus: You can also use the "Defang URL" operation in Cyberchef to safely share the URL!
 *** Decode Malicious Scripts
