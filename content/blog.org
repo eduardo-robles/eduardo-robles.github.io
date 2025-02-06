@@ -221,7 +221,7 @@ Cyberchef has the ability to do Optical Character Recoginition (OCR). This is us
 
 #+CAPTION: Getting a command from a screenshot
 #+BEGIN_EXPORT html
-<iframe src="images/cyberchefdemo1.mp4" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="images/cyberchefdemo1.mp4" width="720" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 #+END_EXPORT
 
 **** QR Codes - Decoding Quishing Attacks
@@ -229,7 +229,7 @@ Did you or a coworker get a possible phishing email that contains a suspicious Q
 
 #+CAPTION: Hack the planet!
 #+BEGIN_EXPORT html
-<iframe src="images/cyberchefdemo2.mp4" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="images/cyberchefdemo2.mp4" width="720" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 #+END_EXPORT
 
 Bonus: You can also use the "Defang URL" operation in Cyberchef to safely share the URL!
