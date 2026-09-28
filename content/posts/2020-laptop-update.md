@@ -54,20 +54,17 @@ sudo snap install spotify
 sudo snap install chromium
 
 sudo snap install tizonia
+```
 
-# GNOME
 install gnome-tweaks
 
-# File Backup
 install deja-dup
 install git
 install curl
 
-# add more apps as needed
-
 This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.
 
-# Set GNOME Settings
+```bash
 gsettings set org.gnome.desktop.wm.preferences titlebar-font 'IBM Plex Sans Bold 11'
 gsettings set org.gnome.desktop.interface monospace-font-name 'IBM Plex Mono 13'
 gsettings set org.gnome.desktop.interface document-font-name 'IBM Plex Sans Medium 11'

@@ -7,7 +7,7 @@ draft = false
 
 ## Utilizing Agents with REMnux AI {#utilizing-agents-with-remnux-ai}
 
-In the last blog [post](https://www.eduardorobles.com/posts/remnux-mcp-server/) I took a quick look at REMnux MCP server. Under the hood the MCP server uses _Opencode_ to function as it's MCP server. Upon further research I found Opencode has the ability to run custom "AI Agents". With Agents you can have a customized workflow and have the LLM do specific (repetitive) work. This spark my interest since there is a huge time saving benefit if I could "hand off" a simpler part of my analysis tasks.
+In the last blog [post](https://www.eduardorobles.com/posts/remnux-mcp-server/) I took a quick look at REMnux MCP server. Under the hood the MCP server uses _Opencode_ to function as it's MCP server. Upon further research I found Opencode has the ability to run custom "AI Agents". With Agents you can have a customized workflow and have the LLM do specific (repetitive) work. This sparked my interest since there is a huge time saving benefit if I could "hand off" a simpler part of my analysis tasks.
 
 
 ## Building an AI Agent {#building-an-ai-agent}

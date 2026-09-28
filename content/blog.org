@@ -1884,7 +1884,7 @@ A great tool!
 GCHQ CyberChef in a container. CyberChef is the Cyber Swiss Army Knife web app for encryption, encoding, compression and data analysis.
 #+end_quote
 Let's run it in a container!
-#+begin_src sh :async
+#+begin_src sh
   podman run \
          -d \
          --name cyberchef \
@@ -2237,7 +2237,7 @@ A great tool!
 GCHQ CyberChef in a container. CyberChef is the Cyber Swiss Army Knife web app for encryption, encoding, compression and data analysis.
 #+end_quote
 Let's run it in a container!
-#+begin_src sh :async
+#+begin_src sh
   podman run \
          -d \
          --name cyberchef \
@@ -3177,13 +3177,13 @@ CLOSED: [2022-03-08 Tue 18:38]
 Creating an SSH key is very easy. Below is an example of how to generate an SSH key with the ~ssh-keygen~ command.
 
 *** Create SSH Key
-   #+BEGIN_SRC bash
+#+BEGIN_SRC bash
 ssh-keygen -t ed25519 -f ~/.ssh/nameofkey -N '' -C "comment goes here"
-   #+END_SRC
+#+END_SRC
 
-   #+BEGIN_SRC bash
-   ssh-keygen -t rsa -f ~/.ssh/nameofkey -N '' -C "comment goes here"
-   #+END_SRC
+#+BEGIN_SRC bash
+ssh-keygen -t rsa -f ~/.ssh/nameofkey -N '' -C "comment goes here"
+#+END_SRC
 **** -t option is for the type of keys to be created (ex. ed25519)
 **** -f option is the filename and location of the keys (ex. =/path/to/file=)
 **** -N is the passphrase to be given, leave blank for no passphrase
@@ -3503,31 +3503,32 @@ Run my setup scripts
 
 I came across this great post by software dev Victoria Drake. She wrote a great bash script that she uses to setup her Ubuntu laptop (or even a VM). So I cloned it and modified it for my use. Here are some key take aways.
 #+BEGIN_SRC sh
-# Snap packages
+  # Snap packages
 
-sudo snap install spotify
+  sudo snap install spotify
 
-sudo snap install chromium
+  sudo snap install chromium
 
-sudo snap install tizonia
+  sudo snap install tizonia
+#+END_SRC
+  # GNOME
+  install gnome-tweaks
 
-# GNOME
-install gnome-tweaks
+  # File Backup
+  install deja-dup
+  install git
+  install curl
 
-# File Backup
-install deja-dup
-install git
-install curl
+  # add more apps as needed
 
-# add more apps as needed
+  This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.
 
-This is the script that is called to install my apps. This is only an example, in the real world I edited the script to add or remove apps that I wanted installed or removed. Another part of my setup scripts is the desktop.sh script.
-
-# Set GNOME Settings
-gsettings set org.gnome.desktop.wm.preferences titlebar-font 'IBM Plex Sans Bold 11'
-gsettings set org.gnome.desktop.interface monospace-font-name 'IBM Plex Mono 13'
-gsettings set org.gnome.desktop.interface document-font-name 'IBM Plex Sans Medium 11'
-gsettings set org.gnome.desktop.interface font-name 'IBM Plex Sans 11'
+  # Set GNOME Settings
+  #+BEGIN_SRC bash
+  gsettings set org.gnome.desktop.wm.preferences titlebar-font 'IBM Plex Sans Bold 11'
+  gsettings set org.gnome.desktop.interface monospace-font-name 'IBM Plex Mono 13'
+  gsettings set org.gnome.desktop.interface document-font-name 'IBM Plex Sans Medium 11'
+  gsettings set org.gnome.desktop.interface font-name 'IBM Plex Sans 11'
 #+END_SRC
 Ubuntu 19.10 Terminal Dracula Theme
 
@@ -3556,8 +3557,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_FILE_NAME: fix-grub-dual-boot
 :EXPORT_HUGO_PUBLISHDATE: 2019-12-18
 :END:
-  I recently decided to move my Ubuntu installation from my laptop to my desktop without having to reinstall. So basically all I wanted to do is move the SSD (which had Ubuntu 19.10 installed) in my laptop to my desktop. This process is not hard at all but in my case it was a little more complicated. I wanted to do a dual boot on my desktop computer with 2 different hard drives. One spinning disk hard drive will have a Windows 10 installation while the SSD from my laptop will have Ubuntu 19.10. Again I did not want to do any reinstall of Windows 10 or Ubuntu. So how can you accomplish this? Simple with the command update-grub.
-
+I recently decided to move my Ubuntu installation from my laptop to my desktop without having to reinstall. So basically all I wanted to do is move the SSD (which had Ubuntu 19.10 installed) in my laptop to my desktop. This process is not hard at all but in my case it was a little more complicated. I wanted to do a dual boot on my desktop computer with 2 different hard drives. One spinning disk hard drive will have a Windows 10 installation while the SSD from my laptop will have Ubuntu 19.10. Again I did not want to do any reinstall of Windows 10 or Ubuntu. So how can you accomplish this? Simple with the command update-grub.
 
 
 First I removed the SSD in the laptop and installed it in my desktop. I ensured that it was on the first SATA port so it can be the first hard drive the system recognizes. Once installed I booted up the computer and Ubuntu booted up correctly. Ok, so now I knew Ubuntu worked fine on the desktop.
@@ -3698,7 +3698,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_FILE_NAME: the-alchemist-thoughts
 :EXPORT_HUGO_PUBLISHDATE: 2019-09-30
 :END:
-  The Alchemist by Paulo Coelho
+The Alchemist by Paulo Coelho
 
 Since I have been reading “self-help” books my wife suggested I check out The Alchemist. Luckily she owned a copy, so I grabbed it from our bookshelf and stuffed it in my backpack. I gotta say that I really enjoyed this book. I can now see why so many people consider it a “self-help”, book. Here are a two of my favorite passages:
 
@@ -3729,7 +3729,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_FILE_NAME: smarter-faster-better
 :EXPORT_HUGO_PUBLISHDATE: 2019-09-01
 :END:
-  Smarter Faster Better: The Transformative Power of Real Productivity by Charles Duhigg
+Smarter Faster Better: The Transformative Power of Real Productivity by Charles Duhigg
 
 I had heard so much of Charles Duhigg from many “entrepreneurial youtubers”, so naturally I became curious of his work. Most people recommend his book The Power of Habit, I even remember a colleague reading it. But I didn’t find a copy of it at my local library but I did find a copy of Smarter Faster Better instead. Oh boy was I happy with this book. I highly recommend this book for anyone, especially if you are looking for ways to be more “productive”. The book is full of stories of how people, organizations, or businesses overcame serious obstacles to come out on top. Here’s my favorite part from the book.
 
@@ -3752,7 +3752,7 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_FILE_NAME: library-card-2019
 :EXPORT_HUGO_PUBLISHDATE: 2019-08-18
 :END:
-  I was having a conversation with my wife and I said to her “You know, I feel like I’m getting dumber”. We both laughed out loud at my ridiculous statement, she then asked why I felt that. The reason I was l feeling like that was because I was simply spending too much time on other silly distractions. And no it wasn’t just “social media”, I tend to go down YouTube rabbit holes too. So I decided to try a small experiment. Reading.
+I was having a conversation with my wife and I said to her “You know, I feel like I’m getting dumber”. We both laughed out loud at my ridiculous statement, she then asked why I felt that. The reason I was l feeling like that was because I was simply spending too much time on other silly distractions. And no it wasn’t just “social media”, I tend to go down YouTube rabbit holes too. So I decided to try a small experiment. Reading.
 
 In high school I read quite a bit, I was a lector at my church which required me to read the Bible. Though I never read the Bible for fun, just for my role as lector. Then in college my degree required a lot of reading. Every semester I must have read at least 10 books plus academic journal articles. So I did plenty of reading during that time in my life and I guess I got burned out on reading. I know this happens to many people but many get back to reading soon after. For me it was years since I had read a book from cover to cover.
 
@@ -3775,25 +3775,35 @@ If you enjoyed or found any of the content on my site helpful, you can buy me a 
 :EXPORT_FILE_NAME: reset-windows-password-linux
 :EXPORT_HUGO_PUBLISHDATE: 2019-07-15
 :END:
-  Ever needed to reset your Windows password but forgot to make a Windows Reset Password disk? If so, you can easily reset a Windows Users password with a Live Linux USB. Let’s see just how easy it is to so.
+Ever needed to reset your Windows password but forgot to make a Windows Reset Password disk? If so, you can easily reset a Windows Users password with a Live Linux USB. Let’s see just how easy it is to so.
 
-    If you don’t a Live Linux USB go ahead an create one. This tutorial is Ubuntu based so any Ubuntu flavor will work. And you will need a working internet connection to download software.
-    Start the computer and boot into the Live Linux environment.
-    Once in the Live Linux environment make sure you connect to the internet and open a terminal.
-    You will need to install tool called chntpw. So ahead and run the following command to install chntpw apt-get install chntpw
-    Once installed you will have to mount the hard drive that has Windows installed. There are many ways of doing this but you can use the File Manager (Nautilus in Ubuntu) to make things easy.
-    Once you have the Windows Harddrive mounted go to the following directory /windowsHarddrive/Windows/System32/config/
-    Now that you are at the correct directory, right click and chose Open With
-    Terminal Here.
-    In the terminal simply type the following command to interact with chntpwsudo chntpw SAM
-    Now you are editing the Administrator user if you would like to edit another user use this command.sudo chntpw -u USERYOUWANTTOEDIT SAM
-    After you’ve chosen your user it’s time to reset their password. Simply type 1 in ther User Edit Menu. And then chose y when prompted to Write hive
-    files
-    Then to quit type q and this will exit chntpw
-    Close the terminal and restart your computer making sure to remove the Live Linux USB.
-    You should boot into Windows desktop directly without any login. Be sure to add a new password!
+If you don’t have a Live Linux USB go ahead an create one. This tutorial is Ubuntu based so any Ubuntu flavor will work. And you will need a working internet connection to download software.
 
-Congratulations you have successfully reset your Windows with Linux! And that’s it!
+Start the computer and boot into the Live Linux environment. Once in the Live Linux environment make sure you connect to the internet and open a terminal. You will need to install tool called =chntpw=. Run the following command to install =chntpw=
+#+begin_src bash
+sudo apt-get install chntpw
+#+end_src
+
+Once installed you will have to mount the hard drive that has Windows installed. There are many ways of doing this but you can use the File Manager (Nautilus in Ubuntu) to make things easy. Once you have the Windows Harddrive mounted go to the following directory:
+#+begin_example
+/windowsHarddrive/Windows/System32/config/
+#+end_example
+
+Now that you are at the correct directory, right click and chose "Open With Terminal Here". In the terminal simply type the following command to interact with =chntpw=
+#+begin_src bash
+sudo chntpw SAM
+#+end_src
+
+Now you are editing the /Administrator/ user if you would like to edit another user use this command:
+#+begin_src bash
+sudo chntpw -u USERYOUWANTTOEDIT SAM
+#+end_src
+
+After you’ve chosen your user it’s time to reset their password. Simply type *1* in ther /User/ Edit Menu. And then chose *y* when prompted to /Write/ hive files. Then to quit type *q* and this will exit =chntpw=
+
+Close the terminal and restart your computer making sure to remove the Live Linux USB. You should boot into Windows desktop directly without any login. *Be sure to add a new password!*
+
+Congratulations you have successfully reset your Windows password with Linux!
 
 If you enjoyed or found any of the content on my site helpful, you can buy me a cup of coffee so I can continue to bring you amazing content for free!
 **** Thank You

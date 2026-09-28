@@ -58,7 +58,7 @@ Some of these tools are obvious like NMAP. Others are tailored for my day to day
 
 ## Conclusion {#conclusion}
 
-So this is my tool stack for my **Toolbx** container. I write another blog post on how exactly I create and use this container. But for the biggest advantage of using this container is I can use it across Fedora installation. And it will be the same and familiar every time.
+So this is my tool stack for my **Toolbx** container. I will write another blog post on how exactly I create and use this container. But for the biggest advantage of using this container is I can use it across Fedora installation. And it will be the same and familiar every time.
 
 
 ### Thank You {#thank-you}
